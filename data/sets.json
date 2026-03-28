@@ -1,0 +1,16 @@
+[
+  {
+    "id": "the_universal_self_introduction_script",
+    "title": "The Universal Self-Introduction Script",
+    "description": "A simple English text to practice speaking about yourself. It helps you learn common sentence structures and use them in everyday conversations.",
+    "phraseCount": 33,
+    "file": "sets/the_universal_self_introduction_script.json"
+  },
+  {
+    "id": "productivity_finally_made_sense",
+    "title": "Productivity Finally Made Sense",
+    "description": "I stopped forcing myself and built a system that actually works.",
+    "phraseCount": 34,
+    "file": "sets/productivity_finally_made_sense.json"
+  }
+]
