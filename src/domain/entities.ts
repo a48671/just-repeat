@@ -15,6 +15,7 @@ export type Phrase = {
   text: string;
   translatedText?: string;
   audioSrc: string | null;
+  imageSrc: string | null;
 };
 
 export type SetDetails = {

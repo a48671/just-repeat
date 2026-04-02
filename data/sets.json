@@ -12,5 +12,12 @@
     "description": "I stopped forcing myself and built a system that actually works.",
     "phraseCount": 34,
     "file": "sets/productivity_finally_made_sense.json"
+  },
+  {
+    "id": "learning_from_every_source",
+    "title": "Learning From Every Source",
+    "description": "A reflection on collecting useful ideas from videos, books, conversations, and everyday life.",
+    "phraseCount": 49,
+    "file": "sets/learning_from_every_source.json"
   }
 ]

@@ -4,6 +4,8 @@ import type { SetDetails, SetId, SetSummary } from '../domain/entities';
 import type { PersistedSetUserState } from '../domain/user-state';
 import { HomeScreen } from '../features/home/home-screen';
 import { SetDetailsScreen } from '../features/set-details/set-details-screen';
+import { SettingsScreen } from '../features/settings/settings-screen';
+import { ProfileScreen } from '../features/profile/profile-screen';
 import { SetsListScreen } from '../features/sets-list/sets-list-screen';
 import { staticSetsDataSource } from '../infrastructure/data/static-sets-data-source';
 import {
@@ -143,6 +145,36 @@ export function App() {
     });
   }
 
+  function handleOpenSettings() {
+    startTransition(() => {
+      navigate('/settings');
+    });
+  }
+
+  function handleOpenProfile() {
+    startTransition(() => {
+      navigate('/profile');
+    });
+  }
+
+  function handleBackFromProfile() {
+    startTransition(() => {
+      navigate('/sets');
+    });
+  }
+
+  function handleBackFromSettings() {
+    startTransition(() => {
+      navigate('/sets');
+    });
+  }
+
+  function handleApplySettings() {
+    startTransition(() => {
+      navigate('/sets');
+    });
+  }
+
   function updatePersistedSetState(setId: SetId, updater: (currentState: PersistedSetUserState) => PersistedSetUserState) {
     setPersistedSetStates((currentStates) => {
       const currentSetState = currentStates[setId] ?? createDefaultPersistedSetUserState(setId);
@@ -231,8 +263,30 @@ export function App() {
                 isLoading={isLoadingSets}
                 lastInteractionBySetId={lastInteractionBySetId}
                 onOpenSet={handleOpenSet}
+                onOpenProfile={handleOpenProfile}
+                onOpenSettings={handleOpenSettings}
                 setSummaries={setSummaries}
               />
+            </section>
+          </main>
+        }
+      />
+      <Route
+        path="/settings"
+        element={
+          <main className="app-shell">
+            <section className="app-stage" aria-label="Settings">
+              <SettingsScreen onApply={handleApplySettings} onBack={handleBackFromSettings} />
+            </section>
+          </main>
+        }
+      />
+      <Route
+        path="/profile"
+        element={
+          <main className="app-shell">
+            <section className="app-stage" aria-label="Profile">
+              <ProfileScreen onBack={handleBackFromProfile} />
             </section>
           </main>
         }

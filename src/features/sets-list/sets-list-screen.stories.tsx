@@ -48,6 +48,8 @@ const meta = {
       travel: null,
     },
     onOpenSet: () => {},
+    onOpenProfile: () => {},
+    onOpenSettings: () => {},
     setSummaries: demoSets,
   },
 } satisfies Meta<typeof SetsListScreen>;
@@ -56,11 +58,15 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {};
+export const Default: Story = {
+  args: {},
+};
 
 export const Loading: Story = {
   args: {
     isLoading: true,
+    onOpenProfile: () => {},
+    onOpenSettings: () => {},
     setSummaries: [],
     lastInteractionBySetId: {},
   },
@@ -68,6 +74,8 @@ export const Loading: Story = {
 
 export const Empty: Story = {
   args: {
+    onOpenProfile: () => {},
+    onOpenSettings: () => {},
     setSummaries: [],
     lastInteractionBySetId: {},
   },
@@ -76,6 +84,7 @@ export const Empty: Story = {
 export const Error: Story = {
   args: {
     errorMessage: 'Unable to load the bundled phrase sets.',
+    onOpenSettings: () => {},
     setSummaries: [],
     lastInteractionBySetId: {},
   },

@@ -1,9 +1,18 @@
 import bundledSetIndex from '../../../data/sets.json';
+import type { NativeLanguage } from '../../domain/app-settings';
 import type { SetsDataSource, IntegrationErrorCode } from '../../domain/contracts';
 import type { SetDetails, SetId, SetSummary } from '../../domain/entities';
-import type { SourceSetDetails, SourceSetList } from '../../domain/source-types';
+import type { SourcePhrase, SourceSetDetails, SourceSetList } from '../../domain/source-types';
+import { loadAppSettings } from '../persistence/local-app-settings-storage';
 import { StaticAudioPathResolver } from './static-audio-path-resolver';
 import { StaticDataValidator, validateBundledSetList } from './static-data-validator';
+import { StaticImagePathResolver } from './static-image-path-resolver';
+
+const LANGUAGE_TO_FIELD: Record<NativeLanguage, keyof SourcePhrase> = {
+  Russian: 'ru',
+  Spanish: 'es',
+  German: 'de',
+};
 
 type IntegrationException = Error & {
   code: IntegrationErrorCode;
@@ -35,12 +44,14 @@ function normalizeSetModulePath(modulePath: string): string {
 
 const setModules = import.meta.glob('../../../data/sets/*.json', { eager: true }) as Record<string, JsonModule<SourceSetDetails>>;
 const audioModules = import.meta.glob('../../../audio/**/*.mp3', { eager: true, import: 'default' }) as Record<string, string>;
+const imageModules = import.meta.glob('../../../images/**/*.png', { eager: true, import: 'default' }) as Record<string, string>;
 
 const bundledSetList = bundledSetIndex as SourceSetList;
 const setEntries = Object.entries(setModules).map(([modulePath, moduleValue]) => [normalizeSetModulePath(modulePath), moduleValue.default] as const);
 const setDetailsBySourceFile = new Map<string, SourceSetDetails>(setEntries);
 const validator = new StaticDataValidator(new Set(setDetailsBySourceFile.keys()));
 const audioPathResolver = new StaticAudioPathResolver(audioModules);
+const imagePathResolver = new StaticImagePathResolver(imageModules);
 
 export class StaticSetsDataSource implements SetsDataSource {
   async getSetSummaries(): Promise<SetSummary[]> {
@@ -78,6 +89,9 @@ export class StaticSetsDataSource implements SetsDataSource {
 
       validator.validateSetDetails(sourceSet, setId);
 
+      const { nativeLanguage } = loadAppSettings();
+      const translationField = LANGUAGE_TO_FIELD[nativeLanguage];
+
       return {
         id: sourceSet.id,
         title: sourceSet.title,
@@ -86,8 +100,9 @@ export class StaticSetsDataSource implements SetsDataSource {
           id: phrase.id,
           setId: sourceSet.id,
           text: phrase.text,
-          translatedText: phrase.ru,
+          translatedText: phrase[translationField] as string | undefined,
           audioSrc: audioPathResolver.resolveAudioSrc(phrase.audio),
+          imageSrc: imagePathResolver.resolveImageSrc(phrase.image),
         })),
       };
     } catch (error) {

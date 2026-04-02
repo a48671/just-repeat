@@ -128,6 +128,7 @@ export function SetDetailsScreen({
                     <PhraseCard
                       favorite={isFavorite}
                       favoriteDisabled={playAllActive}
+                      imageSrc={phrase.imageSrc}
                       onPlay={audioSrc ? () => handleManualPlay(phrase.id, audioSrc) : undefined}
                       onToggleFavorite={() => onToggleFavorite(phrase.id)}
                       playDisabled={playAllActive || visualState === 'loading' || visualState === 'playing' || !audioSrc}

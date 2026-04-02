@@ -124,9 +124,17 @@ export class StaticDataValidator implements DataValidator {
       });
     }
 
-    const { id, text, audio } = phrase as Partial<SourcePhrase>;
+    const { id, text, audio, image, ru, es, de } = phrase as Partial<SourcePhrase>;
 
-    if (typeof id !== 'string' || typeof text !== 'string' || typeof audio !== 'string') {
+    if (
+      typeof id !== 'string' ||
+      typeof text !== 'string' ||
+      typeof audio !== 'string' ||
+      (image !== undefined && typeof image !== 'string') ||
+      (ru !== undefined && typeof ru !== 'string') ||
+      (es !== undefined && typeof es !== 'string') ||
+      (de !== undefined && typeof de !== 'string')
+    ) {
       throw createIntegrationException('INVALID_PHRASE_SCHEMA', `Phrase at index ${index} has invalid fields.`, {
         setId,
         phraseId: typeof id === 'string' ? id : undefined,

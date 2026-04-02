@@ -1,0 +1,448 @@
+{
+  "id": "learning_from_every_source",
+  "title": "Learning From Every Source",
+  "description": "A reflection on collecting useful ideas from videos, books, conversations, and everyday life.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "When I started to work on my self-development, I made one rule for myself.",
+      "ru": "Когда я начал заниматься саморазвитием, я установил для себя одно правило.",
+      "es": "Cuando empecé a trabajar en mi desarrollo personal, me puse una regla.",
+      "de": "Als ich anfing, an meiner Selbstentwicklung zu arbeiten, legte ich mir eine Regel fest.",
+      "audio": "audios/learning_from_every_source/001.mp3",
+      "image": "images/learning_from_every_source/001.png"
+    },
+    {
+      "id": "p_002",
+      "text": "I watch YouTube only with my notebook.",
+      "ru": "Я смотрю YouTube только с блокнотом.",
+      "es": "Veo YouTube solo con mi cuaderno.",
+      "de": "Ich schaue YouTube nur mit meinem Notizbuch.",
+      "audio": "audios/learning_from_every_source/002.mp3",
+      "image": "images/learning_from_every_source/002.png"
+    },
+    {
+      "id": "p_003",
+      "text": "I write down ideas from every video.",
+      "ru": "Я записываю идеи из каждого видео.",
+      "es": "Anoto ideas de cada video.",
+      "de": "Ich schreibe Ideen aus jedem Video auf.",
+      "audio": "audios/learning_from_every_source/003.mp3",
+      "image": "images/learning_from_every_source/003.png"
+    },
+    {
+      "id": "p_004",
+      "text": "I do not want to waste time.",
+      "ru": "Я не хочу тратить время впустую.",
+      "es": "No quiero perder el tiempo.",
+      "de": "Ich möchte keine Zeit verschwenden.",
+      "audio": "audios/learning_from_every_source/004.mp3",
+      "image": "images/learning_from_every_source/004.png"
+    },
+    {
+      "id": "p_005",
+      "text": "I want to use this time in a useful way.",
+      "ru": "Я хочу использовать это время с пользой.",
+      "es": "Quiero usar este tiempo de manera útil.",
+      "de": "Ich möchte diese Zeit sinnvoll nutzen.",
+      "audio": "audios/learning_from_every_source/005.mp3",
+      "image": "images/learning_from_every_source/005.png"
+    },
+    {
+      "id": "p_006",
+      "text": "So I decided to treat every video as learning.",
+      "ru": "Поэтому я решил воспринимать каждое видео как обучение.",
+      "es": "Así que decidí tratar cada video como aprendizaje.",
+      "de": "Also beschloss ich, jedes Video als Lernen zu betrachten.",
+      "audio": "audios/learning_from_every_source/006.mp3",
+      "image": "images/learning_from_every_source/006.png"
+    },
+    {
+      "id": "p_007",
+      "text": "But later, I changed my approach.",
+      "ru": "Но позже я изменил свой подход.",
+      "es": "Pero más tarde, cambié mi enfoque.",
+      "de": "Aber später änderte ich meinen Ansatz.",
+      "audio": "audios/learning_from_every_source/007.mp3",
+      "image": "images/learning_from_every_source/007.png"
+    },
+    {
+      "id": "p_008",
+      "text": "I do not learn only from YouTube.",
+      "ru": "Я учусь не только на YouTube.",
+      "es": "No aprendo solo de YouTube.",
+      "de": "Ich lerne nicht nur von YouTube.",
+      "audio": "audios/learning_from_every_source/008.mp3",
+      "image": "images/learning_from_every_source/008.png"
+    },
+    {
+      "id": "p_009",
+      "text": "I treat every source as a way to learn.",
+      "ru": "Я воспринимаю каждый источник как способ учиться.",
+      "es": "Trato cada fuente como una forma de aprender.",
+      "de": "Ich betrachte jede Quelle als eine Möglichkeit zu lernen.",
+      "audio": "audios/learning_from_every_source/009.mp3",
+      "image": "images/learning_from_every_source/009.png"
+    },
+    {
+      "id": "p_010",
+      "text": "It can be a book, a video, a movie, or a conversation with someone.",
+      "ru": "Это может быть книга, видео, фильм или разговор с кем-то.",
+      "es": "Puede ser un libro, un video, una película o una conversación con alguien.",
+      "de": "Es kann ein Buch, ein Video, ein Film oder ein Gespräch mit jemandem sein.",
+      "audio": "audios/learning_from_every_source/010.mp3",
+      "image": "images/learning_from_every_source/010.png"
+    },
+    {
+      "id": "p_011",
+      "text": "In every situation, I try to notice useful ideas.",
+      "ru": "В каждой ситуации я стараюсь замечать полезные идеи.",
+      "es": "En cada situación, intento notar ideas útiles.",
+      "de": "In jeder Situation versuche ich, nützliche Ideen zu bemerken.",
+      "audio": "audios/learning_from_every_source/011.mp3",
+      "image": "images/learning_from_every_source/011.png"
+    },
+    {
+      "id": "p_012",
+      "text": "If I see something important, I do not ignore it.",
+      "ru": "Если я вижу что-то важное, я не игнорирую это.",
+      "es": "Si veo algo importante, no lo ignoro.",
+      "de": "Wenn ich etwas Wichtiges sehe, ignoriere ich es nicht.",
+      "audio": "audios/learning_from_every_source/012.mp3",
+      "image": "images/learning_from_every_source/012.png"
+    },
+    {
+      "id": "p_013",
+      "text": "I write it down immediately.",
+      "ru": "Я сразу это записываю.",
+      "es": "Lo anoto de inmediato.",
+      "de": "Ich schreibe es sofort auf.",
+      "audio": "audios/learning_from_every_source/013.mp3",
+      "image": "images/learning_from_every_source/013.png"
+    },
+    {
+      "id": "p_014",
+      "text": "I use my notebook or my notes on my phone.",
+      "ru": "Я использую свой блокнот или заметки в телефоне.",
+      "es": "Uso mi cuaderno o mis notas en el teléfono.",
+      "de": "Ich benutze mein Notizbuch oder meine Notizen auf dem Handy.",
+      "audio": "audios/learning_from_every_source/014.mp3",
+      "image": "images/learning_from_every_source/014.png"
+    },
+    {
+      "id": "p_015",
+      "text": "Then I collect all these ideas in one place.",
+      "ru": "Потом я собираю все эти идеи в одном месте.",
+      "es": "Luego reúno todas estas ideas en un solo lugar.",
+      "de": "Dann sammle ich all diese Ideen an einem Ort.",
+      "audio": "audios/learning_from_every_source/015.mp3",
+      "image": "images/learning_from_every_source/015.png"
+    },
+    {
+      "id": "p_016",
+      "text": "So over time, I build my own system of knowledge.",
+      "ru": "Так со временем я выстраиваю свою собственную систему знаний.",
+      "es": "Así, con el tiempo, construyo mi propio sistema de conocimiento.",
+      "de": "So baue ich mit der Zeit mein eigenes Wissenssystem auf.",
+      "audio": "audios/learning_from_every_source/016.mp3",
+      "image": "images/learning_from_every_source/016.png"
+    },
+    {
+      "id": "p_017",
+      "text": "Now, after some time, I have many notes.",
+      "ru": "Сейчас, спустя некоторое время, у меня уже много заметок.",
+      "es": "Ahora, después de un tiempo, tengo muchas notas.",
+      "de": "Jetzt, nach einiger Zeit, habe ich viele Notizen.",
+      "audio": "audios/learning_from_every_source/017.mp3",
+      "image": "images/learning_from_every_source/017.png"
+    },
+    {
+      "id": "p_018",
+      "text": "I have notes about productivity, self-development, problem solving, and many other topics.",
+      "ru": "У меня есть заметки о продуктивности, саморазвитии, решении проблем и многих других темах.",
+      "es": "Tengo notas sobre productividad, desarrollo personal, resolución de problemas y muchos otros temas.",
+      "de": "Ich habe Notizen über Produktivität, Selbstentwicklung, Problemlösung und viele andere Themen.",
+      "audio": "audios/learning_from_every_source/018.mp3",
+      "image": "images/learning_from_every_source/018.png"
+    },
+    {
+      "id": "p_019",
+      "text": "These ideas come from many sources and different channels.",
+      "ru": "Эти идеи приходят из многих источников и разных каналов.",
+      "es": "Estas ideas provienen de muchas fuentes y diferentes canales.",
+      "de": "Diese Ideen stammen aus vielen Quellen und verschiedenen Kanälen.",
+      "audio": "audios/learning_from_every_source/019.mp3",
+      "image": "images/learning_from_every_source/019.png"
+    },
+    {
+      "id": "p_020",
+      "text": "Some of them I used in my life.",
+      "ru": "Некоторые из них я использовал в своей жизни.",
+      "es": "Algunas de ellas las usé en mi vida.",
+      "de": "Einige davon habe ich in meinem Leben angewendet.",
+      "audio": "audios/learning_from_every_source/020.mp3",
+      "image": "images/learning_from_every_source/020.png"
+    },
+    {
+      "id": "p_021",
+      "text": "Some of them I did not use.",
+      "ru": "Некоторые из них я не использовал.",
+      "es": "Algunas de ellas no las usé.",
+      "de": "Einige davon habe ich nicht verwendet.",
+      "audio": "audios/learning_from_every_source/021.mp3",
+      "image": "images/learning_from_every_source/021.png"
+    },
+    {
+      "id": "p_022",
+      "text": "Some ideas worked well for me. Some did not.",
+      "ru": "Некоторые идеи хорошо сработали для меня. Некоторые нет.",
+      "es": "Algunas ideas me funcionaron bien. Otras no.",
+      "de": "Einige Ideen haben bei mir gut funktioniert. Andere nicht.",
+      "audio": "audios/learning_from_every_source/022.mp3",
+      "image": "images/learning_from_every_source/022.png"
+    },
+    {
+      "id": "p_023",
+      "text": "Now I have a list of principles.",
+      "ru": "Теперь у меня есть список принципов.",
+      "es": "Ahora tengo una lista de principios.",
+      "de": "Jetzt habe ich eine Liste von Prinzipien.",
+      "audio": "audios/learning_from_every_source/023.mp3",
+      "image": "images/learning_from_every_source/023.png"
+    },
+    {
+      "id": "p_024",
+      "text": "How to solve problems.",
+      "ru": "Как решать проблемы.",
+      "es": "Cómo resolver problemas.",
+      "de": "Wie man Probleme löst.",
+      "audio": "audios/learning_from_every_source/024.mp3",
+      "image": "images/learning_from_every_source/024.png"
+    },
+    {
+      "id": "p_025",
+      "text": "How to be productive.",
+      "ru": "Как быть продуктивным.",
+      "es": "Cómo ser productivo.",
+      "de": "Wie man produktiv ist.",
+      "audio": "audios/learning_from_every_source/025.mp3",
+      "image": "images/learning_from_every_source/025.png"
+    },
+    {
+      "id": "p_026",
+      "text": "How to achieve goals.",
+      "ru": "Как достигать целей.",
+      "es": "Cómo alcanzar metas.",
+      "de": "Wie man Ziele erreicht.",
+      "audio": "audios/learning_from_every_source/026.mp3",
+      "image": "images/learning_from_every_source/026.png"
+    },
+    {
+      "id": "p_027",
+      "text": "How to improve communication.",
+      "ru": "Как улучшать общение.",
+      "es": "Cómo mejorar la comunicación.",
+      "de": "Wie man die Kommunikation verbessert.",
+      "audio": "audios/learning_from_every_source/027.mp3",
+      "image": "images/learning_from_every_source/027.png"
+    },
+    {
+      "id": "p_028",
+      "text": "How to build relationships.",
+      "ru": "Как строить отношения.",
+      "es": "Cómo construir relaciones.",
+      "de": "Wie man Beziehungen aufbaut.",
+      "audio": "audios/learning_from_every_source/028.mp3",
+      "image": "images/learning_from_every_source/028.png"
+    },
+    {
+      "id": "p_029",
+      "text": "And many more.",
+      "ru": "И многое другое.",
+      "es": "Y mucho más.",
+      "de": "Und vieles mehr.",
+      "audio": "audios/learning_from_every_source/029.mp3",
+      "image": "images/learning_from_every_source/029.png"
+    },
+    {
+      "id": "p_030",
+      "text": "In this channel, I want to share the ideas that I tested.",
+      "ru": "На этом канале я хочу делиться идеями, которые я проверил на себе.",
+      "es": "En este canal, quiero compartir las ideas que probé.",
+      "de": "Auf diesem Kanal möchte ich die Ideen teilen, die ich getestet habe.",
+      "audio": "audios/learning_from_every_source/030.mp3",
+      "image": "images/learning_from_every_source/030.png"
+    },
+    {
+      "id": "p_031",
+      "text": "The ideas that gave me real results.",
+      "ru": "Идеями, которые дали мне реальные результаты.",
+      "es": "Las ideas que me dieron resultados reales.",
+      "de": "Die Ideen, die mir echte Ergebnisse gebracht haben.",
+      "audio": "audios/learning_from_every_source/031.mp3",
+      "image": "images/learning_from_every_source/031.png"
+    },
+    {
+      "id": "p_032",
+      "text": "The ideas that made my life better.",
+      "ru": "Идеями, которые сделали мою жизнь лучше.",
+      "es": "Las ideas que mejoraron mi vida.",
+      "de": "Die Ideen, die mein Leben besser gemacht haben.",
+      "audio": "audios/learning_from_every_source/032.mp3",
+      "image": "images/learning_from_every_source/032.png"
+    },
+    {
+      "id": "p_033",
+      "text": "I also want to be honest.",
+      "ru": "Я также хочу быть честным.",
+      "es": "También quiero ser honesto.",
+      "de": "Ich möchte auch ehrlich sein.",
+      "audio": "audios/learning_from_every_source/033.mp3",
+      "image": "images/learning_from_every_source/033.png"
+    },
+    {
+      "id": "p_034",
+      "text": "Most of these ideas are not mine.",
+      "ru": "Большинство этих идей не мои.",
+      "es": "La mayoría de estas ideas no son mías.",
+      "de": "Die meisten dieser Ideen stammen nicht von mir.",
+      "audio": "audios/learning_from_every_source/034.mp3",
+      "image": "images/learning_from_every_source/034.png"
+    },
+    {
+      "id": "p_035",
+      "text": "I did not create them.",
+      "ru": "Я их не создавал.",
+      "es": "Yo no las creé.",
+      "de": "Ich habe sie nicht erschaffen.",
+      "audio": "audios/learning_from_every_source/035.mp3",
+      "image": "images/learning_from_every_source/035.png"
+    },
+    {
+      "id": "p_036",
+      "text": "Some of them I learned from other people.",
+      "ru": "Некоторые из них я узнал от других людей.",
+      "es": "Algunas de ellas las aprendí de otras personas.",
+      "de": "Einige davon habe ich von anderen Menschen gelernt.",
+      "audio": "audios/learning_from_every_source/036.mp3",
+      "image": "images/learning_from_every_source/036.png"
+    },
+    {
+      "id": "p_037",
+      "text": "And sometimes I do not even remember the source.",
+      "ru": "И иногда я даже не помню источник.",
+      "es": "Y a veces ni siquiera recuerdo la fuente.",
+      "de": "Und manchmal erinnere ich mich nicht einmal an die Quelle.",
+      "audio": "audios/learning_from_every_source/037.mp3",
+      "image": "images/learning_from_every_source/037.png"
+    },
+    {
+      "id": "p_038",
+      "text": "I am grateful to those people for their knowledge.",
+      "ru": "Я благодарен этим людям за их знания.",
+      "es": "Estoy agradecido con esas personas por su conocimiento.",
+      "de": "Ich bin diesen Menschen für ihr Wissen dankbar.",
+      "audio": "audios/learning_from_every_source/038.mp3",
+      "image": "images/learning_from_every_source/038.png"
+    },
+    {
+      "id": "p_039",
+      "text": "At the same time, some ideas are mine.",
+      "ru": "В то же время некоторые идеи принадлежат мне.",
+      "es": "Al mismo tiempo, algunas ideas son mías.",
+      "de": "Gleichzeitig sind einige Ideen meine eigenen.",
+      "audio": "audios/learning_from_every_source/039.mp3",
+      "image": "images/learning_from_every_source/039.png"
+    },
+    {
+      "id": "p_040",
+      "text": "Or they are a mix of different ideas that I adapted for myself.",
+      "ru": "Или это смесь разных идей, которые я адаптировал под себя.",
+      "es": "O son una mezcla de diferentes ideas que adapté para mí.",
+      "de": "Oder sie sind eine Mischung verschiedener Ideen, die ich für mich angepasst habe.",
+      "audio": "audios/learning_from_every_source/040.mp3",
+      "image": "images/learning_from_every_source/040.png"
+    },
+    {
+      "id": "p_041",
+      "text": "One more important point.",
+      "ru": "Ещё один важный момент.",
+      "es": "Un punto más importante.",
+      "de": "Noch ein wichtiger Punkt.",
+      "audio": "audios/learning_from_every_source/041.mp3",
+      "image": "images/learning_from_every_source/041.png"
+    },
+    {
+      "id": "p_042",
+      "text": "What works for me may not work for you.",
+      "ru": "То, что работает для меня, может не сработать для тебя.",
+      "es": "Lo que funciona para mí puede no funcionar para ti.",
+      "de": "Was für mich funktioniert, funktioniert vielleicht nicht für dich.",
+      "audio": "audios/learning_from_every_source/042.mp3",
+      "image": "images/learning_from_every_source/042.png"
+    },
+    {
+      "id": "p_043",
+      "text": "Everyone is different.",
+      "ru": "Все люди разные.",
+      "es": "Todos somos diferentes.",
+      "de": "Jeder ist anders.",
+      "audio": "audios/learning_from_every_source/043.mp3",
+      "image": "images/learning_from_every_source/043.png"
+    },
+    {
+      "id": "p_044",
+      "text": "Some people need one thing. Others need something else.",
+      "ru": "Одним людям нужно одно. Другим нужно что-то другое.",
+      "es": "Algunas personas necesitan una cosa. Otras necesitan algo diferente.",
+      "de": "Manche Menschen brauchen das eine. Andere brauchen etwas anderes.",
+      "audio": "audios/learning_from_every_source/044.mp3",
+      "image": "images/learning_from_every_source/044.png"
+    },
+    {
+      "id": "p_045",
+      "text": "So I cannot promise that these ideas will change your life.",
+      "ru": "Поэтому я не могу обещать, что эти идеи изменят твою жизнь.",
+      "es": "Así que no puedo prometer que estas ideas cambiarán tu vida.",
+      "de": "Deshalb kann ich nicht versprechen, dass diese Ideen dein Leben verändern werden.",
+      "audio": "audios/learning_from_every_source/045.mp3",
+      "image": "images/learning_from_every_source/045.png"
+    },
+    {
+      "id": "p_046",
+      "text": "But I believe there are some common principles that can help many people.",
+      "ru": "Но я верю, что есть общие принципы, которые могут помочь многим людям.",
+      "es": "Pero creo que hay algunos principios comunes que pueden ayudar a muchas personas.",
+      "de": "Aber ich glaube, dass es einige gemeinsame Prinzipien gibt, die vielen Menschen helfen können.",
+      "audio": "audios/learning_from_every_source/046.mp3",
+      "image": "images/learning_from_every_source/046.png"
+    },
+    {
+      "id": "p_047",
+      "text": "Because in many ways, we are similar.",
+      "ru": "Потому что во многом мы похожи.",
+      "es": "Porque en muchos aspectos, somos similares.",
+      "de": "Denn in vielerlei Hinsicht sind wir ähnlich.",
+      "audio": "audios/learning_from_every_source/047.mp3",
+      "image": "images/learning_from_every_source/047.png"
+    },
+    {
+      "id": "p_048",
+      "text": "So I hope my videos will be useful for you.",
+      "ru": "Поэтому я надеюсь, что мои видео будут полезны для тебя.",
+      "es": "Así que espero que mis videos te sean útiles.",
+      "de": "Deshalb hoffe ich, dass meine Videos für dich nützlich sein werden.",
+      "audio": "audios/learning_from_every_source/048.mp3",
+      "image": "images/learning_from_every_source/048.png"
+    },
+    {
+      "id": "p_049",
+      "text": "Thank you for watching. See you in the next video.",
+      "ru": "Спасибо за просмотр. Увидимся в следующем видео.",
+      "es": "Gracias por ver. Nos vemos en el próximo video.",
+      "de": "Danke fürs Zuschauen. Wir sehen uns im nächsten Video.",
+      "audio": "audios/learning_from_every_source/049.mp3",
+      "image": "images/learning_from_every_source/049.png"
+    }
+  ]
+}

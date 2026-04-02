@@ -5,6 +5,7 @@ import { ProgressBar } from './progress-bar';
 type PhraseCardState = 'idle' | 'active' | 'loading' | 'playing' | 'completed' | 'error';
 
 type PhraseCardProps = {
+  imageSrc?: string | null;
   text: string;
   translatedText?: string;
   state?: PhraseCardState;
@@ -17,6 +18,7 @@ type PhraseCardProps = {
 };
 
 export function PhraseCard({
+  imageSrc,
   text,
   translatedText,
   state = 'idle',
@@ -50,6 +52,12 @@ export function PhraseCard({
 
   return (
     <article aria-busy={state === 'loading'} aria-current={isCurrent ? 'true' : undefined} className={classes}>
+      {imageSrc ? (
+        <div className="phrase-card-media">
+          <img alt="" className="phrase-card-image" loading="lazy" src={imageSrc} />
+        </div>
+      ) : null}
+
       <div className="phrase-card-layout">
         <div className="phrase-card-copy">
           <div className="phrase-card-copy-stack">

@@ -1,16 +1,19 @@
 import type { SetId, SetSummary } from '../../domain/entities';
 import { EmptyState } from '../../shared/ui/empty-state';
 import { SetCard } from '../../shared/ui/set-card';
+import { SetsUtilityPanel } from '../../shared/ui/sets-utility-panel';
 
 type SetsListScreenProps = {
   setSummaries: SetSummary[];
   isLoading: boolean;
   errorMessage: string | null;
   onOpenSet: (setId: SetId) => void;
+  onOpenProfile: () => void;
+  onOpenSettings: () => void;
   lastInteractionBySetId: Record<string, string | null>;
 };
 
-export function SetsListScreen({ setSummaries, isLoading, errorMessage, onOpenSet, lastInteractionBySetId }: SetsListScreenProps) {
+export function SetsListScreen({ setSummaries, isLoading, errorMessage, onOpenSet, onOpenProfile, onOpenSettings, lastInteractionBySetId }: SetsListScreenProps) {
   let content = null;
 
   if (isLoading) {
@@ -47,6 +50,8 @@ export function SetsListScreen({ setSummaries, isLoading, errorMessage, onOpenSe
 
         {content}
       </div>
+
+      <SetsUtilityPanel onProfileClick={onOpenProfile} onSettingsClick={onOpenSettings} />
     </section>
   );
 }

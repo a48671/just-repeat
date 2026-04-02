@@ -3,38 +3,269 @@
   "title": "The Universal Self-Introduction Script",
   "description": "A simple English text to practice speaking about yourself. It helps you learn common sentence structures and use them in everyday conversations.",
   "phrases": [
-    { "id": "p_001", "text": "Hello. My name is Andrey.", "audio": "audios/the_universal_self_introduction_script/001.mp3" },
-    { "id": "p_002", "text": "Right now, I am focused on building a life that feels meaningful and balanced.", "audio": "audios/the_universal_self_introduction_script/002.mp3" },
-    { "id": "p_003", "text": "I work in a field that requires creativity and logical thinking.", "audio": "audios/the_universal_self_introduction_script/003.mp3" },
-    { "id": "p_004", "text": "I enjoy solving problems.", "audio": "audios/the_universal_self_introduction_script/004.mp3" },
-    { "id": "p_005", "text": "I like improving systems.", "audio": "audios/the_universal_self_introduction_script/005.mp3" },
-    { "id": "p_006", "text": "I’m interested in understanding how things work.", "audio": "audios/the_universal_self_introduction_script/006.mp3" },
-    { "id": "p_007", "text": "I always try to find better ways to do them.", "audio": "audios/the_universal_self_introduction_script/007.mp3" },
-    { "id": "p_008", "text": "At the moment, I am developing new skills.", "audio": "audios/the_universal_self_introduction_script/008.mp3" },
-    { "id": "p_009", "text": "I am also working on becoming more confident.", "audio": "audios/the_universal_self_introduction_script/009.mp3" },
-    { "id": "p_010", "text": "I try to improve a little every day.", "audio": "audios/the_universal_self_introduction_script/010.mp3" },
-    { "id": "p_011", "text": "Even small progress matters to me.", "audio": "audios/the_universal_self_introduction_script/011.mp3" },
-    { "id": "p_012", "text": "I believe consistency is more important than motivation.", "audio": "audios/the_universal_self_introduction_script/012.mp3" },
-    { "id": "p_013", "text": "In the past, I used to overthink my decisions.", "audio": "audios/the_universal_self_introduction_script/013.mp3" },
-    { "id": "p_014", "text": "I wanted everything to be perfect.", "audio": "audios/the_universal_self_introduction_script/014.mp3" },
-    { "id": "p_015", "text": "Because of that, I sometimes delayed action.", "audio": "audios/the_universal_self_introduction_script/015.mp3" },
-    { "id": "p_016", "text": "Later, I realized something important.", "audio": "audios/the_universal_self_introduction_script/016.mp3" },
-    { "id": "p_017", "text": "Waiting for the perfect moment often means missing opportunities.", "audio": "audios/the_universal_self_introduction_script/017.mp3" },
-    { "id": "p_018", "text": "Since then, I have started acting more decisively.", "audio": "audios/the_universal_self_introduction_script/018.mp3" },
-    { "id": "p_019", "text": "Outside of work, I value time with my family and close friends.", "audio": "audios/the_universal_self_introduction_script/019.mp3" },
-    { "id": "p_020", "text": "Spending time with them helps me recharge.", "audio": "audios/the_universal_self_introduction_script/020.mp3" },
-    { "id": "p_021", "text": "I also enjoy learning new things.", "audio": "audios/the_universal_self_introduction_script/021.mp3" },
-    { "id": "p_022", "text": "I read books.", "audio": "audios/the_universal_self_introduction_script/022.mp3" },
-    { "id": "p_023", "text": "I watch educational content.", "audio": "audios/the_universal_self_introduction_script/023.mp3" },
-    { "id": "p_024", "text": "Sometimes I practice new skills.", "audio": "audios/the_universal_self_introduction_script/024.mp3" },
-    { "id": "p_025", "text": "Learning keeps me curious and open-minded.", "audio": "audios/the_universal_self_introduction_script/025.mp3" },
-    { "id": "p_026", "text": "One of my goals is personal and professional growth.", "audio": "audios/the_universal_self_introduction_script/026.mp3" },
-    { "id": "p_027", "text": "I want to communicate clearly.", "audio": "audios/the_universal_self_introduction_script/027.mp3" },
-    { "id": "p_028", "text": "I want to think independently.", "audio": "audios/the_universal_self_introduction_script/028.mp3" },
-    { "id": "p_029", "text": "I want to take responsibility for my choices.", "audio": "audios/the_universal_self_introduction_script/029.mp3" },
-    { "id": "p_030", "text": "In the future, I plan to keep developing my skills.", "audio": "audios/the_universal_self_introduction_script/030.mp3" },
-    { "id": "p_031", "text": "I want to work on projects that create real value.", "audio": "audios/the_universal_self_introduction_script/031.mp3" },
-    { "id": "p_032", "text": "I don’t know exactly where I will be in five years.", "audio": "audios/the_universal_self_introduction_script/032.mp3" },
-    { "id": "p_033", "text": "But I am confident that steady effort will lead me in the right direction.", "audio": "audios/the_universal_self_introduction_script/033.mp3" }
+    {
+      "id": "p_001",
+      "text": "Hello. My name is Andrey.",
+      "ru": "Привет. Меня зовут Андрей.",
+      "es": "Hola. Mi nombre es Andrey.",
+      "de": "Hallo. Mein Name ist Andrey.",
+      "audio": "audios/the_universal_self_introduction_script/001.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "Right now, I am focused on building a life that feels meaningful and balanced.",
+      "ru": "Сейчас я сосредоточен на построении жизни, которая ощущается осмысленной и сбалансированной.",
+      "es": "Ahora mismo, estoy enfocado en construir una vida que se sienta significativa y equilibrada.",
+      "de": "Im Moment konzentriere ich mich darauf, ein Leben aufzubauen, das sich sinnvoll und ausgeglichen anfühlt.",
+      "audio": "audios/the_universal_self_introduction_script/002.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "I work in a field that requires creativity and logical thinking.",
+      "ru": "Я работаю в области, которая требует креативности и логического мышления.",
+      "es": "Trabajo en un campo que requiere creatividad y pensamiento lógico.",
+      "de": "Ich arbeite in einem Bereich, der Kreativität und logisches Denken erfordert.",
+      "audio": "audios/the_universal_self_introduction_script/003.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "I enjoy solving problems.",
+      "ru": "Мне нравится решать задачи.",
+      "es": "Disfruto resolver problemas.",
+      "de": "Ich löse gerne Probleme.",
+      "audio": "audios/the_universal_self_introduction_script/004.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "I like improving systems.",
+      "ru": "Мне нравится улучшать системы.",
+      "es": "Me gusta mejorar sistemas.",
+      "de": "Ich verbessere gerne Systeme.",
+      "audio": "audios/the_universal_self_introduction_script/005.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "I’m interested in understanding how things work.",
+      "ru": "Мне интересно понимать, как всё устроено.",
+      "es": "Me interesa entender cómo funcionan las cosas.",
+      "de": "Ich interessiere mich dafür zu verstehen, wie Dinge funktionieren.",
+      "audio": "audios/the_universal_self_introduction_script/006.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "I always try to find better ways to do them.",
+      "ru": "Я всегда стараюсь найти лучшие способы их выполнения.",
+      "es": "Siempre intento encontrar mejores formas de hacerlas.",
+      "de": "Ich versuche immer, bessere Wege zu finden, sie zu erledigen.",
+      "audio": "audios/the_universal_self_introduction_script/007.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "At the moment, I am developing new skills.",
+      "ru": "В данный момент я развиваю новые навыки.",
+      "es": "En este momento, estoy desarrollando nuevas habilidades.",
+      "de": "Im Moment entwickle ich neue Fähigkeiten.",
+      "audio": "audios/the_universal_self_introduction_script/008.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "I am also working on becoming more confident.",
+      "ru": "Я также работаю над тем, чтобы стать увереннее.",
+      "es": "También estoy trabajando en ser más seguro de mí mismo.",
+      "de": "Ich arbeite auch daran, selbstbewusster zu werden.",
+      "audio": "audios/the_universal_self_introduction_script/009.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "I try to improve a little every day.",
+      "ru": "Я стараюсь становиться немного лучше каждый день.",
+      "es": "Intento mejorar un poco cada día.",
+      "de": "Ich versuche, mich jeden Tag ein wenig zu verbessern.",
+      "audio": "audios/the_universal_self_introduction_script/010.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "Even small progress matters to me.",
+      "ru": "Даже маленький прогресс важен для меня.",
+      "es": "Incluso un pequeño progreso es importante para mí.",
+      "de": "Selbst kleine Fortschritte sind mir wichtig.",
+      "audio": "audios/the_universal_self_introduction_script/011.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "I believe consistency is more important than motivation.",
+      "ru": "Я верю, что постоянство важнее мотивации.",
+      "es": "Creo que la constancia es más importante que la motivación.",
+      "de": "Ich glaube, dass Beständigkeit wichtiger ist als Motivation.",
+      "audio": "audios/the_universal_self_introduction_script/012.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "In the past, I used to overthink my decisions.",
+      "ru": "Раньше я слишком много думал над своими решениями.",
+      "es": "En el pasado, solía pensar demasiado en mis decisiones.",
+      "de": "Früher habe ich meine Entscheidungen zu sehr überdacht.",
+      "audio": "audios/the_universal_self_introduction_script/013.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "I wanted everything to be perfect.",
+      "ru": "Я хотел, чтобы всё было идеально.",
+      "es": "Quería que todo fuera perfecto.",
+      "de": "Ich wollte, dass alles perfekt ist.",
+      "audio": "audios/the_universal_self_introduction_script/014.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "Because of that, I sometimes delayed action.",
+      "ru": "Из-за этого я иногда откладывал действия.",
+      "es": "Por eso, a veces retrasaba la acción.",
+      "de": "Deshalb habe ich manchmal das Handeln hinausgezögert.",
+      "audio": "audios/the_universal_self_introduction_script/015.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "Later, I realized something important.",
+      "ru": "Позже я осознал кое-что важное.",
+      "es": "Más tarde, me di cuenta de algo importante.",
+      "de": "Später erkannte ich etwas Wichtiges.",
+      "audio": "audios/the_universal_self_introduction_script/016.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "Waiting for the perfect moment often means missing opportunities.",
+      "ru": "Ожидание идеального момента часто означает упущенные возможности.",
+      "es": "Esperar el momento perfecto a menudo significa perder oportunidades.",
+      "de": "Auf den perfekten Moment zu warten bedeutet oft, Chancen zu verpassen.",
+      "audio": "audios/the_universal_self_introduction_script/017.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "Since then, I have started acting more decisively.",
+      "ru": "С тех пор я стал действовать более решительно.",
+      "es": "Desde entonces, he empezado a actuar con más decisión.",
+      "de": "Seitdem habe ich begonnen, entschlossener zu handeln.",
+      "audio": "audios/the_universal_self_introduction_script/018.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "Outside of work, I value time with my family and close friends.",
+      "ru": "Вне работы я ценю время с семьёй и близкими друзьями.",
+      "es": "Fuera del trabajo, valoro el tiempo con mi familia y amigos cercanos.",
+      "de": "Außerhalb der Arbeit schätze ich die Zeit mit meiner Familie und engen Freunden.",
+      "audio": "audios/the_universal_self_introduction_script/019.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "Spending time with them helps me recharge.",
+      "ru": "Время, проведённое с ними, помогает мне восстановить силы.",
+      "es": "Pasar tiempo con ellos me ayuda a recargar energías.",
+      "de": "Zeit mit ihnen zu verbringen hilft mir, neue Kraft zu tanken.",
+      "audio": "audios/the_universal_self_introduction_script/020.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "I also enjoy learning new things.",
+      "ru": "Мне также нравится узнавать новое.",
+      "es": "También disfruto aprender cosas nuevas.",
+      "de": "Ich lerne auch gerne neue Dinge.",
+      "audio": "audios/the_universal_self_introduction_script/021.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "I read books.",
+      "ru": "Я читаю книги.",
+      "es": "Leo libros.",
+      "de": "Ich lese Bücher.",
+      "audio": "audios/the_universal_self_introduction_script/022.mp3"
+    },
+    {
+      "id": "p_023",
+      "text": "I watch educational content.",
+      "ru": "Я смотрю образовательный контент.",
+      "es": "Veo contenido educativo.",
+      "de": "Ich schaue Bildungsinhalte.",
+      "audio": "audios/the_universal_self_introduction_script/023.mp3"
+    },
+    {
+      "id": "p_024",
+      "text": "Sometimes I practice new skills.",
+      "ru": "Иногда я практикую новые навыки.",
+      "es": "A veces practico nuevas habilidades.",
+      "de": "Manchmal übe ich neue Fähigkeiten.",
+      "audio": "audios/the_universal_self_introduction_script/024.mp3"
+    },
+    {
+      "id": "p_025",
+      "text": "Learning keeps me curious and open-minded.",
+      "ru": "Обучение помогает мне оставаться любознательным и открытым.",
+      "es": "Aprender me mantiene curioso y con mente abierta.",
+      "de": "Lernen hält mich neugierig und aufgeschlossen.",
+      "audio": "audios/the_universal_self_introduction_script/025.mp3"
+    },
+    {
+      "id": "p_026",
+      "text": "One of my goals is personal and professional growth.",
+      "ru": "Одна из моих целей — личностный и профессиональный рост.",
+      "es": "Una de mis metas es el crecimiento personal y profesional.",
+      "de": "Eines meiner Ziele ist persönliches und berufliches Wachstum.",
+      "audio": "audios/the_universal_self_introduction_script/026.mp3"
+    },
+    {
+      "id": "p_027",
+      "text": "I want to communicate clearly.",
+      "ru": "Я хочу общаться ясно.",
+      "es": "Quiero comunicarme con claridad.",
+      "de": "Ich möchte klar kommunizieren.",
+      "audio": "audios/the_universal_self_introduction_script/027.mp3"
+    },
+    {
+      "id": "p_028",
+      "text": "I want to think independently.",
+      "ru": "Я хочу мыслить независимо.",
+      "es": "Quiero pensar de manera independiente.",
+      "de": "Ich möchte unabhängig denken.",
+      "audio": "audios/the_universal_self_introduction_script/028.mp3"
+    },
+    {
+      "id": "p_029",
+      "text": "I want to take responsibility for my choices.",
+      "ru": "Я хочу брать ответственность за свои решения.",
+      "es": "Quiero asumir la responsabilidad de mis decisiones.",
+      "de": "Ich möchte Verantwortung für meine Entscheidungen übernehmen.",
+      "audio": "audios/the_universal_self_introduction_script/029.mp3"
+    },
+    {
+      "id": "p_030",
+      "text": "In the future, I plan to keep developing my skills.",
+      "ru": "В будущем я планирую продолжать развивать свои навыки.",
+      "es": "En el futuro, planeo seguir desarrollando mis habilidades.",
+      "de": "In Zukunft plane ich, meine Fähigkeiten weiter zu entwickeln.",
+      "audio": "audios/the_universal_self_introduction_script/030.mp3"
+    },
+    {
+      "id": "p_031",
+      "text": "I want to work on projects that create real value.",
+      "ru": "Я хочу работать над проектами, которые создают реальную ценность.",
+      "es": "Quiero trabajar en proyectos que creen valor real.",
+      "de": "Ich möchte an Projekten arbeiten, die echten Wert schaffen.",
+      "audio": "audios/the_universal_self_introduction_script/031.mp3"
+    },
+    {
+      "id": "p_032",
+      "text": "I don’t know exactly where I will be in five years.",
+      "ru": "Я точно не знаю, где буду через пять лет.",
+      "es": "No sé exactamente dónde estaré en cinco años.",
+      "de": "Ich weiß nicht genau, wo ich in fünf Jahren sein werde.",
+      "audio": "audios/the_universal_self_introduction_script/032.mp3"
+    },
+    {
+      "id": "p_033",
+      "text": "But I am confident that steady effort will lead me in the right direction.",
+      "ru": "Но я уверен, что постоянные усилия приведут меня в правильном направлении.",
+      "es": "Pero estoy seguro de que el esfuerzo constante me llevará en la dirección correcta.",
+      "de": "Aber ich bin zuversichtlich, dass stetige Anstrengung mich in die richtige Richtung führen wird.",
+      "audio": "audios/the_universal_self_introduction_script/033.mp3"
+    }
   ]
 }

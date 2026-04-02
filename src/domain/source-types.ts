@@ -12,7 +12,10 @@ export type SourcePhrase = {
   id: string;
   text: string;
   ru?: string;
+  es?: string;
+  de?: string;
   audio: string;
+  image?: string;
 };
 
 export type SourceSetDetails = {
