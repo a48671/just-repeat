@@ -46,8 +46,10 @@ export function SetDetailsScreen({
     phraseElementMapRef,
     playAllActive,
     playableVisiblePhraseCount,
-    progress,
+    progressCompleted,
     progressLabel,
+    progressTotal,
+    restartReady,
     visiblePhrases,
   } = useSetDetailsController({
     onManualPlayCompleted,
@@ -155,9 +157,11 @@ export function SetDetailsScreen({
         playAllActive={playAllActive}
         playAllDisabled={playableVisiblePhraseCount === 0}
         playAllLabel={playAllLabel}
-        progress={progress}
+        progressCompleted={progressCompleted}
         progressLabel={progressLabel}
+        progressTotal={progressTotal}
         restartDisabled={playableVisiblePhraseCount === 0}
+        restartReady={restartReady}
       />
     </section>
   );

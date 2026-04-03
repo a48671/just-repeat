@@ -1,6 +1,5 @@
 import { ArrowLeft, RotateCcw, Star } from 'lucide-react';
 import { Button } from './button';
-import { ProgressBar } from './progress-bar';
 
 type BottomControlPanelProps = {
   favoritesEnabled?: boolean;
@@ -8,9 +7,11 @@ type BottomControlPanelProps = {
   playAllActive?: boolean;
   playAllDisabled?: boolean;
   playAllLabel?: string;
+  progressCompleted?: number;
   progressLabel?: string;
+  progressTotal?: number;
   restartDisabled?: boolean;
-  progress: number;
+  restartReady?: boolean;
   onBack?: () => void;
   onToggleFavorites?: () => void;
   onTogglePlayAll?: () => void;
@@ -23,9 +24,11 @@ export function BottomControlPanel({
   playAllActive = false,
   playAllDisabled = false,
   playAllLabel = 'Play All',
+  progressCompleted = 0,
   progressLabel = '0/0 in current list',
+  progressTotal = 0,
   restartDisabled = false,
-  progress,
+  restartReady = false,
   onBack,
   onToggleFavorites,
   onTogglePlayAll,
@@ -33,6 +36,25 @@ export function BottomControlPanel({
 }: BottomControlPanelProps) {
   return (
     <div className="bottom-control-panel">
+      <div aria-live="polite" className="bottom-control-progress" role="status">
+        <p className="bottom-control-progress-label">{progressLabel}</p>
+        <div
+          aria-label="Set progress"
+          aria-valuemax={progressTotal}
+          aria-valuemin={0}
+          aria-valuenow={progressCompleted}
+          className="segmented-progress-track"
+          role="progressbar"
+        >
+          {Array.from({ length: progressTotal }, (_, i) => (
+            <div
+              className={`segmented-progress-dot ${i < progressCompleted ? 'segmented-progress-dot-filled' : ''}`}
+              key={i}
+            />
+          ))}
+        </div>
+      </div>
+
       <div className="bottom-control-row">
         <Button aria-label="Back to sets" className="bottom-control-icon bottom-control-icon-back" onClick={onBack} variant="secondary">
           <ArrowLeft aria-hidden="true" className="bottom-control-icon-svg" size={18} strokeWidth={2} />
@@ -47,19 +69,12 @@ export function BottomControlPanel({
         >
           <Star aria-hidden="true" className="bottom-control-icon-svg" size={16} strokeWidth={2} />
         </Button>
-        <div aria-live="polite" className="bottom-control-progress" role="status">
-          <p className="bottom-control-progress-label">{progressLabel}</p>
-          <ProgressBar label="Set progress" value={progress} />
-        </div>
-      </div>
-
-      <div className="bottom-control-row">
         <Button className={`bottom-control-main ${playAllActive ? 'bottom-control-main-active' : ''}`} disabled={playAllDisabled} onClick={onTogglePlayAll}>
           {playAllActive ? 'Stop' : playAllLabel}
         </Button>
         <Button
           aria-label="Restart from beginning"
-          className={`bottom-control-secondary ${!restartDisabled ? 'bottom-control-secondary-ready' : ''}`}
+          className={`bottom-control-secondary ${restartReady ? 'bottom-control-secondary-ready' : ''}`}
           disabled={restartDisabled}
           onClick={onRestart}
           variant="secondary"

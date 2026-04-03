@@ -16,8 +16,9 @@ const meta = {
     ),
   ],
   args: {
-    progress: 35,
+    progressCompleted: 12,
     progressLabel: '12/33 in current list',
+    progressTotal: 33,
   },
 } satisfies Meta<typeof BottomControlPanel>;
 

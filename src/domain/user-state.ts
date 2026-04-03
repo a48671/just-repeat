@@ -15,6 +15,8 @@ export type PlayAllQueueState = {
   isActive: boolean;
   cursorPhraseId: PhraseId | null;
   listMode: 'all' | 'favorites';
+  phraseStatus: 'idle' | 'loading' | 'playing' | 'completed' | 'error';
+  completedCount: number;
 };
 
 export type SetScreenState = {

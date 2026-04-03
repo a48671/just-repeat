@@ -117,21 +117,10 @@ export function useSetDetailsController({
     visiblePhrases: playableVisiblePhrases,
   });
   const completedPhraseIdSet = useMemo(() => new Set(playback.completedPhraseIds), [playback.completedPhraseIds]);
-  const completedPlayablePhraseCount = useMemo(
-    () => playableVisiblePhrases.filter((phrase) => completedPhraseIdSet.has(phrase.id)).length,
-    [completedPhraseIdSet, playableVisiblePhrases],
-  );
-  const progress = useMemo(
-    () =>
-      playableVisiblePhrases.length === 0
-        ? 0
-        : (completedPlayablePhraseCount / playableVisiblePhrases.length) * 100,
-    [completedPlayablePhraseCount, playableVisiblePhrases],
-  );
-  const progressLabel =
-    playableVisiblePhrases.length === 0
-      ? 'No audio available in current list'
-      : `${completedPlayablePhraseCount}/${playableVisiblePhrases.length} with audio`;
+  const progress = playback.queueProgress;
+  const progressLabel = playback.queueProgressLabel;
+  const progressCompleted = playback.queueCompletedCount;
+  const progressTotal = playableVisiblePhrases.length;
 
   useEffect(() => {
     setFavoritesOnly(false);
@@ -219,7 +208,10 @@ export function useSetDetailsController({
     playAllActive: playback.playAllActive,
     playableVisiblePhraseCount: playableVisiblePhrases.length,
     progress,
+    progressCompleted,
     progressLabel,
+    progressTotal,
+    restartReady: progress >= 100 && playableVisiblePhrases.length > 0,
     visiblePhrases,
   };
 }

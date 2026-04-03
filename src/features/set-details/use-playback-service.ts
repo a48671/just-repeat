@@ -35,6 +35,8 @@ const INITIAL_QUEUE_STATE: PlayAllQueueState = {
   isActive: false,
   cursorPhraseId: null,
   listMode: 'all',
+  phraseStatus: 'idle',
+  completedCount: 0,
 };
 
 export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManualPlayCompleted, onManualPlayStarted, onPlayAllStarted }: PlaybackServiceParams) {
@@ -42,6 +44,7 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
   const activePhraseIdRef = useRef<PhraseId | null>(null);
   const activePlaybackSourceRef = useRef<'manual' | 'queue' | null>(null);
   const cleanupAudioListenersRef = useRef<(() => void) | null>(null);
+  const wakeLockRef = useRef<WakeLockSentinel | null>(null);
   const [playerState, setPlayerState] = useState<PlayerState>(INITIAL_PLAYER_STATE);
   const [queueState, setQueueState] = useState<PlayAllQueueState>(INITIAL_QUEUE_STATE);
 
@@ -54,19 +57,29 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
   const activePhraseIndex = playerState.activePhraseId
     ? visiblePhrases.findIndex((phrase) => phrase.id === playerState.activePhraseId)
     : -1;
-  const queueStatusText = visiblePhrases.length === 0
-    ? 'Queue unavailable'
+
+  const allQueueCompleted = queueState.completedCount > 0 && queueState.completedCount >= visiblePhrases.length;
+  const canContinuePlayAll = !queueState.isActive && !allQueueCompleted && playerState.errorMessage === null && queueState.completedCount > 0;
+
+  const queueProgressLabel = visiblePhrases.length === 0
+    ? 'No audio available'
     : playerState.errorMessage
-      ? `Playback failed at ${Math.max(activePhraseIndex + 1, 1)} / ${visiblePhrases.length}. Retry the phrase or restart.`
-      : queueState.isActive
-        ? `Queue running ${Math.max(queueCursorIndex + 1, 1)} / ${visiblePhrases.length}`
-        : queuePhrase
-          ? `Queue paused at ${Math.max(queueCursorIndex + 1, 1)} / ${visiblePhrases.length}`
-          : `Queue ready 1 / ${visiblePhrases.length}`;
-  const canContinuePlayAll = !queueState.isActive && playerState.errorMessage === null && queueCursorIndex > 0;
+      ? `Playback failed at phrase ${Math.max(activePhraseIndex + 1, 1)}`
+      : allQueueCompleted
+        ? 'Restart available'
+        : queueState.isActive
+          ? `${queueState.completedCount}/${visiblePhrases.length} in current list`
+          : queueState.completedCount > 0
+            ? `Queue paused at phrase ${queueState.completedCount + 1}`
+            : `${queueState.completedCount}/${visiblePhrases.length} in current list`;
+
+  const queueProgress = visiblePhrases.length === 0
+    ? 0
+    : (queueState.completedCount / visiblePhrases.length) * 100;
 
   useEffect(() => {
     return () => {
+      releaseWakeLock();
       if (audioRef.current) {
         cleanupAudioListenersRef.current?.();
         cleanupAudioListenersRef.current = null;
@@ -81,6 +94,7 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
 
   useEffect(() => {
     stopPlayback();
+    releaseWakeLock();
     activePhraseIdRef.current = null;
     setPlayerState(INITIAL_PLAYER_STATE);
     setQueueState(INITIAL_QUEUE_STATE);
@@ -98,6 +112,7 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
           isActive: false,
           cursorPhraseId: null,
           listMode,
+          phraseStatus: 'idle' as const,
         };
       }
 
@@ -137,6 +152,7 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
         isActive: false,
         cursorPhraseId: firstVisiblePhraseId,
         listMode,
+        phraseStatus: 'idle' as const,
       };
     });
   }, [listMode, visiblePhrases]);
@@ -151,7 +167,9 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
         ...currentQueue,
         isActive: false,
         cursorPhraseId: null,
+        phraseStatus: 'idle' as const,
       }));
+      releaseWakeLock();
       return;
     }
 
@@ -159,44 +177,73 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
       setQueueState((currentQueue) => ({
         ...currentQueue,
         isActive: false,
+        phraseStatus: 'idle' as const,
       }));
+      releaseWakeLock();
       return;
     }
 
-    const queuePhrasePlaybackState = playerState.playbackStateByPhraseId[queuePhrase.id];
-
-    if (queuePhrasePlaybackState === 'loading' || queuePhrasePlaybackState === 'playing') {
+    if (queueState.phraseStatus === 'loading' || queueState.phraseStatus === 'playing') {
       return;
     }
 
-    if (queuePhrasePlaybackState === 'error') {
+    if (queueState.phraseStatus === 'error') {
       setQueueState((currentQueue) => ({
         ...currentQueue,
         isActive: false,
       }));
+      releaseWakeLock();
       return;
     }
 
-    if (queuePhrasePlaybackState === 'completed') {
+    if (queueState.phraseStatus === 'completed') {
       const nextQueuePhraseId = visiblePhrases[queueCursorIndex + 1]?.id ?? null;
 
       if (queueCursorIndex >= 0 && nextQueuePhraseId) {
         setQueueState((currentQueue) => ({
           ...currentQueue,
           cursorPhraseId: nextQueuePhraseId,
+          phraseStatus: 'idle' as const,
         }));
       } else {
         setQueueState((currentQueue) => ({
           ...currentQueue,
           isActive: false,
           cursorPhraseId: visiblePhrases[0]?.id ?? null,
+          phraseStatus: 'idle' as const,
         }));
+        releaseWakeLock();
       }
       return;
     }
 
     void playPhraseInternal(queuePhrase.id, queuePhrase.audioSrc, false);
-  }, [playerState.playbackStateByPhraseId, queueCursorIndex, queuePhrase, queueState.isActive, visiblePhrases]);
+  }, [queueState.phraseStatus, queueState.isActive, queueCursorIndex, queuePhrase, visiblePhrases]);
+
+  useEffect(() => {
+    function handleVisibilityChange() {
+      if (document.visibilityState === 'visible' && queueState.isActive) {
+        void acquireWakeLock();
+      }
+    }
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', handleVisibilityChange);
+  }, [queueState.isActive]);
+
+  async function acquireWakeLock() {
+    if (!('wakeLock' in navigator)) return;
+    try {
+      wakeLockRef.current = await navigator.wakeLock.request('screen');
+    } catch {
+      // Wake lock request failed (e.g. low battery)
+    }
+  }
+
+  function releaseWakeLock() {
+    wakeLockRef.current?.release().catch(() => {});
+    wakeLockRef.current = null;
+  }
 
   async function playPhraseInternal(phraseId: PhraseId, audioSrc: string, trackManualPlay: boolean) {
     resetExistingAudio();
@@ -208,26 +255,33 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
 
     if (trackManualPlay) {
       onManualPlayStarted();
+
+      setPlayerState((currentState) => ({
+        ...currentState,
+        activePhraseId: phraseId,
+        errorMessage: null,
+        playbackProgressByPhraseId: {
+          ...currentState.playbackProgressByPhraseId,
+          [phraseId]: 0,
+        },
+        playbackStateByPhraseId: {
+          ...currentState.playbackStateByPhraseId,
+          [phraseId]: 'loading',
+        },
+      }));
+    } else {
+      setPlayerState((currentState) => ({
+        ...currentState,
+        activePhraseId: phraseId,
+        errorMessage: null,
+      }));
+
+      setQueueState((currentQueue) => ({
+        ...currentQueue,
+        cursorPhraseId: phraseId,
+        phraseStatus: 'loading' as const,
+      }));
     }
-
-    setPlayerState((currentState) => ({
-      ...currentState,
-      activePhraseId: phraseId,
-      errorMessage: null,
-      playbackProgressByPhraseId: {
-        ...currentState.playbackProgressByPhraseId,
-        [phraseId]: 0,
-      },
-      playbackStateByPhraseId: {
-        ...currentState.playbackStateByPhraseId,
-        [phraseId]: 'loading',
-      },
-    }));
-
-    setQueueState((currentQueue) => ({
-      ...currentQueue,
-      cursorPhraseId: phraseId,
-    }));
 
     audio.addEventListener('timeupdate', handleTimeUpdate);
     audio.addEventListener('playing', handlePlaying);
@@ -251,15 +305,17 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
         return;
       }
 
-      const progress = Math.max(0, Math.min(100, (audio.currentTime / audio.duration) * 100));
+      if (activePlaybackSourceRef.current === 'manual') {
+        const progress = Math.max(0, Math.min(100, (audio.currentTime / audio.duration) * 100));
 
-      setPlayerState((currentState) => ({
-        ...currentState,
-        playbackProgressByPhraseId: {
-          ...currentState.playbackProgressByPhraseId,
-          [phraseId]: progress,
-        },
-      }));
+        setPlayerState((currentState) => ({
+          ...currentState,
+          playbackProgressByPhraseId: {
+            ...currentState.playbackProgressByPhraseId,
+            [phraseId]: progress,
+          },
+        }));
+      }
     }
 
     function handlePlaying() {
@@ -267,15 +323,22 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
         return;
       }
 
-      setPlayerState((currentState) => ({
-        ...currentState,
-        activePhraseId: phraseId,
-        errorMessage: null,
-        playbackStateByPhraseId: {
-          ...currentState.playbackStateByPhraseId,
-          [phraseId]: 'playing',
-        },
-      }));
+      if (activePlaybackSourceRef.current === 'manual') {
+        setPlayerState((currentState) => ({
+          ...currentState,
+          activePhraseId: phraseId,
+          errorMessage: null,
+          playbackStateByPhraseId: {
+            ...currentState.playbackStateByPhraseId,
+            [phraseId]: 'playing',
+          },
+        }));
+      } else {
+        setQueueState((currentQueue) => ({
+          ...currentQueue,
+          phraseStatus: 'playing' as const,
+        }));
+      }
     }
 
     function handleEnded() {
@@ -284,28 +347,38 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
       }
 
       const playbackSource = activePlaybackSourceRef.current;
-
       activePhraseIdRef.current = phraseId;
       activePlaybackSourceRef.current = null;
 
-      setPlayerState((currentState) => ({
-        ...currentState,
-        activePhraseId: phraseId,
-        completedPhraseIds: currentState.completedPhraseIds.includes(phraseId)
-          ? currentState.completedPhraseIds
-          : [...currentState.completedPhraseIds, phraseId],
-        playbackProgressByPhraseId: {
-          ...currentState.playbackProgressByPhraseId,
-          [phraseId]: 100,
-        },
-        playbackStateByPhraseId: {
-          ...currentState.playbackStateByPhraseId,
-          [phraseId]: 'completed',
-        },
-      }));
-
       if (playbackSource === 'manual') {
+        setPlayerState((currentState) => ({
+          ...currentState,
+          activePhraseId: phraseId,
+          completedPhraseIds: currentState.completedPhraseIds.includes(phraseId)
+            ? currentState.completedPhraseIds
+            : [...currentState.completedPhraseIds, phraseId],
+          playbackProgressByPhraseId: {
+            ...currentState.playbackProgressByPhraseId,
+            [phraseId]: 100,
+          },
+          playbackStateByPhraseId: {
+            ...currentState.playbackStateByPhraseId,
+            [phraseId]: 'completed',
+          },
+        }));
+
         onManualPlayCompleted(phraseId);
+      } else {
+        setPlayerState((currentState) => ({
+          ...currentState,
+          activePhraseId: phraseId,
+        }));
+
+        setQueueState((currentQueue) => ({
+          ...currentQueue,
+          phraseStatus: 'completed' as const,
+          completedCount: currentQueue.completedCount + 1,
+        }));
       }
     }
 
@@ -314,25 +387,36 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
         return;
       }
 
-      setQueueState((currentQueue) => ({
-        ...currentQueue,
-        isActive: false,
-        cursorPhraseId: phraseId,
-      }));
+      if (activePlaybackSourceRef.current === 'manual') {
+        setPlayerState((currentState) => ({
+          ...currentState,
+          activePhraseId: phraseId,
+          errorMessage: 'Audio could not be loaded or played. Try again.',
+          playbackProgressByPhraseId: {
+            ...currentState.playbackProgressByPhraseId,
+            [phraseId]: 0,
+          },
+          playbackStateByPhraseId: {
+            ...currentState.playbackStateByPhraseId,
+            [phraseId]: 'error',
+          },
+        }));
+      } else {
+        setPlayerState((currentState) => ({
+          ...currentState,
+          activePhraseId: phraseId,
+          errorMessage: 'Audio could not be loaded or played. Try again.',
+        }));
 
-      setPlayerState((currentState) => ({
-        ...currentState,
-        activePhraseId: phraseId,
-        errorMessage: 'Audio could not be loaded or played. Try again.',
-        playbackProgressByPhraseId: {
-          ...currentState.playbackProgressByPhraseId,
-          [phraseId]: 0,
-        },
-        playbackStateByPhraseId: {
-          ...currentState.playbackStateByPhraseId,
-          [phraseId]: 'error',
-        },
-      }));
+        setQueueState((currentQueue) => ({
+          ...currentQueue,
+          isActive: false,
+          cursorPhraseId: phraseId,
+          phraseStatus: 'error' as const,
+        }));
+
+        releaseWakeLock();
+      }
     }
   }
 
@@ -350,7 +434,9 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
       setQueueState((currentQueue) => ({
         ...currentQueue,
         isActive: false,
+        phraseStatus: 'idle' as const,
       }));
+      releaseWakeLock();
       return;
     }
 
@@ -360,10 +446,13 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
     }));
 
     onPlayAllStarted();
+    void acquireWakeLock();
+
     setQueueState((currentQueue) => ({
+      ...currentQueue,
       isActive: true,
       cursorPhraseId: currentQueue.cursorPhraseId ?? visiblePhrases[0]?.id ?? null,
-      listMode,
+      phraseStatus: 'idle' as const,
     }));
   }
 
@@ -371,6 +460,8 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
     if (queueState.isActive || audioRef.current) {
       stopPlayback();
     }
+
+    releaseWakeLock();
 
     setPlayerState({
       activePhraseId: null,
@@ -384,6 +475,8 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
       isActive: false,
       cursorPhraseId: visiblePhrases[0]?.id ?? null,
       listMode,
+      phraseStatus: 'idle',
+      completedCount: 0,
     });
   }
 
@@ -406,29 +499,37 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
 
     cleanupAudioListenersRef.current?.();
     cleanupAudioListenersRef.current = null;
+    const wasManual = activePlaybackSourceRef.current === 'manual';
     activePhraseIdRef.current = null;
     activePlaybackSourceRef.current = null;
     currentAudio.pause();
     currentAudio.src = '';
     audioRef.current = null;
 
-    setPlayerState((currentState) => {
-      const previousState = currentState.playbackStateByPhraseId[currentPhraseId];
-      const nextVisualState: PhrasePlaybackVisualState = previousState === 'completed' ? 'completed' : 'idle';
+    if (wasManual) {
+      setPlayerState((currentState) => {
+        const previousState = currentState.playbackStateByPhraseId[currentPhraseId];
+        const nextVisualState: PhrasePlaybackVisualState = previousState === 'completed' ? 'completed' : 'idle';
 
-      return {
+        return {
+          ...currentState,
+          activePhraseId: null,
+          playbackProgressByPhraseId: {
+            ...currentState.playbackProgressByPhraseId,
+            [currentPhraseId]: nextVisualState === 'completed' ? 100 : 0,
+          },
+          playbackStateByPhraseId: {
+            ...currentState.playbackStateByPhraseId,
+            [currentPhraseId]: nextVisualState,
+          },
+        };
+      });
+    } else {
+      setPlayerState((currentState) => ({
         ...currentState,
         activePhraseId: null,
-        playbackProgressByPhraseId: {
-          ...currentState.playbackProgressByPhraseId,
-          [currentPhraseId]: nextVisualState === 'completed' ? 100 : 0,
-        },
-        playbackStateByPhraseId: {
-          ...currentState.playbackStateByPhraseId,
-          [currentPhraseId]: nextVisualState,
-        },
-      };
-    });
+      }));
+    }
   }
 
   return {
@@ -442,8 +543,10 @@ export function usePlaybackService({ scopeKey, visiblePhrases, listMode, onManua
     playbackStateByPhraseId: playerState.playbackStateByPhraseId,
     playAllActive: queueState.isActive,
     playAllLabel: canContinuePlayAll ? 'Continue' : 'Play All',
+    queueCompletedCount: queueState.completedCount,
     queueCursorPhraseId,
-    queueStatusText,
+    queueProgress,
+    queueProgressLabel,
     stopPlayback,
   };
 }
