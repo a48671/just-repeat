@@ -19,5 +19,26 @@
     "description": "A reflection on collecting useful ideas from videos, books, conversations, and everyday life.",
     "phraseCount": 49,
     "file": "sets/learning_from_every_source.json"
+  },
+  {
+    "id": "compound_effect",
+    "title": "The Compound Effect",
+    "description": "A story about how small daily habits create a huge difference over time. Two men, two lifestyles, one powerful lesson.",
+    "phraseCount": 17,
+    "file": "sets/compound_effect.json"
+  },
+  {
+    "id": "most_people_wait_too_long_to_change",
+    "title": "Most People Wait Too Long to Change",
+    "description": "A powerful reflection on why we wait for pain to start improving. Don't wait for disaster — sharpen your sword while life is still calm.",
+    "phraseCount": 16,
+    "file": "sets/most_people_wait_too_long_to_change.json"
+  },
+  {
+    "id": "video_1",
+    "title": "How I Learn English",
+    "description": "A personal story about learning English over four years — different methods, challenges, and the importance of daily practice.",
+    "phraseCount": 45,
+    "file": "sets/video-1.json"
   }
 ]

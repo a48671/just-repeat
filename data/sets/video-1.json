@@ -1,0 +1,277 @@
+{
+  "id": "video_1",
+  "title": "How I Learn English",
+  "description": "A personal story about learning English over four years — different methods, challenges, and the importance of daily practice.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "Almost everyone has learned or tried to learn a foreign language.",
+      "ru": "Почти каждый учил или пытался учить иностранный язык.",
+      "audio": "audios/first-viedeo/audio-01.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "I approached learning English several times",
+      "ru": "Я подступался к изучению английского несколько раз",
+      "audio": "audios/first-viedeo/audio-02.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "but after several months without noticeable results, I gave up",
+      "ru": "но после нескольких месяцев без заметных результатов я бросал",
+      "audio": "audios/first-viedeo/audio-03.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "I did not have a goal that looked valuable to me.",
+      "ru": "У меня не было цели, которая казалась бы мне ценной.",
+      "audio": "audios/first-viedeo/audio-04.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "But four years ago, when I left my home country",
+      "ru": "Но четыре года назад, когда я уехал из своей страны",
+      "audio": "audios/first-viedeo/audio-05.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "I needed to find a job in an international company",
+      "ru": "мне нужно было найти работу в международной компании",
+      "audio": "audios/first-viedeo/audio-06.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "and English proficiency became a necessity for me",
+      "ru": "и владение английским стало для меня необходимостью",
+      "audio": "audios/first-viedeo/audio-07.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "So in this way, I have been learning English for four years.",
+      "ru": "Таким образом, я учу английский уже четыре года.",
+      "audio": "audios/first-viedeo/audio-08.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "I used several methods, from traditional lessons with a teacher to independent study through comprehensible input.",
+      "ru": "Я использовал разные методы — от традиционных уроков с преподавателем до самостоятельного изучения через понятный контент.",
+      "audio": "audios/first-viedeo/audio-09.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "I can't make a conclusion about which method was more effective",
+      "ru": "Я не могу сделать вывод о том, какой метод был эффективнее",
+      "audio": "audios/first-viedeo/audio-10.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "because every time I used a new approach, I had a different level of English proficiency.",
+      "ru": "потому что каждый раз, когда я использовал новый подход, у меня был другой уровень английского.",
+      "audio": "audios/first-viedeo/audio-11.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "But I definitely remember that traditional lessons with a teacher were the most boring way to learn",
+      "ru": "Но я точно помню, что традиционные уроки с преподавателем были самым скучным способом учиться",
+      "audio": "audios/first-viedeo/audio-12.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "I still cannot believe that I did it for a little more than one year.",
+      "ru": "Я до сих пор не могу поверить, что я занимался этим чуть больше года.",
+      "audio": "audios/first-viedeo/audio-13.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "When I gave up learning English through traditional lessons, I decided that I would continue to do something connected with English every day.",
+      "ru": "Когда я бросил учить английский через традиционные уроки, я решил, что буду продолжать делать что-то связанное с английским каждый день.",
+      "audio": "audios/first-viedeo/audio-14.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "The main idea was not to stop doing at least minimal activities that forced me to use English.",
+      "ru": "Главная идея была в том, чтобы не прекращать хотя бы минимальную активность, которая заставляла меня использовать английский.",
+      "audio": "audios/first-viedeo/audio-15.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "So I read books in English, and when it became boring, I gave it up and started listening to something.",
+      "ru": "Я читал книги на английском, а когда становилось скучно, бросал и начинал что-то слушать.",
+      "audio": "audios/first-viedeo/audio-16.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "When listening became boring, I tried to watch series in English.",
+      "ru": "Когда слушать становилось скучно, я пробовал смотреть сериалы на английском.",
+      "audio": "audios/first-viedeo/audio-17.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "And interestingly enough, I was even able to watch several series until the end without subtitles.",
+      "ru": "И, что интересно, я даже смог досмотреть несколько сериалов до конца без субтитров.",
+      "audio": "audios/first-viedeo/audio-18.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "From time to time, I was keen on watching lessons on YouTube, and some of them gave me good results",
+      "ru": "Время от времени я увлекался просмотром уроков на YouTube, и некоторые из них дали мне хорошие результаты",
+      "audio": "audios/first-viedeo/audio-19.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "I also tried to write a diary in English, and it was useful too.",
+      "ru": "Я также пробовал вести дневник на английском, и это тоже было полезно.",
+      "audio": "audios/first-viedeo/audio-20.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "So in this way, I constantly practice English.",
+      "ru": "Таким образом, я постоянно практикую английский.",
+      "audio": "audios/first-viedeo/audio-21.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "I can't say that I practice English intensively, but day by day, I improve my English little by little.",
+      "ru": "Не могу сказать, что я практикую английский интенсивно, но день за днём я улучшаю его понемногу.",
+      "audio": "audios/first-viedeo/audio-22.mp3"
+    },
+    {
+      "id": "p_023",
+      "text": "At the moment, I still feel uncomfortable when I use English for communication with human beings",
+      "ru": "На данный момент я всё ещё чувствую себя некомфортно, когда использую английский для общения с людьми",
+      "audio": "audios/first-viedeo/audio-23.mp3"
+    },
+    {
+      "id": "p_024",
+      "text": "but at the same time, I can communicate with the ChatGPT audio assistant at a pretty decent level.",
+      "ru": "но в то же время я могу общаться с голосовым ассистентом ChatGPT на вполне приличном уровне.",
+      "audio": "audios/first-viedeo/audio-24.mp3"
+    },
+    {
+      "id": "p_025",
+      "text": "I think there can be some psychological aspects, and I also try to work on this as much as I can.",
+      "ru": "Я думаю, тут есть психологические аспекты, и я тоже стараюсь работать над этим, насколько могу.",
+      "audio": "audios/first-viedeo/audio-25.mp3"
+    },
+    {
+      "id": "p_026",
+      "text": "Recently, I noticed one interesting pattern that may be just a coincidence.",
+      "ru": "Недавно я заметил одну интересную закономерность, которая может быть просто совпадением.",
+      "audio": "audios/first-viedeo/audio-26.mp3"
+    },
+    {
+      "id": "p_027",
+      "text": "People who tend to talk a lot in their native language, who like to speak and be listened to",
+      "ru": "Люди, которые склонны много говорить на родном языке, которые любят говорить и быть услышанными",
+      "audio": "audios/first-viedeo/audio-27.mp3"
+    },
+    {
+      "id": "p_028",
+      "text": "seem to overcome the language barrier more easily than people who do not like talking and prefer to listen.",
+      "ru": "похоже, преодолевают языковой барьер легче, чем люди, которые не любят говорить и предпочитают слушать.",
+      "audio": "audios/first-viedeo/audio-28.mp3"
+    },
+    {
+      "id": "p_029",
+      "text": "When I came up with this thought, I started observing myself",
+      "ru": "Когда эта мысль пришла мне в голову, я начал наблюдать за собой",
+      "audio": "audios/first-viedeo/audio-29.mp3"
+    },
+    {
+      "id": "p_030",
+      "text": "After some time, I came to the conclusion that I am also not good enough in my native language.",
+      "ru": "Через некоторое время я пришёл к выводу, что я тоже недостаточно хорош в своём родном языке.",
+      "audio": "audios/first-viedeo/audio-30.mp3"
+    },
+    {
+      "id": "p_031",
+      "text": "I noticed that I very often struggle to explain things that seem easy to explain while they are still in my head.",
+      "ru": "Я заметил, что мне часто трудно объяснить вещи, которые кажутся простыми, пока они ещё в голове.",
+      "audio": "audios/first-viedeo/audio-31.mp3"
+    },
+    {
+      "id": "p_032",
+      "text": "But when I start to explain them with my voice, I realize that I cannot find the appropriate words to express my thoughts.",
+      "ru": "Но когда я начинаю объяснять их голосом, я понимаю, что не могу подобрать подходящие слова для выражения своих мыслей.",
+      "audio": "audios/first-viedeo/audio-32.mp3"
+    },
+    {
+      "id": "p_033",
+      "text": "So now I have moved to another practice that seems interesting to me",
+      "ru": "Поэтому сейчас я перешёл к другой практике, которая кажется мне интересной",
+      "audio": "audios/first-viedeo/audio-33.mp3"
+    },
+    {
+      "id": "p_034",
+      "text": "and I hope it will be useful.",
+      "ru": "и я надеюсь, что она будет полезной.",
+      "audio": "audios/first-viedeo/audio-34.mp3"
+    },
+    {
+      "id": "p_035",
+      "text": "Every day, I write content about my experience. Then I ask AI to correct my text, so I can see how it can be done in a more natural way.",
+      "ru": "Каждый день я пишу контент о своём опыте. Затем прошу ИИ исправить мой текст, чтобы увидеть, как это можно сказать более естественно.",
+      "audio": "audios/first-viedeo/audio-35.mp3"
+    },
+    {
+      "id": "p_036",
+      "text": "Then I learn the text and record a video where I pronounce it.",
+      "ru": "Затем я учу текст и записываю видео, где его произношу.",
+      "audio": "audios/first-viedeo/audio-36.mp3"
+    },
+    {
+      "id": "p_037",
+      "text": "It turned out that this is a very useful activity, not only for practicing a foreign language.",
+      "ru": "Оказалось, что это очень полезная активность, не только для практики иностранного языка.",
+      "audio": "audios/first-viedeo/audio-37.mp3"
+    },
+    {
+      "id": "p_038",
+      "text": "While I am recording a video of myself speaking aloud, I try to do it better.",
+      "ru": "Пока я записываю видео, где говорю вслух, я стараюсь делать это лучше.",
+      "audio": "audios/first-viedeo/audio-38.mp3"
+    },
+    {
+      "id": "p_039",
+      "text": "Not only my pronunciation, but also how I look: my emotions, my movements, and so on.",
+      "ru": "Не только произношение, но и то, как я выгляжу: мои эмоции, мои движения и так далее.",
+      "audio": "audios/first-viedeo/audio-39.mp3"
+    },
+    {
+      "id": "p_040",
+      "text": "I will tell you about it in one of the next episodes.",
+      "ru": "Я расскажу вам об этом в одном из следующих выпусков.",
+      "audio": "audios/first-viedeo/audio-40.mp3"
+    },
+    {
+      "id": "p_041",
+      "text": "And for now, the main idea I wanted to share with you is that you can learn a foreign language in any way that suits you at the moment.",
+      "ru": "А пока главная мысль, которой я хотел поделиться — вы можете учить иностранный язык любым способом, который подходит вам в данный момент.",
+      "audio": "audios/first-viedeo/audio-41.mp3"
+    },
+    {
+      "id": "p_042",
+      "text": "If it becomes boring, change the method and continue your connection with the language in a way that is comfortable for you.",
+      "ru": "Если становится скучно, смените метод и продолжайте контакт с языком так, как вам комфортно.",
+      "audio": "audios/first-viedeo/audio-42.mp3"
+    },
+    {
+      "id": "p_043",
+      "text": "I am interested in how you approach learning your language",
+      "ru": "Мне интересно, как вы подходите к изучению своего языка",
+      "audio": "audios/first-viedeo/audio-43.mp3"
+    },
+    {
+      "id": "p_044",
+      "text": "how you keep going and do not give up",
+      "ru": "как вы продолжаете и не сдаётесь",
+      "audio": "audios/first-viedeo/audio-44.mp3"
+    },
+    {
+      "id": "p_045",
+      "text": "how you motivate yourself, and what methods are the best in your opinion.",
+      "ru": "как вы мотивируете себя и какие методы лучшие, по вашему мнению.",
+      "audio": "audios/first-viedeo/audio-45.mp3"
+    }
+  ]
+}
