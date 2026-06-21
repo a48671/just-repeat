@@ -1,0 +1,263 @@
+{
+  "id": "oop",
+  "title": "Introduction to OOP",
+  "description": "A short Q&A explaining basic Object-Oriented Programming concepts.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "What does OOP mean?",
+      "ru": "Что означает OOP?",
+      "es": "¿Qué significa OOP?",
+      "de": "Was bedeutet OOP?",
+      "audio": "audios/oop/question-00.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "It means Object-Oriented Programming.",
+      "ru": "Это означает объектно-ориентированное программирование.",
+      "es": "Significa programación orientada a objetos.",
+      "de": "Es bedeutet objektorientierte Programmierung.",
+      "audio": "audios/oop/answer-00.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "What is an object?",
+      "ru": "Что такое объект?",
+      "es": "¿Qué es un objeto?",
+      "de": "Was ist ein Objekt?",
+      "audio": "audios/oop/question-01.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "An object is a thing that has data and actions.",
+      "ru": "Объект — это сущность, у которой есть данные и действия.",
+      "es": "Un objeto es una entidad que tiene datos y acciones.",
+      "de": "Ein Objekt ist ein Ding, das Daten und Aktionen hat.",
+      "audio": "audios/oop/answer-01.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "And what is a class?",
+      "ru": "А что такое класс?",
+      "es": "¿Y qué es una clase?",
+      "de": "Und was ist eine Klasse?",
+      "audio": "audios/oop/question-02.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "A class is a template for making objects.",
+      "ru": "Класс — это шаблон для создания объектов.",
+      "es": "Una clase es una plantilla para crear objetos.",
+      "de": "Eine Klasse ist eine Vorlage zur Erstellung von Objekten.",
+      "audio": "audios/oop/answer-02.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "Can you give an example?",
+      "ru": "Можете привести пример?",
+      "es": "¿Puedes dar un ejemplo?",
+      "de": "Kannst du ein Beispiel geben?",
+      "audio": "audios/oop/question-03.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "A class \"Dog\" can make many dog objects.",
+      "ru": "Класс \"Dog\" может создавать множество объектов собак.",
+      "es": "La clase \"Dog\" puede crear muchos objetos perro.",
+      "de": "Die Klasse \"Dog\" kann viele Hunde-Objekte erzeugen.",
+      "audio": "audios/oop/answer-03.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "What is inside an object?",
+      "ru": "Что внутри объекта?",
+      "es": "¿Qué hay dentro de un objeto?",
+      "de": "Was ist in einem Objekt enthalten?",
+      "audio": "audios/oop/question-04.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "It has fields for data and methods for actions.",
+      "ru": "В нём есть поля для данных и методы для действий.",
+      "es": "Tiene campos para datos y métodos para acciones.",
+      "de": "Es hat Felder für Daten und Methoden für Aktionen.",
+      "audio": "audios/oop/answer-04.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "What is a method?",
+      "ru": "Что такое метод?",
+      "es": "¿Qué es un método?",
+      "de": "Was ist eine Methode?",
+      "audio": "audios/oop/question-05.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "A method is a function that belongs to an object.",
+      "ru": "Метод — это функция, принадлежащая объекту.",
+      "es": "Un método es una función que pertenece a un objeto.",
+      "de": "Eine Methode ist eine Funktion, die zu einem Objekt gehört.",
+      "audio": "audios/oop/answer-05.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "What are the main ideas of OOP?",
+      "ru": "Каковы основные идеи ООП?",
+      "es": "¿Cuáles son las ideas principales de OOP?",
+      "de": "Was sind die Hauptideen von OOP?",
+      "audio": "audios/oop/question-06.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "They are encapsulation, inheritance, polymorphism, and abstraction.",
+      "ru": "Это инкапсуляция, наследование, полиморфизм и абстракция.",
+      "es": "Son encapsulación, herencia, polimorfismo y abstracción.",
+      "de": "Das sind Kapselung, Vererbung, Polymorphie und Abstraktion.",
+      "audio": "audios/oop/answer-06.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "What is encapsulation?",
+      "ru": "Что такое инкапсуляция?",
+      "es": "¿Qué es la encapsulación?",
+      "de": "Was ist Kapselung?",
+      "audio": "audios/oop/question-07.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "It means we hide the data inside the object.",
+      "ru": "Это означает, что мы скрываем данные внутри объекта.",
+      "es": "Significa que ocultamos los datos dentro del objeto.",
+      "de": "Das bedeutet, dass wir die Daten im Objekt verbergen.",
+      "audio": "audios/oop/answer-07.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "Why do we hide the data?",
+      "ru": "Почему мы скрываем данные?",
+      "es": "¿Por qué ocultamos los datos?",
+      "de": "Warum verbergen wir die Daten?",
+      "audio": "audios/oop/question-08.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "To protect it and to control how we change it.",
+      "ru": "Чтобы защитить их и контролировать, как мы их изменяем.",
+      "es": "Para protegerlos y controlar cómo los cambiamos.",
+      "de": "Um sie zu schützen und zu kontrollieren, wie wir sie ändern.",
+      "audio": "audios/oop/answer-08.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "What is inheritance?",
+      "ru": "Что такое наследование?",
+      "es": "¿Qué es la herencia?",
+      "de": "Was ist Vererbung?",
+      "audio": "audios/oop/question-09.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "It lets one class take fields and methods from another class.",
+      "ru": "Оно позволяет одному классу взять поля и методы у другого класса.",
+      "es": "Permite que una clase tome campos y métodos de otra clase.",
+      "de": "Es erlaubt einer Klasse, Felder und Methoden von einer anderen Klasse zu übernehmen.",
+      "audio": "audios/oop/answer-09.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "Can you give an example?",
+      "ru": "Можете привести пример?",
+      "es": "¿Puedes dar un ejemplo?",
+      "de": "Kannst du ein Beispiel geben?",
+      "audio": "audios/oop/question-10.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "A class \"Cat\" can inherit from a class \"Animal\".",
+      "ru": "Класс \"Cat\" может наследоваться от класса \"Animal\".",
+      "es": "La clase \"Cat\" puede heredar de la clase \"Animal\".",
+      "de": "Die Klasse \"Cat\" kann von der Klasse \"Animal\" erben.",
+      "audio": "audios/oop/answer-10.mp3"
+    },
+    {
+      "id": "p_023",
+      "text": "What is polymorphism?",
+      "ru": "Что такое полиморфизм?",
+      "es": "¿Qué es el polimorfismo?",
+      "de": "Was ist Polymorphie?",
+      "audio": "audios/oop/question-11.mp3"
+    },
+    {
+      "id": "p_024",
+      "text": "It means one method can work in different ways.",
+      "ru": "Это значит, что один метод может работать по-разному.",
+      "es": "Significa que un método puede funcionar de diferentes maneras.",
+      "de": "Das bedeutet, dass eine Methode auf verschiedene Weise funktionieren kann.",
+      "audio": "audios/oop/answer-11.mp3"
+    },
+    {
+      "id": "p_025",
+      "text": "How is that useful?",
+      "ru": "Почему это полезно?",
+      "es": "¿En qué es útil esto?",
+      "de": "Wie ist das nützlich?",
+      "audio": "audios/oop/question-12.mp3"
+    },
+    {
+      "id": "p_026",
+      "text": "Different objects can answer the same call in their own way.",
+      "ru": "Разные объекты могут по‑разному отвечать на один и тот же вызов.",
+      "es": "Diferentes objetos pueden responder a la misma llamada a su manera.",
+      "de": "Verschiedene Objekte können denselben Aufruf auf ihre eigene Weise beantworten.",
+      "audio": "audios/oop/answer-12.mp3"
+    },
+    {
+      "id": "p_027",
+      "text": "What is abstraction?",
+      "ru": "Что такое абстракция?",
+      "es": "¿Qué es la abstracción?",
+      "de": "Was ist Abstraktion?",
+      "audio": "audios/oop/question-13.mp3"
+    },
+    {
+      "id": "p_028",
+      "text": "It means we show only the important things and hide the details.",
+      "ru": "Это означает, что мы показываем только важное и скрываем детали.",
+      "es": "Significa que mostramos solo lo importante y ocultamos los detalles.",
+      "de": "Das bedeutet, dass wir nur das Wichtige zeigen und die Details verbergen.",
+      "audio": "audios/oop/answer-13.mp3"
+    },
+    {
+      "id": "p_029",
+      "text": "Why is OOP useful?",
+      "ru": "Почему ООП полезно?",
+      "es": "¿Por qué OOP es útil?",
+      "de": "Warum ist OOP nützlich?",
+      "audio": "audios/oop/question-14.mp3"
+    },
+    {
+      "id": "p_030",
+      "text": "It makes code easier to read, reuse, and change.",
+      "ru": "Оно делает код проще для чтения, повторного использования и изменения.",
+      "es": "Hace que el código sea más fácil de leer, reutilizar y cambiar.",
+      "de": "Es macht den Code leichter lesbar, wiederverwendbar und änderbar.",
+      "audio": "audios/oop/answer-14.mp3"
+    },
+    {
+      "id": "p_031",
+      "text": "Good, thank you very much.",
+      "ru": "Хорошо, большое спасибо.",
+      "es": "Bien, muchas gracias.",
+      "de": "Gut, vielen Dank.",
+      "audio": "audios/oop/question-15.mp3"
+    },
+    {
+      "id": "p_032",
+      "text": "Thank you too.",
+      "ru": "И вам спасибо.",
+      "es": "Gracias a ti también.",
+      "de": "Danke ebenfalls.",
+      "audio": "audios/oop/answer-15.mp3"
+    }
+  ]
+}

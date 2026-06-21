@@ -1,0 +1,183 @@
+{
+  "id": "soft_skills_part_1",
+  "title": "Soft Skills Interview Part 1",
+  "description": "A practice set about introducing yourself and answering common interview questions.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "Could you tell me about yourself?",
+      "ru": "Не могли бы вы рассказать немного о себе?",
+      "es": "¿Podría hablarme un poco sobre usted?",
+      "de": "Könnten Sie mir etwas über sich erzählen?",
+      "audio": "audios/soft-skills/question-00.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "I am a software developer with experience in web applications.",
+      "ru": "Я software-разработчик с опытом работы над веб-приложениями.",
+      "es": "Soy desarrollador de software con experiencia en aplicaciones web.",
+      "de": "Ich bin Softwareentwickler mit Erfahrung in Webanwendungen.",
+      "audio": "audios/soft-skills/answer-00.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "What do you enjoy most about your work?",
+      "ru": "Что вам больше всего нравится в вашей работе?",
+      "es": "¿Qué es lo que más disfruta de su trabajo?",
+      "de": "Was gefällt Ihnen an Ihrer Arbeit am meisten?",
+      "audio": "audios/soft-skills/question-01.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "I enjoy solving problems and building useful products.",
+      "ru": "Мне нравится решать задачи и создавать полезные продукты.",
+      "es": "Me gusta resolver problemas y crear productos útiles.",
+      "de": "Mir gefällt es, Probleme zu lösen und nützliche Produkte zu bauen.",
+      "audio": "audios/soft-skills/answer-01.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "Why did you choose this profession?",
+      "ru": "Почему вы выбрали эту профессию?",
+      "es": "¿Por qué eligió esta profesión?",
+      "de": "Warum haben Sie diesen Beruf gewählt?",
+      "audio": "audios/soft-skills/question-02.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "I like technology and creating things.",
+      "ru": "Мне нравится технология и создание чего-то нового.",
+      "es": "Me gustan la tecnología y crear cosas.",
+      "de": "Mir gefällt Technologie und das Erstellen von Dingen.",
+      "audio": "audios/soft-skills/answer-02.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "What skills are important for your job?",
+      "ru": "Какие навыки важны для вашей работы?",
+      "es": "¿Qué habilidades son importantes para su trabajo?",
+      "de": "Welche Fähigkeiten sind für Ihren Job wichtig?",
+      "audio": "audios/soft-skills/question-03.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "Communication and problem-solving are very important.",
+      "ru": "Коммуникация и умение решать проблемы очень важны.",
+      "es": "La comunicación y la resolución de problemas son muy importantes.",
+      "de": "Kommunikation und Problemlösung sind sehr wichtig.",
+      "audio": "audios/soft-skills/answer-03.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "What kind of projects do you like?",
+      "ru": "Какие проекты вам нравятся?",
+      "es": "¿Qué tipo de proyectos le gustan?",
+      "de": "Welche Art von Projekten gefällt Ihnen?",
+      "audio": "audios/soft-skills/question-04.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "I like projects that have real users.",
+      "ru": "Мне нравятся проекты, у которых есть реальные пользователи.",
+      "es": "Me gustan los proyectos que tienen usuarios reales.",
+      "de": "Mir gefallen Projekte mit echten Nutzern.",
+      "audio": "audios/soft-skills/answer-04.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "What motivates you at work?",
+      "ru": "Что вас мотивирует на работе?",
+      "es": "¿Qué le motiva en el trabajo?",
+      "de": "Was motiviert Sie bei der Arbeit?",
+      "audio": "audios/soft-skills/question-05.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "Learning new things and achieving results motivate me.",
+      "ru": "Учиться новому и добиваться результатов меня мотивирует.",
+      "es": "Aprender cosas nuevas y lograr resultados me motiva.",
+      "de": "Neues zu lernen und Ergebnisse zu erzielen motiviert mich.",
+      "audio": "audios/soft-skills/answer-05.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "What is your biggest strength?",
+      "ru": "Какое у вас самое большое преимущество?",
+      "es": "¿Cuál es su mayor fortaleza?",
+      "de": "Was ist Ihre größte Stärke?",
+      "audio": "audios/soft-skills/question-06.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "I learn new technologies quickly.",
+      "ru": "Я быстро осваиваю новые технологии.",
+      "es": "Aprendo nuevas tecnologías rápidamente.",
+      "de": "Ich lerne neue Technologien schnell.",
+      "audio": "audios/soft-skills/answer-06.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "Can you give an example?",
+      "ru": "Можете привести пример?",
+      "es": "¿Puede dar un ejemplo?",
+      "de": "Können Sie ein Beispiel geben?",
+      "audio": "audios/soft-skills/question-07.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "I learned a new framework and used it in a project.",
+      "ru": "Я изучил новый фреймворк и применил его в проекте.",
+      "es": "Aprendí un nuevo framework y lo usé en un proyecto.",
+      "de": "Ich habe ein neues Framework gelernt und in einem Projekt eingesetzt.",
+      "audio": "audios/soft-skills/answer-07.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "What is your biggest weakness?",
+      "ru": "Какой у вас самый большой недостаток?",
+      "es": "¿Cuál es su mayor debilidad?",
+      "de": "Was ist Ihre größte Schwäche?",
+      "audio": "audios/soft-skills/question-08.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "Sometimes I spend too much time on details.",
+      "ru": "Иногда я трачу слишком много времени на детали.",
+      "es": "A veces gasto demasiado tiempo en los detalles.",
+      "de": "Manchmal verbringe ich zu viel Zeit mit Details.",
+      "audio": "audios/soft-skills/answer-08.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "How are you improving it?",
+      "ru": "Как вы это улучшаете?",
+      "es": "¿Cómo lo está mejorando?",
+      "de": "Wie verbessern Sie das?",
+      "audio": "audios/soft-skills/question-09.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "I focus more on priorities now.",
+      "ru": "Теперь я больше сосредотачиваюсь на приоритетах.",
+      "es": "Ahora me enfoco más en las prioridades.",
+      "de": "Jetzt konzentriere ich mich mehr auf Prioritäten.",
+      "audio": "audios/soft-skills/answer-09.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "Why should we hire you?",
+      "ru": "Почему мы должны нанять вас?",
+      "es": "¿Por qué debería contratarnos?",
+      "de": "Warum sollten wir Sie einstellen?",
+      "audio": "audios/soft-skills/question-10.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "I am reliable, motivated, and ready to contribute.",
+      "ru": "Я надёжен, мотивирован и готов внести свой вклад.",
+      "es": "Soy confiable, motivado y listo para contribuir.",
+      "de": "Ich bin zuverlässig, motiviert und bereit, einen Beitrag zu leisten.",
+      "audio": "audios/soft-skills/answer-10.mp3"
+    }
+  ]
+}

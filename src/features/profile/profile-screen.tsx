@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ArrowLeft } from 'lucide-react';
 import type { UserProfile } from '../../domain/user-profile';
 import { loadUserProfile, removeUserProfile, saveUserProfile } from '../../infrastructure/persistence/local-user-profile-storage';
 import { Button } from '../../shared/ui/button';
@@ -67,8 +68,8 @@ function LoggedInView({ profile, onBack, onLogOut }: { profile: UserProfile; onB
 
       <div className="profile-bottom-panel">
         <div className="profile-bottom-panel-actions">
-          <Button className="profile-bottom-button profile-bottom-button-secondary" onClick={onBack}>
-            <span>Back</span>
+          <Button aria-label="Back" className="profile-bottom-button-back" onClick={onBack} variant="secondary">
+            <ArrowLeft aria-hidden="true" size={18} strokeWidth={2} />
           </Button>
           <Button className="profile-bottom-button profile-bottom-button-primary" onClick={() => {}}>
             <span>Edit Profile</span>
@@ -109,14 +110,14 @@ function LoggedOutView({ onBack, onSignIn }: { onBack: () => void; onSignIn: () 
 
       <div className="profile-bottom-panel">
         <div className="profile-bottom-panel-actions">
+          <Button aria-label="Back" className="profile-bottom-button-back" onClick={onBack} variant="secondary">
+            <ArrowLeft aria-hidden="true" size={18} strokeWidth={2} />
+          </Button>
           <Button className="profile-bottom-button profile-bottom-button-primary" onClick={onSignIn}>
             <span>Sign In</span>
           </Button>
           <Button className="profile-bottom-button profile-bottom-button-outlined" onClick={onSignIn}>
-            <span>Create Account</span>
-          </Button>
-          <Button className="profile-bottom-button profile-bottom-button-secondary" onClick={onBack}>
-            <span>Back</span>
+            <span>Sign Up</span>
           </Button>
         </div>
       </div>
@@ -192,8 +193,8 @@ function SignInForm({ onBack, onSignIn }: { onBack: () => void; onSignIn: (profi
 
       <div className="profile-bottom-panel">
         <div className="profile-bottom-panel-actions">
-          <Button className="profile-bottom-button profile-bottom-button-secondary" onClick={onBack} type="button">
-            <span>Back</span>
+          <Button aria-label="Back" className="profile-bottom-button-back" onClick={onBack} type="button" variant="secondary">
+            <ArrowLeft aria-hidden="true" size={18} strokeWidth={2} />
           </Button>
           <Button className="profile-bottom-button profile-bottom-button-primary" disabled={!isValid} onClick={handleSubmit} type="button">
             <span>Sign In</span>

@@ -115,6 +115,7 @@ button {
 
 .home-screen-cta:not(:disabled):hover {
   background: #eff6ff;
+  color: #333;
 }
 
 .screen-content {
@@ -591,10 +592,20 @@ button {
 }
 
 .profile-bottom-panel-actions {
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: minmax(0, 1fr);
+  display: flex;
+  align-items: center;
   gap: 0.75rem;
+}
+
+.profile-bottom-button-back {
+  flex: 0 0 auto;
+  width: 2.75rem;
+  min-width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  background: #e2e8f0;
+  color: #334155;
+  border-color: transparent;
 }
 
 .profile-bottom-button {
@@ -602,8 +613,8 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  width: 100%;
-  min-height: 3rem;
+  flex: 1;
+  min-height: 2.75rem;
   border-radius: 0.75rem;
   font-size: 0.875rem;
   font-weight: 500;

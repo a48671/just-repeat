@@ -7,38 +7,66 @@
     "file": "sets/the_universal_self_introduction_script.json"
   },
   {
+    "id": "oop",
+    "title": "Introduction to OOP",
+    "description": "Short Q&A explaining basic Object-Oriented Programming concepts (objects, classes, methods, and principles).",
+    "phraseCount": 32,
+    "file": "sets/oop.json"
+  },
+  {
+    "id": "functional_programming",
+    "title": "Functional Programming Basics",
+    "description": "A short Q&A introduction to core Functional Programming concepts.",
+    "phraseCount": 36,
+    "file": "sets/functional_programming.json"
+  },
+  {
+    "id": "memory_management",
+    "title": "Memory Management Basics",
+    "description": "A short Q&A about how programs use, manage, and free memory.",
+    "phraseCount": 34,
+    "file": "sets/memory_management.json"
+  },
+  {
+    "id": "typing",
+    "title": "Typing Basics",
+    "description": "A short Q&A about static, dynamic, strong, and weak typing.",
+    "phraseCount": 38,
+    "file": "sets/typing.json"
+  },
+  {
+    "id": "arguments",
+    "title": "Arguments Basics",
+    "description": "A short Q&A about passing values and references in programming.",
+    "phraseCount": 32,
+    "file": "sets/arguments.json"
+  },
+  {
+    "id": "error",
+    "title": "Error Handling Basics",
+    "description": "A short Q&A about errors, exceptions, and how to handle them.",
+    "phraseCount": 36,
+    "file": "sets/error.json"
+  },
+  {
+    "id": "soft_skills_part_1",
+    "title": "Soft Skills Interview Part 1",
+    "description": "A practice set about introducing yourself and answering common interview questions.",
+    "phraseCount": 22,
+    "file": "sets/soft_skills_part_1.json"
+  },
+  {
+    "id": "soft_skills_part_2",
+    "title": "Soft Skills Interview Part 2",
+    "description": "A practice set about teamwork, conflict handling, deadlines, feedback, and asking good questions in interviews.",
+    "phraseCount": 22,
+    "file": "sets/soft_skills_part_2.json"
+  },
+  {
     "id": "productivity_finally_made_sense",
     "title": "Productivity Finally Made Sense",
     "description": "I stopped forcing myself and built a system that actually works.",
     "phraseCount": 34,
     "file": "sets/productivity_finally_made_sense.json"
-  },
-  {
-    "id": "learning_from_every_source",
-    "title": "Learning From Every Source",
-    "description": "A reflection on collecting useful ideas from videos, books, conversations, and everyday life.",
-    "phraseCount": 49,
-    "file": "sets/learning_from_every_source.json"
-  },
-  {
-    "id": "compound_effect",
-    "title": "The Compound Effect",
-    "description": "A story about how small daily habits create a huge difference over time. Two men, two lifestyles, one powerful lesson.",
-    "phraseCount": 17,
-    "file": "sets/compound_effect.json"
-  },
-  {
-    "id": "most_people_wait_too_long_to_change",
-    "title": "Most People Wait Too Long to Change",
-    "description": "A powerful reflection on why we wait for pain to start improving. Don't wait for disaster — sharpen your sword while life is still calm.",
-    "phraseCount": 16,
-    "file": "sets/most_people_wait_too_long_to_change.json"
-  },
-  {
-    "id": "video_1",
-    "title": "How I Learn English",
-    "description": "A personal story about learning English over four years — different methods, challenges, and the importance of daily practice.",
-    "phraseCount": 45,
-    "file": "sets/video-1.json"
   }
 ]

@@ -1,0 +1,295 @@
+{
+  "id": "functional_programming",
+  "title": "Functional Programming Basics",
+  "description": "A short Q&A introduction to core Functional Programming concepts.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "What does FP mean?",
+      "audio": "audios/fp/question-00.mp3",
+      "ru": "Что означает FP?",
+      "es": "¿Qué significa FP?",
+      "de": "Was bedeutet FP?"
+    },
+    {
+      "id": "p_002",
+      "text": "It means Functional Programming.",
+      "audio": "audios/fp/answer-00.mp3",
+      "ru": "Это означает функциональное программирование.",
+      "es": "Significa programación funcional.",
+      "de": "Es bedeutet funktionale Programmierung."
+    },
+    {
+      "id": "p_003",
+      "text": "What is the main idea?",
+      "audio": "audios/fp/question-01.mp3",
+      "ru": "В чем основная идея?",
+      "es": "¿Cuál es la idea principal?",
+      "de": "Was ist die Hauptidee?"
+    },
+    {
+      "id": "p_004",
+      "text": "We build programs using functions.",
+      "audio": "audios/fp/answer-01.mp3",
+      "ru": "Мы строим программы, используя функции.",
+      "es": "Construimos programas usando funciones.",
+      "de": "Wir bauen Programme unter Verwendung von Funktionen."
+    },
+    {
+      "id": "p_005",
+      "text": "What is a function?",
+      "audio": "audios/fp/question-02.mp3",
+      "ru": "Что такое функция?",
+      "es": "¿Qué es una función?",
+      "de": "Was ist eine Funktion?"
+    },
+    {
+      "id": "p_006",
+      "text": "A function takes some input and returns an output.",
+      "audio": "audios/fp/answer-02.mp3",
+      "ru": "Функция принимает входные данные и возвращает результат.",
+      "es": "Una función toma una entrada y devuelve una salida.",
+      "de": "Eine Funktion nimmt eine Eingabe und gibt eine Ausgabe zurück."
+    },
+    {
+      "id": "p_007",
+      "text": "What is a pure function?",
+      "audio": "audios/fp/question-03.mp3",
+      "ru": "Что такое чистая функция?",
+      "es": "¿Qué es una función pura?",
+      "de": "Was ist eine reine Funktion?"
+    },
+    {
+      "id": "p_008",
+      "text": "It always returns the same output for the same input.",
+      "audio": "audios/fp/answer-03.mp3",
+      "ru": "Она всегда возвращает один и тот же результат для одного и того же входа.",
+      "es": "Siempre devuelve la misma salida para la misma entrada.",
+      "de": "Sie gibt immer die gleiche Ausgabe für dieselbe Eingabe zurück."
+    },
+    {
+      "id": "p_009",
+      "text": "Does a pure function change other things?",
+      "audio": "audios/fp/question-04.mp3",
+      "ru": "Изменяет ли чистая функция что-то ещё?",
+      "es": "¿Una función pura cambia otras cosas?",
+      "de": "Ändert eine reine Funktion andere Dinge?"
+    },
+    {
+      "id": "p_010",
+      "text": "No, it does not change anything outside.",
+      "audio": "audios/fp/answer-04.mp3",
+      "ru": "Нет, она ничего внешнего не изменяет.",
+      "es": "No, no cambia nada fuera.",
+      "de": "Nein, sie ändert nichts außerhalb."
+    },
+    {
+      "id": "p_011",
+      "text": "What do we call those outside changes?",
+      "audio": "audios/fp/question-05.mp3",
+      "ru": "Как мы называем эти внешние изменения?",
+      "es": "¿Cómo llamamos a esos cambios externos?",
+      "de": "Wie nennen wir diese äußeren Änderungen?"
+    },
+    {
+      "id": "p_012",
+      "text": "We call them side effects.",
+      "audio": "audios/fp/answer-05.mp3",
+      "ru": "Мы называем их побочными эффектами.",
+      "es": "Los llamamos efectos secundarios.",
+      "de": "Wir nennen sie Seiteneffekte."
+    },
+    {
+      "id": "p_013",
+      "text": "Can you give an example of a side effect?",
+      "audio": "audios/fp/question-06.mp3",
+      "ru": "Можете привести пример побочного эффекта?",
+      "es": "¿Puedes dar un ejemplo de un efecto secundario?",
+      "de": "Kannst du ein Beispiel für einen Seiteneffekt geben?"
+    },
+    {
+      "id": "p_014",
+      "text": "Writing to a file or changing a global variable.",
+      "audio": "audios/fp/answer-06.mp3",
+      "ru": "Запись в файл или изменение глобальной переменной.",
+      "es": "Escribir en un archivo o cambiar una variable global.",
+      "de": "In eine Datei schreiben oder eine globale Variable ändern."
+    },
+    {
+      "id": "p_015",
+      "text": "Why are pure functions good?",
+      "audio": "audios/fp/question-07.mp3",
+      "ru": "Почему чистые функции хороши?",
+      "es": "¿Por qué son buenas las funciones puras?",
+      "de": "Warum sind reine Funktionen gut?"
+    },
+    {
+      "id": "p_016",
+      "text": "They are easy to test and to understand.",
+      "audio": "audios/fp/answer-07.mp3",
+      "ru": "Их легко тестировать и понимать.",
+      "es": "Son fáciles de probar y de entender.",
+      "de": "Sie sind leicht zu testen und zu verstehen."
+    },
+    {
+      "id": "p_017",
+      "text": "What is immutability?",
+      "audio": "audios/fp/question-08.mp3",
+      "ru": "Что такое неизменяемость?",
+      "es": "¿Qué es la inmutabilidad?",
+      "de": "Was ist Unveränderlichkeit?"
+    },
+    {
+      "id": "p_018",
+      "text": "It means we do not change the data after we make it.",
+      "audio": "audios/fp/answer-08.mp3",
+      "ru": "Это значит, что мы не изменяем данные после того, как создали их.",
+      "es": "Significa que no cambiamos los datos después de crearlos.",
+      "de": "Das bedeutet, dass wir die Daten nach ihrer Erstellung nicht ändern."
+    },
+    {
+      "id": "p_019",
+      "text": "What do we do instead of changing data?",
+      "audio": "audios/fp/question-09.mp3",
+      "ru": "Что мы делаем вместо изменения данных?",
+      "es": "¿Qué hacemos en lugar de cambiar los datos?",
+      "de": "Was machen wir statt die Daten zu ändern?"
+    },
+    {
+      "id": "p_020",
+      "text": "We make a new copy with the new values.",
+      "audio": "audios/fp/answer-09.mp3",
+      "ru": "Мы создаём новую копию с новыми значениями.",
+      "es": "Hacemos una nueva copia con los nuevos valores.",
+      "de": "Wir erstellen eine neue Kopie mit den neuen Werten."
+    },
+    {
+      "id": "p_021",
+      "text": "Why is immutability useful?",
+      "audio": "audios/fp/question-10.mp3",
+      "ru": "Почему неизменяемость полезна?",
+      "es": "¿Por qué es útil la inmutabilidad?",
+      "de": "Warum ist Unveränderlichkeit nützlich?"
+    },
+    {
+      "id": "p_022",
+      "text": "It helps to avoid bugs and surprises.",
+      "audio": "audios/fp/answer-10.mp3",
+      "ru": "Это помогает избегать ошибок и неожиданных эффектов.",
+      "es": "Ayuda a evitar errores y sorpresas.",
+      "de": "Es hilft, Fehler und Überraschungen zu vermeiden."
+    },
+    {
+      "id": "p_023",
+      "text": "What is a higher-order function?",
+      "audio": "audios/fp/question-11.mp3",
+      "ru": "Что такое функция высшего порядка?",
+      "es": "¿Qué es una función de orden superior?",
+      "de": "Was ist eine Higher-Order-Funktion?"
+    },
+    {
+      "id": "p_024",
+      "text": "It is a function that takes or returns another function.",
+      "audio": "audios/fp/answer-11.mp3",
+      "ru": "Это функция, которая принимает другую функцию или возвращает её.",
+      "es": "Es una función que toma otra función o devuelve otra función.",
+      "de": "Es ist eine Funktion, die eine andere Funktion übernimmt oder zurückgibt."
+    },
+    {
+      "id": "p_025",
+      "text": "Can you give an example?",
+      "audio": "audios/fp/question-12.mp3",
+      "ru": "Можете привести пример?",
+      "es": "¿Puedes dar un ejemplo?",
+      "de": "Kannst du ein Beispiel geben?"
+    },
+    {
+      "id": "p_026",
+      "text": "\"map\" takes a function and uses it on every item in a list.",
+      "audio": "audios/fp/answer-12.mp3",
+      "ru": "«map» принимает функцию и применяет её ко всем элементам списка.",
+      "es": "«map» toma una función y la usa en cada elemento de una lista.",
+      "de": "„map“ nimmt eine Funktion und wendet sie auf jedes Element einer Liste an."
+    },
+    {
+      "id": "p_027",
+      "text": "Do you know other examples like map?",
+      "audio": "audios/fp/question-13.mp3",
+      "ru": "Знаете ли вы другие примеры, похожие на map?",
+      "es": "¿Conoces otros ejemplos como map?",
+      "de": "Kennst du noch andere Beispiele wie map?"
+    },
+    {
+      "id": "p_028",
+      "text": "Yes, \"filter\" and \"reduce\".",
+      "audio": "audios/fp/answer-13.mp3",
+      "ru": "Да, «filter» и «reduce».",
+      "es": "Sí, «filter» y «reduce».",
+      "de": "Ja, „filter“ und „reduce“. "
+    },
+    {
+      "id": "p_029",
+      "text": "What does filter do?",
+      "audio": "audios/fp/question-14.mp3",
+      "ru": "Что делает filter?",
+      "es": "¿Qué hace filter?",
+      "de": "Was macht filter?"
+    },
+    {
+      "id": "p_030",
+      "text": "It keeps only the items that pass a test.",
+      "audio": "audios/fp/answer-14.mp3",
+      "ru": "Она оставляет только те элементы, которые проходят проверку.",
+      "es": "Mantiene solo los elementos que pasan una prueba.",
+      "de": "Es behält nur die Elemente, die einen Test bestehen."
+    },
+    {
+      "id": "p_031",
+      "text": "How is FP different from OOP?",
+      "audio": "audios/fp/question-15.mp3",
+      "ru": "Чем FP отличается от ООП?",
+      "es": "¿En qué se diferencia FP de OOP?",
+      "de": "Wodurch unterscheidet sich FP von OOP?"
+    },
+    {
+      "id": "p_032",
+      "text": "FP uses functions and data, OOP uses objects with data and methods.",
+      "audio": "audios/fp/answer-15.mp3",
+      "ru": "FP использует функции и данные, ООП использует объекты с данными и методами.",
+      "es": "FP usa funciones y datos, OOP usa objetos con datos y métodos.",
+      "de": "FP verwendet Funktionen und Daten, OOP verwendet Objekte mit Daten und Methoden."
+    },
+    {
+      "id": "p_033",
+      "text": "Why do people like FP?",
+      "audio": "audios/fp/question-16.mp3",
+      "ru": "Почему людям нравится FP?",
+      "es": "¿Por qué a la gente le gusta FP?",
+      "de": "Warum mögen die Leute FP?"
+    },
+    {
+      "id": "p_034",
+      "text": "The code is clean, safe, and easy to test.",
+      "audio": "audios/fp/answer-16.mp3",
+      "ru": "Код чистый, безопасный и легко тестируемый.",
+      "es": "El código es limpio, seguro y fácil de probar.",
+      "de": "Der Code ist sauber, sicher und leicht zu testen."
+    },
+    {
+      "id": "p_035",
+      "text": "Good, thank you very much.",
+      "audio": "audios/fp/question-17.mp3",
+      "ru": "Хорошо, большое спасибо.",
+      "es": "Bien, muchas gracias.",
+      "de": "Gut, vielen Dank."
+    },
+    {
+      "id": "p_036",
+      "text": "Thank you too.",
+      "audio": "audios/fp/answer-17.mp3",
+      "ru": "И вам спасибо.",
+      "es": "Gracias a ti también.",
+      "de": "Danke ebenfalls."
+    }
+  ]
+}

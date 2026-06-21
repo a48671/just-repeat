@@ -1,0 +1,109 @@
+{
+  "id": "compound_effect",
+  "title": "The Compound Effect",
+  "description": "A story about how small daily habits create a huge difference over time. Two men, two lifestyles, one powerful lesson.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "Do you know what the compound effect is?",
+      "ru": "Вы знаете, что такое эффект сложного процента?",
+      "audio": "audios/compound_effect/001.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "Imagine two men. They start almost the same.",
+      "ru": "Представьте двух мужчин. Они начинают почти одинаково.",
+      "audio": "audios/compound_effect/002.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "The first man does a short morning workout every day.",
+      "ru": "Первый мужчина делает короткую утреннюю зарядку каждый день.",
+      "audio": "audios/compound_effect/003.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "And he goes to the gym three times a week.",
+      "ru": "И он ходит в спортзал три раза в неделю.",
+      "audio": "audios/compound_effect/004.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "The second man wakes up and drinks coffee with a sweet donut.",
+      "ru": "Второй мужчина просыпается и пьёт кофе со сладким пончиком.",
+      "audio": "audios/compound_effect/005.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "And once a week he meets his friends and drinks a few beers.",
+      "ru": "И раз в неделю он встречается с друзьями и выпивает пару бокалов пива.",
+      "audio": "audios/compound_effect/006.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "After one month, there is almost no difference.",
+      "ru": "Через месяц разницы почти нет.",
+      "audio": "audios/compound_effect/007.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "They look pretty similar. But after one year, you can see it.",
+      "ru": "Они выглядят примерно одинаково. Но через год это уже заметно.",
+      "audio": "audios/compound_effect/008.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "The first man has abs and more energy.",
+      "ru": "У первого мужчины пресс и больше энергии.",
+      "audio": "audios/compound_effect/009.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "The second man has extra fat and gets tired faster.",
+      "ru": "У второго мужчины лишний жир, и он устаёт быстрее.",
+      "audio": "audios/compound_effect/010.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "After three years, the first man still trains.",
+      "ru": "Через три года первый мужчина всё ещё тренируется.",
+      "audio": "audios/compound_effect/011.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "He plays football with his son.",
+      "ru": "Он играет в футбол с сыном.",
+      "audio": "audios/compound_effect/012.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "And he does pull-ups with him on the bar.",
+      "ru": "И подтягивается вместе с ним на турнике.",
+      "audio": "audios/compound_effect/013.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "The second man just sits on a bench. And he is surprised.",
+      "ru": "Второй мужчина просто сидит на скамейке. И он удивлён.",
+      "audio": "audios/compound_effect/014.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "\"How can my friend have so much energy at this age?\"",
+      "ru": "«Как мой друг может иметь столько энергии в этом возрасте?»",
+      "audio": "audios/compound_effect/015.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "That is the compound effect.",
+      "ru": "Это и есть эффект сложного процента.",
+      "audio": "audios/compound_effect/016.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "Small actions, repeated many times, change your life.",
+      "ru": "Маленькие действия, повторённые много раз, меняют вашу жизнь.",
+      "audio": "audios/compound_effect/017.mp3"
+    }
+  ]
+}

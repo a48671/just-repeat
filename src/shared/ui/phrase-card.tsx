@@ -67,9 +67,6 @@ export function PhraseCard({
         </div>
 
         <div className="phrase-card-actions-rail">
-          <Button aria-label={playButtonAriaLabel} className={playButtonClassName} disabled={playDisabled || state === 'loading'} onClick={onPlay} variant="icon">
-            <PlayIcon aria-hidden="true" className="phrase-card-action-icon" size={16} strokeWidth={2} />
-          </Button>
           <Button
             aria-label={favorite ? 'Remove phrase from favorites' : 'Add phrase to favorites'}
             aria-pressed={favorite}
@@ -80,10 +77,13 @@ export function PhraseCard({
           >
             <Star aria-hidden="true" className="phrase-card-action-icon phrase-card-action-icon-star" size={16} strokeWidth={2} />
           </Button>
+          <Button aria-label={playButtonAriaLabel} className={playButtonClassName} disabled={playDisabled || state === 'loading'} onClick={onPlay} variant="icon">
+            <PlayIcon aria-hidden="true" className="phrase-card-action-icon" size={16} strokeWidth={2} />
+          </Button>
         </div>
       </div>
 
-      {typeof playbackProgress === 'number' ? <ProgressBar label={`Phrase playback progress for ${text}`} tone="success" value={playbackProgress} /> : null}
+      <ProgressBar label={`Phrase playback progress for ${text}`} tone="success" value={playbackProgress ?? 0} />
     </article>
   );
 }

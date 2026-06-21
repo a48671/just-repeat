@@ -1,0 +1,183 @@
+{
+  "id": "soft_skills_part_2",
+  "title": "Soft Skills Interview Part 2",
+  "description": "A practice set about teamwork, conflict handling, deadlines, feedback, and asking good questions in interviews.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "How do you work in a team?",
+      "ru": "Как вы работаете в команде?",
+      "es": "¿Cómo trabaja en equipo?",
+      "de": "Wie arbeiten Sie im Team?",
+      "audio": "audios/soft-skills-2/question-00.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "I communicate openly and support my teammates.",
+      "ru": "Я открыт в общении и поддерживаю своих коллег.",
+      "es": "Me comunico abiertamente y apoyo a mis compañeros.",
+      "de": "Ich kommuniziere offen und unterstütze meine Teamkollegen.",
+      "audio": "audios/soft-skills-2/answer-00.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "What do you do when you disagree with someone?",
+      "ru": "Что вы делаете, когда не согласны с кем-то?",
+      "es": "¿Qué hace cuando no está de acuerdo con alguien?",
+      "de": "Was tun Sie, wenn Sie mit jemandem nicht einverstanden sind?",
+      "audio": "audios/soft-skills-2/question-01.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "I try to understand their point of view first.",
+      "ru": "Сначала я стараюсь понять их точку зрения.",
+      "es": "Primero trato de entender su punto de vista.",
+      "de": "Zuerst versuche ich, ihren Standpunkt zu verstehen.",
+      "audio": "audios/soft-skills-2/answer-01.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "Can you give an example?",
+      "ru": "Можете привести пример?",
+      "es": "¿Puede dar un ejemplo?",
+      "de": "Können Sie ein Beispiel geben?",
+      "audio": "audios/soft-skills-2/question-02.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "We discussed different ideas and found a solution together.",
+      "ru": "Мы обсудили разные идеи и вместе нашли решение.",
+      "es": "Discutimos ideas diferentes y encontramos una solución juntos.",
+      "de": "Wir haben verschiedene Ideen besprochen und gemeinsam eine Lösung gefunden.",
+      "audio": "audios/soft-skills-2/answer-02.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "How do you handle deadlines?",
+      "ru": "Как вы справляетесь с дедлайнами?",
+      "es": "¿Cómo maneja las fechas límite?",
+      "de": "Wie gehen Sie mit Fristen um?",
+      "audio": "audios/soft-skills-2/question-03.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "I organize my work and focus on important tasks.",
+      "ru": "Я организую свою работу и сосредотачиваюсь на важных задачах.",
+      "es": "Organizo mi trabajo y me centro en las tareas importantes.",
+      "de": "Ich organisiere meine Arbeit und konzentriere mich auf wichtige Aufgaben.",
+      "audio": "audios/soft-skills-2/answer-03.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "What do you do under pressure?",
+      "ru": "Что вы делаете в условиях стресса?",
+      "es": "¿Qué hace bajo presión?",
+      "de": "Was tun Sie unter Druck?",
+      "audio": "audios/soft-skills-2/question-04.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "I stay calm and work step by step.",
+      "ru": "Я сохраняю спокойствие и работаю шаг за шагом.",
+      "es": "Mantengo la calma y trabajo paso a paso.",
+      "de": "Ich bleibe ruhig und arbeite Schritt für Schritt.",
+      "audio": "audios/soft-skills-2/answer-04.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "Have you ever made a mistake at work?",
+      "ru": "Вы когда-нибудь ошибались на работе?",
+      "es": "¿Ha cometido algún error en el trabajo?",
+      "de": "Haben Sie jemals bei der Arbeit einen Fehler gemacht?",
+      "audio": "audios/soft-skills-2/question-05.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "Yes, and I learned valuable lessons from it.",
+      "ru": "Да, и из этого я извлёк ценные уроки.",
+      "es": "Sí, y aprendí lecciones valiosas de ello.",
+      "de": "Ja, und ich habe daraus wertvolle Lektionen gelernt.",
+      "audio": "audios/soft-skills-2/answer-05.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "What happened?",
+      "ru": "Что произошло?",
+      "es": "¿Qué pasó?",
+      "de": "Was ist passiert?",
+      "audio": "audios/soft-skills-2/question-06.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "I missed an important detail during development.",
+      "ru": "Я пропустил важную деталь во время разработки.",
+      "es": "Pasé por alto un detalle importante durante el desarrollo.",
+      "de": "Ich habe während der Entwicklung ein wichtiges Detail übersehen.",
+      "audio": "audios/soft-skills-2/answer-06.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "How did you fix it?",
+      "ru": "Как вы это исправили?",
+      "es": "¿Cómo lo corrigió?",
+      "de": "Wie haben Sie es behoben?",
+      "audio": "audios/soft-skills-2/question-07.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "I corrected the issue and improved my process.",
+      "ru": "Я исправил проблему и улучшил свой процесс.",
+      "es": "Corregí el problema y mejoré mi proceso.",
+      "de": "Ich habe das Problem behoben und meinen Prozess verbessert.",
+      "audio": "audios/soft-skills-2/answer-07.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "How do you react to feedback?",
+      "ru": "Как вы реагируете на обратную связь?",
+      "es": "¿Cómo reacciona ante la retroalimentación?",
+      "de": "Wie reagieren Sie auf Feedback?",
+      "audio": "audios/soft-skills-2/question-08.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "I see feedback as an opportunity to improve.",
+      "ru": "Я воспринимаю обратную связь как возможность стать лучше.",
+      "es": "Veo la retroalimentación como una oportunidad para mejorar.",
+      "de": "Ich betrachte Feedback als Chance, mich zu verbessern.",
+      "audio": "audios/soft-skills-2/answer-08.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "What kind of manager do you prefer?",
+      "ru": "Какого менеджера вы предпочитаете?",
+      "es": "¿Qué tipo de gerente prefiere?",
+      "de": "Welche Art von Manager bevorzugen Sie?",
+      "audio": "audios/soft-skills-2/question-09.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "I prefer a manager who gives clear goals and support.",
+      "ru": "Я предпочитаю менеджера, который ставит ясные цели и оказывает поддержку.",
+      "es": "Prefiero un gerente que ofrezca metas claras y apoyo.",
+      "de": "Ich bevorzuge einen Manager, der klare Ziele und Unterstützung bietet.",
+      "audio": "audios/soft-skills-2/answer-09.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "Do you have any questions for us?",
+      "ru": "У вас есть вопросы к нам?",
+      "es": "¿Tiene alguna pregunta para nosotros?",
+      "de": "Haben Sie Fragen für uns?",
+      "audio": "audios/soft-skills-2/question-10.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "Yes, what are the biggest challenges for this team right now?",
+      "ru": "Да, какие сейчас главные вызовы для этой команды?",
+      "es": "Sí, ¿cuáles son los mayores desafíos para este equipo ahora mismo?",
+      "de": "Ja, welche größten Herausforderungen hat dieses Team gerade?",
+      "audio": "audios/soft-skills-2/answer-10.mp3"
+    }
+  ]
+}

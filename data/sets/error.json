@@ -1,0 +1,295 @@
+{
+  "id": "error",
+  "title": "Error Handling Basics",
+  "description": "A short Q&A about errors, exceptions, and how to handle them.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "What is an error in a program?",
+      "ru": "Что такое ошибка в программе?",
+      "es": "¿Qué es un error en un programa?",
+      "de": "Was ist ein Fehler in einem Programm?",
+      "audio": "audios/error/question-00.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "It is a problem that stops the code from working correctly.",
+      "ru": "Это проблема, из-за которой код перестает работать правильно.",
+      "es": "Es un problema que impide que el código funcione correctamente.",
+      "de": "Es ist ein Problem, das den Code daran hindert, korrekt zu funktionieren.",
+      "audio": "audios/error/answer-00.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "What is an exception?",
+      "ru": "Что такое исключение?",
+      "es": "¿Qué es una excepción?",
+      "de": "Was ist eine Exception?",
+      "audio": "audios/error/question-01.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "It is a special error that happens while the program runs.",
+      "ru": "Это специальная ошибка, которая возникает во время выполнения программы.",
+      "es": "Es un error especial que ocurre mientras el programa se ejecuta.",
+      "de": "Es ist ein spezieller Fehler, der während der Laufzeit des Programms auftritt.",
+      "audio": "audios/error/answer-01.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "Can you give an example?",
+      "ru": "Можете привести пример?",
+      "es": "¿Puedes dar un ejemplo?",
+      "de": "Kannst du ein Beispiel geben?",
+      "audio": "audios/error/question-02.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "Dividing a number by zero.",
+      "ru": "Деление числа на ноль.",
+      "es": "Dividir un número por cero.",
+      "de": "Eine Zahl durch Null teilen.",
+      "audio": "audios/error/answer-02.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "What happens if we do not handle an exception?",
+      "ru": "Что будет, если не обрабатывать исключение?",
+      "es": "¿Qué pasa si no manejamos una excepción?",
+      "de": "Was passiert, wenn wir eine Exception nicht behandeln?",
+      "audio": "audios/error/question-03.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "The program can crash.",
+      "ru": "Программа может упасть.",
+      "es": "El programa puede fallar.",
+      "de": "Das Programm kann abstürzen.",
+      "audio": "audios/error/answer-03.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "How can we handle exceptions?",
+      "ru": "Как обрабатывать исключения?",
+      "es": "¿Cómo manejar excepciones?",
+      "de": "Wie behandeln wir Ausnahmen?",
+      "audio": "audios/error/question-04.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "We use try and catch.",
+      "ru": "Мы используем try и catch.",
+      "es": "Usamos try y catch.",
+      "de": "Wir verwenden try und catch.",
+      "audio": "audios/error/answer-04.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "What goes in the \"try\" block?",
+      "ru": "Что идет в блок try?",
+      "es": "¿Qué va en el bloque \"try\"?",
+      "de": "Was kommt in den \"try\"-Block?",
+      "audio": "audios/error/question-05.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "The code that might fail.",
+      "ru": "Код, который может завершиться ошибкой.",
+      "es": "El código que podría fallar.",
+      "de": "Der Code, der fehlschlagen könnte.",
+      "audio": "audios/error/answer-05.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "What goes in the \"catch\" block?",
+      "ru": "Что идет в блок catch?",
+      "es": "¿Qué va en el bloque \"catch\"?",
+      "de": "Was kommt in den \"catch\"-Block?",
+      "audio": "audios/error/question-06.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "The code that runs when an error happens.",
+      "ru": "Код, который выполняется, когда возникает ошибка.",
+      "es": "El código que se ejecuta cuando ocurre un error.",
+      "de": "Der Code, der ausgeführt wird, wenn ein Fehler auftritt.",
+      "audio": "audios/error/answer-06.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "What is the \"finally\" block?",
+      "ru": "Что такое блок finally?",
+      "es": "¿Qué es el bloque \"finally\"?",
+      "de": "Was ist der \"finally\"-Block?",
+      "audio": "audios/error/question-07.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "It is code that always runs, with or without an error.",
+      "ru": "Это код, который выполняется всегда, с ошибкой или без неё.",
+      "es": "Es código que siempre se ejecuta, con o sin error.",
+      "de": "Es ist Code, der immer läuft, mit oder ohne Fehler.",
+      "audio": "audios/error/answer-07.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "Can you give an example of using finally?",
+      "ru": "Можете привести пример с finally?",
+      "es": "¿Puedes dar un ejemplo de uso de finally?",
+      "de": "Kannst du ein Beispiel für die Verwendung von finally geben?",
+      "audio": "audios/error/question-08.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "We close a file at the end, every time.",
+      "ru": "Мы всегда закрываем файл в конце.",
+      "es": "Cerramos un archivo al final, cada vez.",
+      "de": "Wir schließen am Ende immer eine Datei.",
+      "audio": "audios/error/answer-08.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "What does it mean to \"throw\" an exception?",
+      "ru": "Что значит «создать» исключение?",
+      "es": "¿Qué significa \"lanzar\" una excepción?",
+      "de": "Was bedeutet es, eine Exception zu \"throw\"en?",
+      "audio": "audios/error/question-09.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "It means we create an error on purpose.",
+      "ru": "Это значит, что мы создаём ошибку специально.",
+      "es": "Significa que creamos un error a propósito.",
+      "de": "Das bedeutet, dass wir absichtlich einen Fehler erzeugen.",
+      "audio": "audios/error/answer-09.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "When should we throw an exception?",
+      "ru": "Когда стоит бросать исключение?",
+      "es": "¿Cuándo debemos lanzar una excepción?",
+      "de": "Wann sollten wir eine Exception werfen?",
+      "audio": "audios/error/question-10.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "When something is wrong and the code cannot continue.",
+      "ru": "Когда что-то не так и код не может продолжить работу.",
+      "es": "Cuando algo está mal y el código no puede continuar.",
+      "de": "Wenn etwas falsch ist und der Code nicht weiterlaufen kann.",
+      "audio": "audios/error/answer-10.mp3"
+    },
+    {
+      "id": "p_023",
+      "text": "Can you give an example?",
+      "ru": "Можете привести пример?",
+      "es": "¿Puedes dar un ejemplo?",
+      "de": "Kannst du ein Beispiel geben?",
+      "audio": "audios/error/question-11.mp3"
+    },
+    {
+      "id": "p_024",
+      "text": "A user gives a negative age, so we throw an error.",
+      "ru": "Пользователь вводит отрицательный возраст, поэтому мы бросаем ошибку.",
+      "es": "Un usuario ingresa una edad negativa, así que lanzamos un error.",
+      "de": "Ein Benutzer gibt ein negatives Alter ein, daher werfen wir einen Fehler.",
+      "audio": "audios/error/answer-11.mp3"
+    },
+    {
+      "id": "p_025",
+      "text": "What is the difference between an error and an error code?",
+      "ru": "В чем разница между ошибкой и кодом ошибки?",
+      "es": "¿Cuál es la diferencia entre un error y un código de error?",
+      "de": "Was ist der Unterschied zwischen einem Fehler und einem Fehlercode?",
+      "audio": "audios/error/question-12.mp3"
+    },
+    {
+      "id": "p_026",
+      "text": "An exception stops the flow, an error code is just a returned value.",
+      "ru": "Исключение останавливает выполнение, код ошибки — это просто возвращаемое значение.",
+      "es": "Una excepción detiene el flujo, un código de error es solo un valor devuelto.",
+      "de": "Eine Exception stoppt den Ablauf, ein Fehlercode ist nur ein Rückgabewert.",
+      "audio": "audios/error/answer-12.mp3"
+    },
+    {
+      "id": "p_027",
+      "text": "When is an error code useful?",
+      "ru": "Когда код ошибки полезен?",
+      "es": "¿Cuándo es útil un código de error?",
+      "de": "Wann ist ein Fehlercode nützlich?",
+      "audio": "audios/error/question-13.mp3"
+    },
+    {
+      "id": "p_028",
+      "text": "When the problem is normal and not a big surprise.",
+      "ru": "Когда проблема обычная и не является большой неожиданностью.",
+      "es": "Cuando el problema es normal y no una gran sorpresa.",
+      "de": "Wenn das Problem normal ist und keine große Überraschung darstellt.",
+      "audio": "audios/error/answer-13.mp3"
+    },
+    {
+      "id": "p_029",
+      "text": "Is it good to catch every error and do nothing?",
+      "ru": "Хорошо ли ловить каждую ошибку и ничего не делать?",
+      "es": "¿Es bueno capturar cada error y no hacer nada?",
+      "de": "Ist es gut, jeden Fehler zu fangen und nichts zu tun?",
+      "audio": "audios/error/question-14.mp3"
+    },
+    {
+      "id": "p_030",
+      "text": "No, that hides problems and makes bugs hard to find.",
+      "ru": "Нет, это скрывает проблемы и делает баги труднее найти.",
+      "es": "No, eso oculta problemas y hace que los errores sean difíciles de encontrar.",
+      "de": "Nein, das versteckt Probleme und macht Bugs schwerer auffindbar.",
+      "audio": "audios/error/answer-14.mp3"
+    },
+    {
+      "id": "p_031",
+      "text": "So what should we do instead?",
+      "ru": "То что же делать вместо этого?",
+      "es": "¿Entonces qué deberíamos hacer en su lugar?",
+      "de": "Was sollten wir stattdessen tun?",
+      "audio": "audios/error/question-15.mp3"
+    },
+    {
+      "id": "p_032",
+      "text": "We should log the error or show a clear message.",
+      "ru": "Мы должны залогировать ошибку или показать понятное сообщение.",
+      "es": "Deberíamos registrar el error o mostrar un mensaje claro.",
+      "de": "Wir sollten den Fehler protokollieren oder eine klare Meldung anzeigen.",
+      "audio": "audios/error/answer-15.mp3"
+    },
+    {
+      "id": "p_033",
+      "text": "Why is good error handling important?",
+      "ru": "Почему хороший обработчик ошибок важен?",
+      "es": "¿Por qué es importante un buen manejo de errores?",
+      "de": "Warum ist eine gute Fehlerbehandlung wichtig?",
+      "audio": "audios/error/question-16.mp3"
+    },
+    {
+      "id": "p_034",
+      "text": "It makes the program safe and easy to fix.",
+      "ru": "Это делает программу безопасной и простой в исправлении.",
+      "es": "Hace que el programa sea seguro y fácil de corregir.",
+      "de": "Es macht das Programm sicher und leicht zu reparieren.",
+      "audio": "audios/error/answer-16.mp3"
+    },
+    {
+      "id": "p_035",
+      "text": "Good, thank you very much.",
+      "ru": "Хорошо, большое спасибо.",
+      "es": "Bien, muchas gracias.",
+      "de": "Gut, vielen Dank.",
+      "audio": "audios/error/question-17.mp3"
+    },
+    {
+      "id": "p_036",
+      "text": "Thank you too.",
+      "ru": "И вам спасибо.",
+      "es": "Gracias a ti también.",
+      "de": "Danke ebenfalls.",
+      "audio": "audios/error/answer-17.mp3"
+    }
+  ]
+}
