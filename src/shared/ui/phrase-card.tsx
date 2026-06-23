@@ -74,10 +74,20 @@ export function PhraseCard({
             disabled={favoriteDisabled}
             onClick={onToggleFavorite}
             variant="icon"
+            hintId="phrase.favorite"
+            hintKey="phrase.favorite"
           >
             <Star aria-hidden="true" className="phrase-card-action-icon phrase-card-action-icon-star" size={16} strokeWidth={2} />
           </Button>
-          <Button aria-label={playButtonAriaLabel} className={playButtonClassName} disabled={playDisabled || state === 'loading'} onClick={onPlay} variant="icon">
+          <Button
+            aria-label={playButtonAriaLabel}
+            className={playButtonClassName}
+            disabled={playDisabled || state === 'loading'}
+            onClick={onPlay}
+            variant="icon"
+            hintId="phrase.play"
+            hintKey="phrase.play"
+          >
             <PlayIcon aria-hidden="true" className="phrase-card-action-icon" size={16} strokeWidth={2} />
           </Button>
         </div>

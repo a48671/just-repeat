@@ -13,6 +13,7 @@ import {
   loadPersistedSetUserStates,
   savePersistedSetUserStates,
 } from '../infrastructure/persistence/local-user-state-storage';
+import { HintHost } from '../shared/ui/hint-host';
 
 function formatLastInteractionLabel(isoTimestamp: string | null): string | null {
   if (!isoTimestamp) {
@@ -242,7 +243,9 @@ export function App() {
   );
 
   return (
-    <Routes>
+    <>
+      <HintHost />
+      <Routes>
       <Route
         path="/"
         element={
@@ -326,6 +329,7 @@ export function App() {
       />
       <Route path="*" element={<Navigate replace to="/" />} />
     </Routes>
+    </>
   );
 }
 

@@ -1,18 +1,49 @@
+import { useEffect, useRef } from 'react';
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
+import { loadAppSettings } from '../../infrastructure/persistence/local-app-settings-storage';
+import type { HintKey } from './hint-texts';
+import { registerHint, unregisterHint } from './hint-registry';
 
 type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'icon';
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   children: ReactNode;
   variant?: ButtonVariant;
+  hintId?: string;
+  hintKey?: HintKey;
 };
 
-export function Button({ children, className = '', variant = 'primary', ...props }: ButtonProps) {
+export function Button({ children, className = '', variant = 'primary', hintId, hintKey, ...props }: ButtonProps) {
+  const language = loadAppSettings().nativeLanguage;
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const registrationRef = useRef<any>(null);
+
+  useEffect(() => {
+    if (!hintId || !hintKey) return;
+
+    const registration = {
+      hintId,
+      hintKey,
+      element: containerRef.current,
+      isMounted: true,
+    };
+
+    registrationRef.current = registration;
+    registerHint(registration);
+
+    return () => {
+      registration.isMounted = false;
+      unregisterHint(registration);
+    };
+  }, [hintId, hintKey]);
+
   const classes = ['ui-button', `ui-button-${variant}`, className].filter(Boolean).join(' ');
 
   return (
-    <button {...props} className={classes} type={props.type ?? 'button'}>
-      {children}
-    </button>
+    <div ref={containerRef} className="button-with-hint">
+      <button {...props} className={classes} type={props.type ?? 'button'}>
+        {children}
+      </button>
+    </div>
   );
 }

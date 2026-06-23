@@ -68,13 +68,20 @@ function LoggedInView({ profile, onBack, onLogOut }: { profile: UserProfile; onB
 
       <div className="profile-bottom-panel">
         <div className="profile-bottom-panel-actions">
-          <Button aria-label="Back" className="profile-bottom-button-back" onClick={onBack} variant="secondary">
+          <Button
+            aria-label="Back"
+            className="profile-bottom-button-back"
+            onClick={onBack}
+            variant="secondary"
+            hintId="profile.back"
+            hintKey="profile.back"
+          >
             <ArrowLeft aria-hidden="true" size={18} strokeWidth={2} />
           </Button>
-          <Button className="profile-bottom-button profile-bottom-button-primary" onClick={() => {}}>
+          <Button className="profile-bottom-button profile-bottom-button-primary" onClick={() => {}} hintId="profile.edit" hintKey="profile.edit">
             <span>Edit Profile</span>
           </Button>
-          <Button className="profile-bottom-button profile-bottom-button-logout" onClick={onLogOut}>
+          <Button className="profile-bottom-button profile-bottom-button-logout" onClick={onLogOut} hintId="profile.logout" hintKey="profile.logout">
             <span>Log Out</span>
           </Button>
         </div>
@@ -110,13 +117,20 @@ function LoggedOutView({ onBack, onSignIn }: { onBack: () => void; onSignIn: () 
 
       <div className="profile-bottom-panel">
         <div className="profile-bottom-panel-actions">
-          <Button aria-label="Back" className="profile-bottom-button-back" onClick={onBack} variant="secondary">
+          <Button
+            aria-label="Back"
+            className="profile-bottom-button-back"
+            onClick={onBack}
+            variant="secondary"
+            hintId="profile.back"
+            hintKey="profile.back"
+          >
             <ArrowLeft aria-hidden="true" size={18} strokeWidth={2} />
           </Button>
-          <Button className="profile-bottom-button profile-bottom-button-primary" onClick={onSignIn}>
+          <Button className="profile-bottom-button profile-bottom-button-primary" onClick={onSignIn} hintId="profile.signIn" hintKey="profile.signIn">
             <span>Sign In</span>
           </Button>
-          <Button className="profile-bottom-button profile-bottom-button-outlined" onClick={onSignIn}>
+          <Button className="profile-bottom-button profile-bottom-button-outlined" onClick={onSignIn} hintId="profile.signUp" hintKey="profile.signUp">
             <span>Sign Up</span>
           </Button>
         </div>
@@ -193,10 +207,25 @@ function SignInForm({ onBack, onSignIn }: { onBack: () => void; onSignIn: (profi
 
       <div className="profile-bottom-panel">
         <div className="profile-bottom-panel-actions">
-          <Button aria-label="Back" className="profile-bottom-button-back" onClick={onBack} type="button" variant="secondary">
+          <Button
+            aria-label="Back"
+            className="profile-bottom-button-back"
+            onClick={onBack}
+            type="button"
+            variant="secondary"
+            hintId="profile.back"
+            hintKey="profile.back"
+          >
             <ArrowLeft aria-hidden="true" size={18} strokeWidth={2} />
           </Button>
-          <Button className="profile-bottom-button profile-bottom-button-primary" disabled={!isValid} onClick={handleSubmit} type="button">
+          <Button
+            className="profile-bottom-button profile-bottom-button-primary"
+            disabled={!isValid}
+            onClick={handleSubmit}
+            type="button"
+            hintId="profile.submit"
+            hintKey="profile.submit"
+          >
             <span>Sign In</span>
           </Button>
         </div>

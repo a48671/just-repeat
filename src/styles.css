@@ -895,6 +895,125 @@ button {
   color: var(--color-accent);
 }
 
+.button-with-hint {
+  width: fit-content;
+}
+
+.button-with-hint,
+.set-card-with-hint {
+  position: relative;
+}
+
+.hint-popover {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.75rem;
+  min-width: 250px;
+  max-width: 22rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.16);
+  opacity: 0;
+  transform: translateY(-0.25rem);
+  transition: opacity 180ms ease, transform 180ms ease;
+  z-index: 9999; /* ensure popover appears above fixed bottom panels */
+  box-sizing: border-box;
+  overflow: visible; /* allow arrow to be visible */
+  word-wrap: break-word;
+  max-width: calc(100vw - 16px);
+}
+
+/* Visible state (default animation for top-positioned popovers) */
+.hint-popover-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Arrow using CSS variable --hint-arrow-left */
+.hint-popover::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: var(--hint-arrow-left, 16px);
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  /* default triangle pointing down (when popover is above button) */
+  border-top: 8px solid #ffffff;
+  bottom: -8px;
+}
+
+.hint-popover .hint-popover-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* When popover is placed below the button, flip the arrow */
+.hint-popover[style*='top']::after {
+  /* If top is near window top, arrow should point up; handled by host setting top/bottom, but keep flip support */
+}
+
+/* Highlight target button */
+.hint-target-highlight {
+  box-shadow: 0 0 0 3px rgba(29,78,216,0.18), 0 6px 20px rgba(15,23,42,0.08);
+  border-radius: 0.6rem;
+}
+
+/* Flip popover when rendered inside a fixed bottom panel so it appears above the button
+   instead of off-screen below the viewport. This targets common bottom panels by class.
+*/
+.bottom-control-panel .button-with-hint .hint-popover,
+.profile-bottom-panel .button-with-hint .hint-popover,
+.settings-bottom-panel .button-with-hint .hint-popover,
+.sets-utility-panel .button-with-hint .hint-popover {
+  top: auto;
+  bottom: 100%;
+  right: 0;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  /* animate from slightly below into place for bottom-positioned popovers */
+  transform: translateY(0.25rem);
+}
+
+.bottom-control-panel .button-with-hint .hint-popover.hint-popover-visible,
+.profile-bottom-panel .button-with-hint .hint-popover.hint-popover-visible,
+.settings-bottom-panel .button-with-hint .hint-popover.hint-popover-visible,
+.sets-utility-panel .button-with-hint .hint-popover.hint-popover-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hint-popover-content {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.hint-popover-text {
+  margin: 0;
+  color: var(--color-text-primary);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.hint-popover-button {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  .hint-popover {
+    left: 0;
+    right: auto;
+    max-width: calc(100vw - 2rem);
+  }
+}
+
 .progress-track {
   width: 100%;
   min-width: 0;

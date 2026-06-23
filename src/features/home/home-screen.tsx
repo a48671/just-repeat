@@ -15,7 +15,7 @@ export function HomeScreen({ onPractice }: HomeScreenProps) {
 
         <h1 className="home-screen-title">Just Repeat</h1>
 
-        <Button className="home-screen-cta" onClick={onPractice}>
+        <Button className="home-screen-cta" onClick={onPractice} hintId="home.practice" hintKey="home.practice">
           Practice
         </Button>
       </div>

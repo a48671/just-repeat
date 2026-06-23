@@ -103,11 +103,24 @@ export function SettingsScreen({ onBack, onApply }: SettingsScreenProps) {
 
       <div className="settings-bottom-panel">
         <div className="settings-bottom-panel-row">
-          <Button aria-label="Back to sets" className="settings-bottom-button settings-bottom-button-secondary" onClick={onBack} variant="secondary">
+          <Button
+            aria-label="Back to sets"
+            className="settings-bottom-button settings-bottom-button-secondary"
+            onClick={onBack}
+            variant="secondary"
+            hintId="settings.back"
+            hintKey="settings.back"
+          >
             <ArrowLeft aria-hidden="true" className="settings-bottom-button-icon" size={18} strokeWidth={2} />
             <span>Back</span>
           </Button>
-          <Button aria-label="Apply settings" className="settings-bottom-button settings-bottom-button-primary" onClick={handleApply}>
+          <Button
+            aria-label="Apply settings"
+            className="settings-bottom-button settings-bottom-button-primary"
+            onClick={handleApply}
+            hintId="settings.apply"
+            hintKey="settings.apply"
+          >
             <Check aria-hidden="true" className="settings-bottom-button-icon" size={18} strokeWidth={2} />
             <span>Apply</span>
           </Button>

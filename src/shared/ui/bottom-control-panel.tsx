@@ -56,7 +56,14 @@ export function BottomControlPanel({
       </div>
 
       <div className="bottom-control-row">
-        <Button aria-label="Back to sets" className="bottom-control-icon bottom-control-icon-back" onClick={onBack} variant="secondary">
+        <Button
+          aria-label="Back to sets"
+          className="bottom-control-icon bottom-control-icon-back"
+          onClick={onBack}
+          variant="secondary"
+          hintId="bottom.back"
+          hintKey="bottom.back"
+        >
           <ArrowLeft aria-hidden="true" className="bottom-control-icon-svg" size={18} strokeWidth={2} />
         </Button>
         <Button
@@ -66,10 +73,18 @@ export function BottomControlPanel({
           disabled={favoritesDisabled}
           onClick={onToggleFavorites}
           variant="secondary"
+          hintId="bottom.favorites"
+          hintKey="bottom.favorites"
         >
           <Star aria-hidden="true" className="bottom-control-icon-svg" size={16} strokeWidth={2} />
         </Button>
-        <Button className={`bottom-control-main ${playAllActive ? 'bottom-control-main-active' : ''}`} disabled={playAllDisabled} onClick={onTogglePlayAll}>
+        <Button
+          className={`bottom-control-main ${playAllActive ? 'bottom-control-main-active' : ''}`}
+          disabled={playAllDisabled}
+          onClick={onTogglePlayAll}
+          hintId="bottom.playAll"
+          hintKey="bottom.playAll"
+        >
           {playAllActive ? 'Stop' : playAllLabel}
         </Button>
         <Button
@@ -78,6 +93,8 @@ export function BottomControlPanel({
           disabled={restartDisabled}
           onClick={onRestart}
           variant="secondary"
+          hintId="bottom.restart"
+          hintKey="bottom.restart"
         >
           <RotateCcw aria-hidden="true" className="bottom-control-icon-svg" size={16} strokeWidth={2} />
         </Button>

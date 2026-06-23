@@ -1,3 +1,5 @@
+import { Button } from './button';
+
 type SetCardProps = {
   title: string;
   description: string;
@@ -25,8 +27,14 @@ export function SetCard({ title, description, phraseCount, lastInteraction, onOp
   }
 
   return (
-    <button className="set-card set-card-button" onClick={onOpen} type="button">
+    <Button
+      className="set-card set-card-button"
+      onClick={onOpen}
+      hintId="sets.open"
+      hintKey="set.open"
+      variant="ghost"
+    >
       {content}
-    </button>
+    </Button>
   );
 }
