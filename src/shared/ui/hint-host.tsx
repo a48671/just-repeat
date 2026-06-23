@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { getHintText } from './hint-texts';
-import type { NativeLanguage } from '../../domain/app-settings';
 import { getActiveRegistration, subscribe, closeActiveHint } from './hint-registry';
 import { Button } from './button';
 
@@ -33,6 +32,8 @@ export function HintHost() {
     if (!el) return;
 
     function compute() {
+      if (!el) return;
+  
       const rect = el.getBoundingClientRect();
       const pop = popRef.current;
       const viewportPadding = 8;
@@ -81,7 +82,7 @@ export function HintHost() {
       role="dialog"
       aria-live="polite"
       style={
-        position && {
+        position ? {
           position: 'fixed',
           left: `${position.left}px`,
           top: `${position.top}px`,
@@ -89,7 +90,7 @@ export function HintHost() {
           zIndex: 9999,
           // expose arrow position to CSS
           ['--hint-arrow-left' as any]: `${position.arrowLeft}px`,
-        }
+        } : undefined
       }
     >
       <div className="hint-popover-content">

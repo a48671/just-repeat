@@ -1,4 +1,3 @@
-import type { HintKey } from './hint-texts';
 import { hasHintBeenShown, markHintAsShown } from '../../infrastructure/persistence/local-hint-storage';
 import type { HintKey } from './hint-texts';
 

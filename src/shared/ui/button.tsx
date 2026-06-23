@@ -1,6 +1,5 @@
 import { useEffect, useRef } from 'react';
 import type { ButtonHTMLAttributes, ReactNode } from 'react';
-import { loadAppSettings } from '../../infrastructure/persistence/local-app-settings-storage';
 import type { HintKey } from './hint-texts';
 import { registerHint, unregisterHint } from './hint-registry';
 
@@ -14,7 +13,6 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 };
 
 export function Button({ children, className = '', variant = 'primary', hintId, hintKey, ...props }: ButtonProps) {
-  const language = loadAppSettings().nativeLanguage;
   const containerRef = useRef<HTMLDivElement | null>(null);
   const registrationRef = useRef<any>(null);
 
