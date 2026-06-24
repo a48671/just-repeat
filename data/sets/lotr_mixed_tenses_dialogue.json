@@ -7,211 +7,281 @@
       "id": "p_001",
       "text": "I am going to watch The Lord of the Rings tonight.",
       "ru": "Я собираюсь посмотреть «Властелина колец» сегодня вечером.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-00.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-00.mp3",
+      "es": "Voy a ver El Señor de los Anillos esta noche.",
+      "de": "Ich werde heute Abend Der Herr der Ringe ansehen."
     },
     {
       "id": "p_002",
       "text": "Great. I watched this movie many times.",
       "ru": "Отлично. Я смотрел этот фильм много раз.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-00.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-00.mp3",
+      "es": "Genial. Vi esta película muchas veces.",
+      "de": "Sehr gut. Ich habe diesen Film oft gesehen."
     },
     {
       "id": "p_003",
       "text": "Really? What is this movie about?",
       "ru": "Правда? О чём этот фильм?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-01.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-01.mp3",
+      "es": "¿De verdad? ¿De qué trata esta película?",
+      "de": "Wirklich? Worum geht es in diesem Film?"
     },
     {
       "id": "p_004",
       "text": "It is about a small hobbit who gets a dangerous ring.",
       "ru": "Он о маленьком хоббите, который получает опасное кольцо.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-01.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-01.mp3",
+      "es": "Trata de un pequeño hobbit que recibe un anillo peligroso.",
+      "de": "Es geht um einen kleinen Hobbit, der einen gefährlichen Ring bekommt."
     },
     {
       "id": "p_005",
       "text": "What is a hobbit?",
       "ru": "Кто такой хоббит?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-02.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-02.mp3",
+      "es": "¿Qué es un hobbit?",
+      "de": "Was ist ein Hobbit?"
     },
     {
       "id": "p_006",
       "text": "Hobbits are small peaceful people. They like food and a quiet life.",
       "ru": "Хоббиты — маленькие мирные люди. Они любят еду и спокойную жизнь.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-02.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-02.mp3",
+      "es": "Los hobbits son personas pequeñas y pacíficas. Les gusta la comida y una vida tranquila.",
+      "de": "Hobbits sind kleine friedliche Leute. Sie mögen Essen und ein ruhiges Leben."
     },
     {
       "id": "p_007",
       "text": "And who got the ring?",
       "ru": "А кто получил кольцо?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-03.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-03.mp3",
+      "es": "¿Y quién recibió el anillo?",
+      "de": "Und wer bekam den Ring?"
     },
     {
       "id": "p_008",
       "text": "At first, Bilbo had the ring, but then he gave it to Frodo.",
       "ru": "Сначала кольцо было у Бильбо, но потом он отдал его Фродо.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-03.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-03.mp3",
+      "es": "Al principio, Bilbo tenía el anillo, pero luego se lo dio a Frodo.",
+      "de": "Am Anfang hatte Bilbo den Ring, aber dann gab er ihn Frodo."
     },
     {
       "id": "p_009",
       "text": "So, will Frodo be the main hero?",
       "ru": "Значит, Фродо будет главным героем?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-04.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-04.mp3",
+      "es": "Entonces, ¿será Frodo el héroe principal?",
+      "de": "Also wird Frodo der Hauptheld sein?"
     },
     {
       "id": "p_010",
       "text": "Yes, Frodo is the main hero. He has to destroy the ring.",
       "ru": "Да, Фродо — главный герой. Он должен уничтожить кольцо.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-04.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-04.mp3",
+      "es": "Sí, Frodo es el héroe principal. Tiene que destruir el anillo.",
+      "de": "Ja, Frodo ist der Hauptheld. Er muss den Ring zerstören."
     },
     {
       "id": "p_011",
       "text": "Why does he have to destroy it?",
       "ru": "Почему он должен уничтожить его?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-05.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-05.mp3",
+      "es": "¿Por qué tiene que destruirlo?",
+      "de": "Warum muss er ihn zerstören?"
     },
     {
       "id": "p_012",
       "text": "Because the ring gives great power and corrupts people.",
       "ru": "Потому что кольцо даёт большую силу и портит людей.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-05.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-05.mp3",
+      "es": "Porque el anillo da gran poder y corrompe a las personas.",
+      "de": "Weil der Ring große Macht verleiht und Menschen verdirbt."
     },
     {
       "id": "p_013",
       "text": "Who created this ring?",
       "ru": "Кто создал это кольцо?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-06.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-06.mp3",
+      "es": "¿Quién creó este anillo?",
+      "de": "Wer erschuf diesen Ring?"
     },
     {
       "id": "p_014",
       "text": "Sauron, the main villain, created it.",
       "ru": "Его создал Саурон, главный злодей.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-06.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-06.mp3",
+      "es": "Sauron, el villano principal, lo creó.",
+      "de": "Sauron, der Hauptschurke, erschuf ihn."
     },
     {
       "id": "p_015",
       "text": "Will Sauron look for the ring?",
       "ru": "Саурон будет искать кольцо?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-07.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-07.mp3",
+      "es": "¿Buscará Sauron el anillo?",
+      "de": "Wird Sauron nach dem Ring suchen?"
     },
     {
       "id": "p_016",
       "text": "Yes, he wants to get it back and become even stronger.",
       "ru": "Да, он хочет вернуть его и стать ещё сильнее.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-07.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-07.mp3",
+      "es": "Sí, quiere recuperarlo y volverse aún más fuerte.",
+      "de": "Ja, er will ihn zurückbekommen und noch stärker werden."
     },
     {
       "id": "p_017",
       "text": "And what will Frodo do?",
       "ru": "А что Фродо будет делать?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-08.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-08.mp3",
+      "es": "¿Y qué hará Frodo?",
+      "de": "Und was wird Frodo tun?"
     },
     {
       "id": "p_018",
       "text": "He will go to Mordor to destroy the ring.",
       "ru": "Он пойдёт в Мордор, чтобы уничтожить кольцо.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-08.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-08.mp3",
+      "es": "Irá a Mordor para destruir el anillo.",
+      "de": "Er wird nach Mordor gehen, um den Ring zu zerstören."
     },
     {
       "id": "p_019",
       "text": "Is Mordor a dangerous place?",
       "ru": "Мордор — это опасное место?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-09.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-09.mp3",
+      "es": "¿Es Mordor un lugar peligroso?",
+      "de": "Ist Mordor ein gefährlicher Ort?"
     },
     {
       "id": "p_020",
       "text": "Yes, it is the land of Sauron. There are many enemies there.",
       "ru": "Да, это земля Саурона. Там много врагов.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-09.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-09.mp3",
+      "es": "Sí, es la tierra de Sauron. Hay muchos enemigos allí.",
+      "de": "Ja, es ist das Land von Sauron. Dort gibt es viele Feinde."
     },
     {
       "id": "p_021",
       "text": "Will Frodo go alone?",
       "ru": "Фродо пойдёт один?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-10.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-10.mp3",
+      "es": "¿Irá Frodo solo?",
+      "de": "Wird Frodo allein gehen?"
     },
     {
       "id": "p_022",
       "text": "No, his friend Sam will go with him.",
       "ru": "Нет, его друг Сэм пойдёт с ним.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-10.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-10.mp3",
+      "es": "No, su amigo Sam irá con él.",
+      "de": "Nein, sein Freund Sam wird mit ihm gehen."
     },
     {
       "id": "p_023",
       "text": "Is Sam a good friend?",
       "ru": "Сэм хороший друг?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-11.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-11.mp3",
+      "es": "¿Es Sam un buen amigo?",
+      "de": "Ist Sam ein guter Freund?"
     },
     {
       "id": "p_024",
       "text": "Yes, he always helps Frodo. In the movie, he saved him many times.",
       "ru": "Да, он всегда помогает Фродо. В фильме он много раз спасал его.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-11.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-11.mp3",
+      "es": "Sí, siempre ayuda a Frodo. En la película, lo salvó muchas veces.",
+      "de": "Ja, er hilft Frodo immer. Im Film hat er ihn viele Male gerettet."
     },
     {
       "id": "p_025",
       "text": "Will Gandalf help too?",
       "ru": "А Гэндальф тоже будет помогать?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-12.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-12.mp3",
+      "es": "¿Ayudará Gandalf también?",
+      "de": "Wird Gandalf auch helfen?"
     },
     {
       "id": "p_026",
       "text": "Yes, Gandalf helps the heroes with advice and magic.",
       "ru": "Да, Гэндальф помогает героям советами и магией.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-12.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-12.mp3",
+      "es": "Sí, Gandalf ayuda a los héroes con consejos y magia.",
+      "de": "Ja, Gandalf hilft den Helden mit Rat und Magie."
     },
     {
       "id": "p_027",
       "text": "Was he an important character?",
       "ru": "Он был важным персонажем?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-13.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-13.mp3",
+      "es": "¿Fue un personaje importante?",
+      "de": "War er eine wichtige Figur?"
     },
     {
       "id": "p_028",
       "text": "Yes, he was one of the most important heroes.",
       "ru": "Да, он был одним из самых важных героев.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-13.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-13.mp3",
+      "es": "Sí, fue uno de los héroes más importantes.",
+      "de": "Ja, er war einer der wichtigsten Helden."
     },
     {
       "id": "p_029",
       "text": "And who is Aragorn?",
       "ru": "А кто такой Арагорн?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-14.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-14.mp3",
+      "es": "¿Y quién es Aragorn?",
+      "de": "Und wer ist Aragorn?"
     },
     {
       "id": "p_030",
       "text": "He is a warrior. At the beginning, he hid his past, but later he became king.",
       "ru": "Он воин. В начале он скрывал своё прошлое, но потом стал королём.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-14.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-14.mp3",
+      "es": "Es un guerrero. Al principio, ocultaba su pasado, pero luego se convirtió en rey.",
+      "de": "Er ist ein Krieger. Am Anfang verbarg er seine Vergangenheit, aber später wurde er König."
     },
     {
       "id": "p_031",
       "text": "Will there be many battles in the movie?",
       "ru": "В фильме будет много битв?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-15.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-15.mp3",
+      "es": "¿Habrá muchas batallas en la película?",
+      "de": "Wird es viele Schlachten im Film geben?"
     },
     {
       "id": "p_032",
       "text": "Yes, there are big battles, but the movie is not only about war.",
       "ru": "Да, там есть большие битвы, но фильм не только о войне.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-15.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-15.mp3",
+      "es": "Sí, hay grandes batallas, pero la película no trata solo de la guerra.",
+      "de": "Ja, es gibt große Schlachten, aber der Film handelt nicht nur vom Krieg."
     },
     {
       "id": "p_033",
       "text": "What else is it about?",
       "ru": "О чём он ещё?",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-16.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-16.mp3",
+      "es": "¿De qué más trata?",
+      "de": "Worum geht es noch?"
     },
     {
       "id": "p_034",
       "text": "It is about friendship, fear, choice, and hope.",
       "ru": "Он о дружбе, страхе, выборе и надежде.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/answer-16.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/answer-16.mp3",
+      "es": "Trata de amistad, miedo, elección y esperanza.",
+      "de": "Es geht um Freundschaft, Angst, Entscheidungen und Hoffnung."
     },
     {
       "id": "p_035",
       "text": "Now I will definitely watch it today.",
       "ru": "Теперь я точно посмотрю его сегодня.",
-      "audio": "audios/lotr_mixed_tenses_dialogue/question-17.mp3"
+      "audio": "audios/lotr_mixed_tenses_dialogue/question-17.mp3",
+      "es": "Ahora definitivamente la veré hoy.",
+      "de": "Jetzt werde ich ihn heute auf jeden Fall ansehen."
     }
   ]
 }

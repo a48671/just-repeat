@@ -7,211 +7,281 @@
       "id": "p_001",
       "text": "I am going to watch The Lord of the Rings tonight.",
       "ru": "Я собираюсь посмотреть «Властелина колец» сегодня вечером.",
-      "audio": "audios/lotr_future_dialogue/question-00.mp3"
+      "audio": "audios/lotr_future_dialogue/question-00.mp3",
+      "es": "Voy a ver El Señor de los Anillos esta noche.",
+      "de": "Ich werde heute Abend Der Herr der Ringe ansehen."
     },
     {
       "id": "p_002",
       "text": "Great choice. It is a very famous movie.",
       "ru": "Отличный выбор. Это очень известный фильм.",
-      "audio": "audios/lotr_future_dialogue/answer-00.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-00.mp3",
+      "es": "Excelente elección. Es una película muy famosa.",
+      "de": "Gute Wahl. Es ist ein sehr berühmter Film."
     },
     {
       "id": "p_003",
       "text": "What will this movie be about?",
       "ru": "А о чём будет этот фильм?",
-      "audio": "audios/lotr_future_dialogue/question-01.mp3"
+      "audio": "audios/lotr_future_dialogue/question-01.mp3",
+      "es": "¿De qué tratará esta película?",
+      "de": "Worum wird es in diesem Film gehen?"
     },
     {
       "id": "p_004",
       "text": "It will be about a magic ring and great danger.",
       "ru": "Он будет о волшебном кольце и большой опасности.",
-      "audio": "audios/lotr_future_dialogue/answer-01.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-01.mp3",
+      "es": "Tratará de un anillo mágico y un gran peligro.",
+      "de": "Es wird um einen magischen Ring und große Gefahr gehen."
     },
     {
       "id": "p_005",
       "text": "Will the ring be important for the story?",
       "ru": "Кольцо будет важным для сюжета?",
-      "audio": "audios/lotr_future_dialogue/question-02.mp3"
+      "audio": "audios/lotr_future_dialogue/question-02.mp3",
+      "es": "¿Será importante el anillo para la historia?",
+      "de": "Wird der Ring wichtig für die Geschichte sein?"
     },
     {
       "id": "p_006",
       "text": "Yes, the ring will be the main object in the story.",
       "ru": "Да, кольцо будет главным предметом в истории.",
-      "audio": "audios/lotr_future_dialogue/answer-02.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-02.mp3",
+      "es": "Sí, el anillo será el objeto principal de la historia.",
+      "de": "Ja, der Ring wird der wichtigste Gegenstand in der Geschichte sein."
     },
     {
       "id": "p_007",
       "text": "Who will have this ring?",
       "ru": "Кто будет владеть этим кольцом?",
-      "audio": "audios/lotr_future_dialogue/question-03.mp3"
+      "audio": "audios/lotr_future_dialogue/question-03.mp3",
+      "es": "¿Quién tendrá este anillo?",
+      "de": "Wer wird diesen Ring haben?"
     },
     {
       "id": "p_008",
       "text": "At first, the ring will belong to a hobbit named Bilbo.",
       "ru": "Сначала кольцо будет у хоббита по имени Бильбо.",
-      "audio": "audios/lotr_future_dialogue/answer-03.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-03.mp3",
+      "es": "Al principio, el anillo pertenecerá a un hobbit llamado Bilbo.",
+      "de": "Am Anfang wird der Ring einem Hobbit namens Bilbo gehören."
     },
     {
       "id": "p_009",
       "text": "What is a hobbit?",
       "ru": "А кто такой хоббит?",
-      "audio": "audios/lotr_future_dialogue/question-04.mp3"
+      "audio": "audios/lotr_future_dialogue/question-04.mp3",
+      "es": "¿Qué es un hobbit?",
+      "de": "Was ist ein Hobbit?"
     },
     {
       "id": "p_010",
       "text": "Hobbits will be small peaceful people who like a quiet life.",
       "ru": "Хоббиты будут маленькими мирными людьми, которые любят спокойную жизнь.",
-      "audio": "audios/lotr_future_dialogue/answer-04.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-04.mp3",
+      "es": "Los hobbits serán personas pequeñas y pacíficas a las que les gusta una vida tranquila.",
+      "de": "Hobbits werden kleine friedliche Leute sein, die ein ruhiges Leben mögen."
     },
     {
       "id": "p_011",
       "text": "So, will Bilbo be the main hero?",
       "ru": "Значит, Бильбо будет главным героем?",
-      "audio": "audios/lotr_future_dialogue/question-05.mp3"
+      "audio": "audios/lotr_future_dialogue/question-05.mp3",
+      "es": "Entonces, ¿será Bilbo el héroe principal?",
+      "de": "Also wird Bilbo der Hauptheld sein?"
     },
     {
       "id": "p_012",
       "text": "No, the main hero will be Frodo, his young relative.",
       "ru": "Нет, главным героем будет Фродо, его молодой родственник.",
-      "audio": "audios/lotr_future_dialogue/answer-05.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-05.mp3",
+      "es": "No, el héroe principal será Frodo, su joven pariente.",
+      "de": "Nein, der Hauptheld wird Frodo sein, sein junger Verwandter."
     },
     {
       "id": "p_013",
       "text": "Will Frodo get the ring from Bilbo?",
       "ru": "Фродо получит кольцо от Бильбо?",
-      "audio": "audios/lotr_future_dialogue/question-06.mp3"
+      "audio": "audios/lotr_future_dialogue/question-06.mp3",
+      "es": "¿Recibirá Frodo el anillo de Bilbo?",
+      "de": "Wird Frodo den Ring von Bilbo bekommen?"
     },
     {
       "id": "p_014",
       "text": "Yes, Bilbo will give the ring to Frodo.",
       "ru": "Да, Бильбо отдаст кольцо Фродо.",
-      "audio": "audios/lotr_future_dialogue/answer-06.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-06.mp3",
+      "es": "Sí, Bilbo le dará el anillo a Frodo.",
+      "de": "Ja, Bilbo wird Frodo den Ring geben."
     },
     {
       "id": "p_015",
       "text": "Will Frodo be happy to get the ring?",
       "ru": "Фродо будет рад получить кольцо?",
-      "audio": "audios/lotr_future_dialogue/question-07.mp3"
+      "audio": "audios/lotr_future_dialogue/question-07.mp3",
+      "es": "¿Estará Frodo feliz de recibir el anillo?",
+      "de": "Wird Frodo glücklich sein, den Ring zu bekommen?"
     },
     {
       "id": "p_016",
       "text": "No, later he will understand that the ring is very dangerous.",
       "ru": "Нет, позже он поймёт, что кольцо очень опасно.",
-      "audio": "audios/lotr_future_dialogue/answer-07.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-07.mp3",
+      "es": "No, más tarde entenderá que el anillo es muy peligroso.",
+      "de": "Nein, später wird er verstehen, dass der Ring sehr gefährlich ist."
     },
     {
       "id": "p_017",
       "text": "Why will it be dangerous?",
       "ru": "Почему оно будет опасным?",
-      "audio": "audios/lotr_future_dialogue/question-08.mp3"
+      "audio": "audios/lotr_future_dialogue/question-08.mp3",
+      "es": "¿Por qué será peligroso?",
+      "de": "Warum wird er gefährlich sein?"
     },
     {
       "id": "p_018",
       "text": "Because the evil Sauron will want to get it back.",
       "ru": "Потому что злой Саурон будет хотеть вернуть его.",
-      "audio": "audios/lotr_future_dialogue/answer-08.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-08.mp3",
+      "es": "Porque el malvado Sauron querrá recuperarlo.",
+      "de": "Weil der böse Sauron ihn zurückbekommen wollen wird."
     },
     {
       "id": "p_019",
       "text": "Will Sauron be the main villain?",
       "ru": "Саурон будет главным злодеем?",
-      "audio": "audios/lotr_future_dialogue/question-09.mp3"
+      "audio": "audios/lotr_future_dialogue/question-09.mp3",
+      "es": "¿Será Sauron el villano principal?",
+      "de": "Wird Sauron der Hauptschurke sein?"
     },
     {
       "id": "p_020",
       "text": "Yes, he will be a very strong and dangerous enemy.",
       "ru": "Да, он будет очень сильным и опасным врагом.",
-      "audio": "audios/lotr_future_dialogue/answer-09.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-09.mp3",
+      "es": "Sí, será un enemigo muy fuerte y peligroso.",
+      "de": "Ja, er wird ein sehr starker und gefährlicher Feind sein."
     },
     {
       "id": "p_021",
       "text": "What will Frodo do with the ring?",
       "ru": "Что Фродо будет делать с кольцом?",
-      "audio": "audios/lotr_future_dialogue/question-10.mp3"
+      "audio": "audios/lotr_future_dialogue/question-10.mp3",
+      "es": "¿Qué hará Frodo con el anillo?",
+      "de": "Was wird Frodo mit dem Ring tun?"
     },
     {
       "id": "p_022",
       "text": "He will carry it to Mordor to destroy it.",
       "ru": "Он будет нести его в Мордор, чтобы уничтожить.",
-      "audio": "audios/lotr_future_dialogue/answer-10.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-10.mp3",
+      "es": "Lo llevará a Mordor para destruirlo.",
+      "de": "Er wird ihn nach Mordor tragen, um ihn zu zerstören."
     },
     {
       "id": "p_023",
       "text": "Will Mordor be a dangerous place?",
       "ru": "Мордор будет опасным местом?",
-      "audio": "audios/lotr_future_dialogue/question-11.mp3"
+      "audio": "audios/lotr_future_dialogue/question-11.mp3",
+      "es": "¿Será Mordor un lugar peligroso?",
+      "de": "Wird Mordor ein gefährlicher Ort sein?"
     },
     {
       "id": "p_024",
       "text": "Yes, it will be the land of Sauron.",
       "ru": "Да, это будет земля Саурона.",
-      "audio": "audios/lotr_future_dialogue/answer-11.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-11.mp3",
+      "es": "Sí, será la tierra de Sauron.",
+      "de": "Ja, es wird das Land von Sauron sein."
     },
     {
       "id": "p_025",
       "text": "Will Frodo go there alone?",
       "ru": "Фродо пойдёт туда один?",
-      "audio": "audios/lotr_future_dialogue/question-12.mp3"
+      "audio": "audios/lotr_future_dialogue/question-12.mp3",
+      "es": "¿Irá Frodo allí solo?",
+      "de": "Wird Frodo allein dorthin gehen?"
     },
     {
       "id": "p_026",
       "text": "No, his friend Sam will go with him.",
       "ru": "Нет, его друг Сэм пойдёт с ним.",
-      "audio": "audios/lotr_future_dialogue/answer-12.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-12.mp3",
+      "es": "No, su amigo Sam irá con él.",
+      "de": "Nein, sein Freund Sam wird mit ihm gehen."
     },
     {
       "id": "p_027",
       "text": "Will Sam help Frodo?",
       "ru": "Сэм будет помогать Фродо?",
-      "audio": "audios/lotr_future_dialogue/question-13.mp3"
+      "audio": "audios/lotr_future_dialogue/question-13.mp3",
+      "es": "¿Ayudará Sam a Frodo?",
+      "de": "Wird Sam Frodo helfen?"
     },
     {
       "id": "p_028",
       "text": "Yes, Sam will be a very loyal friend.",
       "ru": "Да, Сэм будет очень верным другом.",
-      "audio": "audios/lotr_future_dialogue/answer-13.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-13.mp3",
+      "es": "Sí, Sam será un amigo muy leal.",
+      "de": "Ja, Sam wird ein sehr treuer Freund sein."
     },
     {
       "id": "p_029",
       "text": "Will they meet other heroes?",
       "ru": "Они встретят других героев?",
-      "audio": "audios/lotr_future_dialogue/question-14.mp3"
+      "audio": "audios/lotr_future_dialogue/question-14.mp3",
+      "es": "¿Conocerán a otros héroes?",
+      "de": "Werden sie andere Helden treffen?"
     },
     {
       "id": "p_030",
       "text": "Yes, they will meet Gandalf, Aragorn, Legolas, Gimli, and others.",
       "ru": "Да, они встретят Гэндальфа, Арагорна, Леголаса, Гимли и других.",
-      "audio": "audios/lotr_future_dialogue/answer-14.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-14.mp3",
+      "es": "Sí, conocerán a Gandalf, Aragorn, Legolas, Gimli y otros.",
+      "de": "Ja, sie werden Gandalf, Aragorn, Legolas, Gimli und andere treffen."
     },
     {
       "id": "p_031",
       "text": "Will Gandalf be a wizard?",
       "ru": "Гэндальф будет волшебником?",
-      "audio": "audios/lotr_future_dialogue/question-15.mp3"
+      "audio": "audios/lotr_future_dialogue/question-15.mp3",
+      "es": "¿Será Gandalf un mago?",
+      "de": "Wird Gandalf ein Zauberer sein?"
     },
     {
       "id": "p_032",
       "text": "Yes, he will be a wise wizard and will help the heroes.",
       "ru": "Да, он будет мудрым волшебником и будет помогать героям.",
-      "audio": "audios/lotr_future_dialogue/answer-15.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-15.mp3",
+      "es": "Sí, será un mago sabio y ayudará a los héroes.",
+      "de": "Ja, er wird ein weiser Zauberer sein und den Helden helfen."
     },
     {
       "id": "p_033",
       "text": "Will Aragorn also be an important hero?",
       "ru": "Арагорн тоже будет важным героем?",
-      "audio": "audios/lotr_future_dialogue/question-16.mp3"
+      "audio": "audios/lotr_future_dialogue/question-16.mp3",
+      "es": "¿Será Aragorn también un héroe importante?",
+      "de": "Wird Aragorn auch ein wichtiger Held sein?"
     },
     {
       "id": "p_034",
       "text": "Yes, he will be a strong warrior and a future king.",
       "ru": "Да, он будет сильным воином и будущим королём.",
-      "audio": "audios/lotr_future_dialogue/answer-16.mp3"
+      "audio": "audios/lotr_future_dialogue/answer-16.mp3",
+      "es": "Sí, será un guerrero fuerte y un futuro rey.",
+      "de": "Ja, er wird ein starker Krieger und ein zukünftiger König sein."
     },
     {
       "id": "p_035",
       "text": "Now I am interested. I will definitely watch this movie today.",
       "ru": "Теперь мне интересно. Я точно посмотрю этот фильм сегодня.",
-      "audio": "audios/lotr_future_dialogue/question-17.mp3"
+      "audio": "audios/lotr_future_dialogue/question-17.mp3",
+      "es": "Ahora estoy interesado. Definitivamente veré esta película hoy.",
+      "de": "Jetzt bin ich interessiert. Ich werde diesen Film heute auf jeden Fall ansehen."
     }
   ]
 }

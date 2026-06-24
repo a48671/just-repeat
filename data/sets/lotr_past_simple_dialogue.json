@@ -7,181 +7,241 @@
       "id": "p_001",
       "text": "Did you watch The Lord of the Rings yesterday?",
       "ru": "Ты смотрел «Властелина колец» вчера?",
-      "audio": "audios/lotr_past_simple_dialogue/question-00.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-00.mp3",
+      "es": "¿Viste El Señor de los Anillos ayer?",
+      "de": "Hast du gestern Der Herr der Ringe gesehen?"
     },
     {
       "id": "p_002",
       "text": "Yes, I watched the first part.",
       "ru": "Да, я посмотрел первую часть.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-00.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-00.mp3",
+      "es": "Sí, vi la primera parte.",
+      "de": "Ja, ich habe den ersten Teil gesehen."
     },
     {
       "id": "p_003",
       "text": "Did you like the movie?",
       "ru": "Тебе понравился фильм?",
-      "audio": "audios/lotr_past_simple_dialogue/question-01.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-01.mp3",
+      "es": "¿Te gustó la película?",
+      "de": "Hat dir der Film gefallen?"
     },
     {
       "id": "p_004",
       "text": "Yes, I liked it very much.",
       "ru": "Да, он мне очень понравился.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-01.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-01.mp3",
+      "es": "Sí, me gustó mucho.",
+      "de": "Ja, er hat mir sehr gut gefallen."
     },
     {
       "id": "p_005",
       "text": "What happened at the beginning of the movie?",
       "ru": "Что случилось в начале фильма?",
-      "audio": "audios/lotr_past_simple_dialogue/question-02.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-02.mp3",
+      "es": "¿Qué pasó al principio de la película?",
+      "de": "Was ist am Anfang des Films passiert?"
     },
     {
       "id": "p_006",
       "text": "Bilbo gave the ring to Frodo.",
       "ru": "Бильбо дал кольцо Фродо.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-02.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-02.mp3",
+      "es": "Bilbo le dio el anillo a Frodo.",
+      "de": "Bilbo gab Frodo den Ring."
     },
     {
       "id": "p_007",
       "text": "Did Frodo want to take the ring?",
       "ru": "Фродо хотел взять кольцо?",
-      "audio": "audios/lotr_past_simple_dialogue/question-03.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-03.mp3",
+      "es": "¿Quería Frodo tomar el anillo?",
+      "de": "Wollte Frodo den Ring nehmen?"
     },
     {
       "id": "p_008",
       "text": "No, he was afraid.",
       "ru": "Нет, он боялся.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-03.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-03.mp3",
+      "es": "No, tenía miedo.",
+      "de": "Nein, er hatte Angst."
     },
     {
       "id": "p_009",
       "text": "Did Gandalf help him?",
       "ru": "Гэндальф помог ему?",
-      "audio": "audios/lotr_past_simple_dialogue/question-04.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-04.mp3",
+      "es": "¿Lo ayudó Gandalf?",
+      "de": "Hat Gandalf ihm geholfen?"
     },
     {
       "id": "p_010",
       "text": "Yes, Gandalf told him the truth.",
       "ru": "Да, Гэндальф рассказал ему правду.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-04.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-04.mp3",
+      "es": "Sí, Gandalf le dijo la verdad.",
+      "de": "Ja, Gandalf sagte ihm die Wahrheit."
     },
     {
       "id": "p_011",
       "text": "What did Frodo do then?",
       "ru": "Что Фродо сделал потом?",
-      "audio": "audios/lotr_past_simple_dialogue/question-05.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-05.mp3",
+      "es": "¿Qué hizo Frodo después?",
+      "de": "Was hat Frodo dann getan?"
     },
     {
       "id": "p_012",
       "text": "He left the Shire with Sam.",
       "ru": "Он ушёл из Шира с Сэмом.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-05.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-05.mp3",
+      "es": "Se fue de la Comarca con Sam.",
+      "de": "Er verließ das Auenland mit Sam."
     },
     {
       "id": "p_013",
       "text": "Did they meet other hobbits?",
       "ru": "Они встретили других хоббитов?",
-      "audio": "audios/lotr_past_simple_dialogue/question-06.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-06.mp3",
+      "es": "¿Conocieron a otros hobbits?",
+      "de": "Haben sie andere Hobbits getroffen?"
     },
     {
       "id": "p_014",
       "text": "Yes, they met Merry and Pippin.",
       "ru": "Да, они встретили Мерри и Пиппина.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-06.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-06.mp3",
+      "es": "Sí, conocieron a Merry y Pippin.",
+      "de": "Ja, sie trafen Merry und Pippin."
     },
     {
       "id": "p_015",
       "text": "Were they scared in the forest?",
       "ru": "Им было страшно в лесу?",
-      "audio": "audios/lotr_past_simple_dialogue/question-07.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-07.mp3",
+      "es": "¿Tenían miedo en el bosque?",
+      "de": "Hatten sie Angst im Wald?"
     },
     {
       "id": "p_016",
       "text": "Yes, they saw dark riders.",
       "ru": "Да, они увидели тёмных всадников.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-07.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-07.mp3",
+      "es": "Sí, vieron jinetes oscuros.",
+      "de": "Ja, sie sahen dunkle Reiter."
     },
     {
       "id": "p_017",
       "text": "Who saved them later?",
       "ru": "Кто спас их позже?",
-      "audio": "audios/lotr_past_simple_dialogue/question-08.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-08.mp3",
+      "es": "¿Quién los salvó después?",
+      "de": "Wer rettete sie später?"
     },
     {
       "id": "p_018",
       "text": "Aragorn helped them at the inn.",
       "ru": "Арагорн помог им в трактире.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-08.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-08.mp3",
+      "es": "Aragorn los ayudó en la posada.",
+      "de": "Aragorn half ihnen im Gasthaus."
     },
     {
       "id": "p_019",
       "text": "Was he a strong warrior?",
       "ru": "Он был сильным воином?",
-      "audio": "audios/lotr_past_simple_dialogue/question-09.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-09.mp3",
+      "es": "¿Era un guerrero fuerte?",
+      "de": "War er ein starker Krieger?"
     },
     {
       "id": "p_020",
       "text": "Yes, he fought well.",
       "ru": "Да, он хорошо сражался.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-09.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-09.mp3",
+      "es": "Sí, luchó bien.",
+      "de": "Ja, er kämpfte gut."
     },
     {
       "id": "p_021",
       "text": "Where did they go then?",
       "ru": "Куда они пошли потом?",
-      "audio": "audios/lotr_past_simple_dialogue/question-10.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-10.mp3",
+      "es": "¿Adónde fueron después?",
+      "de": "Wohin gingen sie dann?"
     },
     {
       "id": "p_022",
       "text": "They went to Rivendell.",
       "ru": "Они пошли в Ривенделл.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-10.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-10.mp3",
+      "es": "Fueron a Rivendel.",
+      "de": "Sie gingen nach Bruchtal."
     },
     {
       "id": "p_023",
       "text": "Was there a meeting there?",
       "ru": "Там было собрание?",
-      "audio": "audios/lotr_past_simple_dialogue/question-11.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-11.mp3",
+      "es": "¿Hubo una reunión allí?",
+      "de": "Gab es dort ein Treffen?"
     },
     {
       "id": "p_024",
       "text": "Yes, different peoples talked about the ring.",
       "ru": "Да, разные народы говорили о кольце.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-11.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-11.mp3",
+      "es": "Sí, diferentes pueblos hablaron sobre el anillo.",
+      "de": "Ja, verschiedene Völker sprachen über den Ring."
     },
     {
       "id": "p_025",
       "text": "Who decided to destroy the ring?",
       "ru": "Кто решил уничтожить кольцо?",
-      "audio": "audios/lotr_past_simple_dialogue/question-12.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-12.mp3",
+      "es": "¿Quién decidió destruir el anillo?",
+      "de": "Wer beschloss, den Ring zu zerstören?"
     },
     {
       "id": "p_026",
       "text": "Frodo decided to carry it to Mordor.",
       "ru": "Фродо решил нести его в Мордор.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-12.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-12.mp3",
+      "es": "Frodo decidió llevarlo a Mordor.",
+      "de": "Frodo beschloss, ihn nach Mordor zu tragen."
     },
     {
       "id": "p_027",
       "text": "Did Sam go with him?",
       "ru": "Сэм пошёл с ним?",
-      "audio": "audios/lotr_past_simple_dialogue/question-13.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-13.mp3",
+      "es": "¿Fue Sam con él?",
+      "de": "Ging Sam mit ihm?"
     },
     {
       "id": "p_028",
       "text": "Yes, Sam did not leave Frodo.",
       "ru": "Да, Сэм не оставил Фродо.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-13.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-13.mp3",
+      "es": "Sí, Sam no dejó a Frodo.",
+      "de": "Ja, Sam verließ Frodo nicht."
     },
     {
       "id": "p_029",
       "text": "Was the ending sad?",
       "ru": "Концовка была грустной?",
-      "audio": "audios/lotr_past_simple_dialogue/question-14.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/question-14.mp3",
+      "es": "¿Fue triste el final?",
+      "de": "War das Ende traurig?"
     },
     {
       "id": "p_030",
       "text": "Yes, but it was very powerful.",
       "ru": "Да, но она была очень сильной.",
-      "audio": "audios/lotr_past_simple_dialogue/answer-14.mp3"
+      "audio": "audios/lotr_past_simple_dialogue/answer-14.mp3",
+      "es": "Sí, pero fue muy poderoso.",
+      "de": "Ja, aber es war sehr kraftvoll."
     }
   ]
 }

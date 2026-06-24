@@ -7,181 +7,241 @@
       "id": "p_001",
       "text": "Do you like The Lord of the Rings?",
       "ru": "Ты любишь «Властелина колец»?",
-      "audio": "audios/lotr_present_dialogue/question-00.mp3"
+      "audio": "audios/lotr_present_dialogue/question-00.mp3",
+      "es": "¿Te gusta El Señor de los Anillos?",
+      "de": "Magst du Der Herr der Ringe?"
     },
     {
       "id": "p_002",
       "text": "Yes, I really like this movie.",
       "ru": "Да, я очень люблю этот фильм.",
-      "audio": "audios/lotr_present_dialogue/answer-00.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-00.mp3",
+      "es": "Sí, me gusta mucho esta película.",
+      "de": "Ja, ich mag diesen Film sehr."
     },
     {
       "id": "p_003",
       "text": "What is this movie about?",
       "ru": "О чём этот фильм?",
-      "audio": "audios/lotr_present_dialogue/question-01.mp3"
+      "audio": "audios/lotr_present_dialogue/question-01.mp3",
+      "es": "¿De qué trata esta película?",
+      "de": "Worum geht es in diesem Film?"
     },
     {
       "id": "p_004",
       "text": "It is about a ring that gives great power.",
       "ru": "Он о кольце, которое даёт большую силу.",
-      "audio": "audios/lotr_present_dialogue/answer-01.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-01.mp3",
+      "es": "Trata de un anillo que da un gran poder.",
+      "de": "Es geht um einen Ring, der große Macht verleiht."
     },
     {
       "id": "p_005",
       "text": "Who is the main hero?",
       "ru": "Кто главный герой?",
-      "audio": "audios/lotr_present_dialogue/question-02.mp3"
+      "audio": "audios/lotr_present_dialogue/question-02.mp3",
+      "es": "¿Quién es el héroe principal?",
+      "de": "Wer ist der Hauptheld?"
     },
     {
       "id": "p_006",
       "text": "The main hero is Frodo.",
       "ru": "Главный герой — Фродо.",
-      "audio": "audios/lotr_present_dialogue/answer-02.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-02.mp3",
+      "es": "El héroe principal es Frodo.",
+      "de": "Der Hauptheld ist Frodo."
     },
     {
       "id": "p_007",
       "text": "What does Frodo do?",
       "ru": "Что Фродо делает?",
-      "audio": "audios/lotr_present_dialogue/question-03.mp3"
+      "audio": "audios/lotr_present_dialogue/question-03.mp3",
+      "es": "¿Qué hace Frodo?",
+      "de": "Was macht Frodo?"
     },
     {
       "id": "p_008",
       "text": "He carries the ring to Mordor.",
       "ru": "Он несёт кольцо в Мордор.",
-      "audio": "audios/lotr_present_dialogue/answer-03.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-03.mp3",
+      "es": "Lleva el anillo a Mordor.",
+      "de": "Er trägt den Ring nach Mordor."
     },
     {
       "id": "p_009",
       "text": "Why does he go there?",
       "ru": "Почему он идёт туда?",
-      "audio": "audios/lotr_present_dialogue/question-04.mp3"
+      "audio": "audios/lotr_present_dialogue/question-04.mp3",
+      "es": "¿Por qué va allí?",
+      "de": "Warum geht er dorthin?"
     },
     {
       "id": "p_010",
       "text": "He wants to destroy the ring.",
       "ru": "Он хочет уничтожить кольцо.",
-      "audio": "audios/lotr_present_dialogue/answer-04.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-04.mp3",
+      "es": "Quiere destruir el anillo.",
+      "de": "Er will den Ring zerstören."
     },
     {
       "id": "p_011",
       "text": "Who goes with him?",
       "ru": "Кто идёт с ним?",
-      "audio": "audios/lotr_present_dialogue/question-05.mp3"
+      "audio": "audios/lotr_present_dialogue/question-05.mp3",
+      "es": "¿Quién va con él?",
+      "de": "Wer geht mit ihm?"
     },
     {
       "id": "p_012",
       "text": "Sam goes with him.",
       "ru": "Сэм идёт с ним.",
-      "audio": "audios/lotr_present_dialogue/answer-05.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-05.mp3",
+      "es": "Sam va con él.",
+      "de": "Sam geht mit ihm."
     },
     {
       "id": "p_013",
       "text": "Is Sam a good friend?",
       "ru": "Сэм хороший друг?",
-      "audio": "audios/lotr_present_dialogue/question-06.mp3"
+      "audio": "audios/lotr_present_dialogue/question-06.mp3",
+      "es": "¿Es Sam un buen amigo?",
+      "de": "Ist Sam ein guter Freund?"
     },
     {
       "id": "p_014",
       "text": "Yes, he always helps Frodo.",
       "ru": "Да, он всегда помогает Фродо.",
-      "audio": "audios/lotr_present_dialogue/answer-06.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-06.mp3",
+      "es": "Sí, siempre ayuda a Frodo.",
+      "de": "Ja, er hilft Frodo immer."
     },
     {
       "id": "p_015",
       "text": "What does Gandalf do?",
       "ru": "Что делает Гэндальф?",
-      "audio": "audios/lotr_present_dialogue/question-07.mp3"
+      "audio": "audios/lotr_present_dialogue/question-07.mp3",
+      "es": "¿Qué hace Gandalf?",
+      "de": "Was macht Gandalf?"
     },
     {
       "id": "p_016",
       "text": "He leads the heroes and gives advice.",
       "ru": "Он ведёт героев и даёт советы.",
-      "audio": "audios/lotr_present_dialogue/answer-07.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-07.mp3",
+      "es": "Guía a los héroes y da consejos.",
+      "de": "Er führt die Helden und gibt Ratschläge."
     },
     {
       "id": "p_017",
       "text": "And who is Aragorn?",
       "ru": "А кто такой Арагорн?",
-      "audio": "audios/lotr_present_dialogue/question-08.mp3"
+      "audio": "audios/lotr_present_dialogue/question-08.mp3",
+      "es": "¿Y quién es Aragorn?",
+      "de": "Und wer ist Aragorn?"
     },
     {
       "id": "p_018",
       "text": "He is a warrior and a future king.",
       "ru": "Он воин и будущий король.",
-      "audio": "audios/lotr_present_dialogue/answer-08.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-08.mp3",
+      "es": "Es un guerrero y un futuro rey.",
+      "de": "Er ist ein Krieger und ein zukünftiger König."
     },
     {
       "id": "p_019",
       "text": "Does he protect the hobbits?",
       "ru": "Он защищает хоббитов?",
-      "audio": "audios/lotr_present_dialogue/question-09.mp3"
+      "audio": "audios/lotr_present_dialogue/question-09.mp3",
+      "es": "¿Protege a los hobbits?",
+      "de": "Beschützt er die Hobbits?"
     },
     {
       "id": "p_020",
       "text": "Yes, he often protects them.",
       "ru": "Да, он часто защищает их.",
-      "audio": "audios/lotr_present_dialogue/answer-09.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-09.mp3",
+      "es": "Sí, a menudo los protege.",
+      "de": "Ja, er beschützt sie oft."
     },
     {
       "id": "p_021",
       "text": "Who wants to get the ring?",
       "ru": "Кто хочет получить кольцо?",
-      "audio": "audios/lotr_present_dialogue/question-10.mp3"
+      "audio": "audios/lotr_present_dialogue/question-10.mp3",
+      "es": "¿Quién quiere conseguir el anillo?",
+      "de": "Wer will den Ring bekommen?"
     },
     {
       "id": "p_022",
       "text": "Sauron wants to get it.",
       "ru": "Саурон хочет получить его.",
-      "audio": "audios/lotr_present_dialogue/answer-10.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-10.mp3",
+      "es": "Sauron quiere conseguirlo.",
+      "de": "Sauron will ihn bekommen."
     },
     {
       "id": "p_023",
       "text": "Why is the ring dangerous?",
       "ru": "Почему кольцо опасно?",
-      "audio": "audios/lotr_present_dialogue/question-11.mp3"
+      "audio": "audios/lotr_present_dialogue/question-11.mp3",
+      "es": "¿Por qué es peligroso el anillo?",
+      "de": "Warum ist der Ring gefährlich?"
     },
     {
       "id": "p_024",
       "text": "It changes people and makes them weak.",
       "ru": "Оно меняет людей и делает их слабыми.",
-      "audio": "audios/lotr_present_dialogue/answer-11.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-11.mp3",
+      "es": "Cambia a las personas y las debilita.",
+      "de": "Er verändert Menschen und macht sie schwach."
     },
     {
       "id": "p_025",
       "text": "Is Frodo suffering now?",
       "ru": "Фродо сейчас страдает?",
-      "audio": "audios/lotr_present_dialogue/question-12.mp3"
+      "audio": "audios/lotr_present_dialogue/question-12.mp3",
+      "es": "¿Está sufriendo Frodo ahora?",
+      "de": "Leidet Frodo jetzt?"
     },
     {
       "id": "p_026",
       "text": "Yes, the ring is becoming heavier for him.",
       "ru": "Да, кольцо становится тяжелее для него.",
-      "audio": "audios/lotr_present_dialogue/answer-12.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-12.mp3",
+      "es": "Sí, el anillo se está volviendo más pesado para él.",
+      "de": "Ja, der Ring wird für ihn schwerer."
     },
     {
       "id": "p_027",
       "text": "Does Gollum want the ring too?",
       "ru": "Гollum тоже хочет кольцо?",
-      "audio": "audios/lotr_present_dialogue/question-13.mp3"
+      "audio": "audios/lotr_present_dialogue/question-13.mp3",
+      "es": "¿También quiere Gollum el anillo?",
+      "de": "Will Gollum den Ring auch?"
     },
     {
       "id": "p_028",
       "text": "Yes, he calls it his precious.",
       "ru": "Да, он называет его своей прелестью.",
-      "audio": "audios/lotr_present_dialogue/answer-13.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-13.mp3",
+      "es": "Sí, lo llama su precioso.",
+      "de": "Ja, er nennt ihn seinen Schatz."
     },
     {
       "id": "p_029",
       "text": "Why is the movie so popular?",
       "ru": "Почему фильм так популярен?",
-      "audio": "audios/lotr_present_dialogue/question-14.mp3"
+      "audio": "audios/lotr_present_dialogue/question-14.mp3",
+      "es": "¿Por qué es tan popular la película?",
+      "de": "Warum ist der Film so beliebt?"
     },
     {
       "id": "p_030",
       "text": "Because it has friendship, courage, and hope.",
       "ru": "Потому что в нём есть дружба, смелость и надежда.",
-      "audio": "audios/lotr_present_dialogue/answer-14.mp3"
+      "audio": "audios/lotr_present_dialogue/answer-14.mp3",
+      "es": "Porque tiene amistad, valor y esperanza.",
+      "de": "Weil er Freundschaft, Mut und Hoffnung enthält."
     }
   ]
 }
