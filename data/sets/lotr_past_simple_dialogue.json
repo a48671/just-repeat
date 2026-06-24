@@ -1,0 +1,187 @@
+{
+  "id": "lotr_past_simple_dialogue",
+  "title": "The Lord of the Rings: Past Simple",
+  "description": "A dialogue about The Lord of the Rings focused on Past Simple practice.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "Did you watch The Lord of the Rings yesterday?",
+      "ru": "Ты смотрел «Властелина колец» вчера?",
+      "audio": "audios/lotr_past_simple_dialogue/question-00.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "Yes, I watched the first part.",
+      "ru": "Да, я посмотрел первую часть.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-00.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "Did you like the movie?",
+      "ru": "Тебе понравился фильм?",
+      "audio": "audios/lotr_past_simple_dialogue/question-01.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "Yes, I liked it very much.",
+      "ru": "Да, он мне очень понравился.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-01.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "What happened at the beginning of the movie?",
+      "ru": "Что случилось в начале фильма?",
+      "audio": "audios/lotr_past_simple_dialogue/question-02.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "Bilbo gave the ring to Frodo.",
+      "ru": "Бильбо дал кольцо Фродо.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-02.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "Did Frodo want to take the ring?",
+      "ru": "Фродо хотел взять кольцо?",
+      "audio": "audios/lotr_past_simple_dialogue/question-03.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "No, he was afraid.",
+      "ru": "Нет, он боялся.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-03.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "Did Gandalf help him?",
+      "ru": "Гэндальф помог ему?",
+      "audio": "audios/lotr_past_simple_dialogue/question-04.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "Yes, Gandalf told him the truth.",
+      "ru": "Да, Гэндальф рассказал ему правду.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-04.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "What did Frodo do then?",
+      "ru": "Что Фродо сделал потом?",
+      "audio": "audios/lotr_past_simple_dialogue/question-05.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "He left the Shire with Sam.",
+      "ru": "Он ушёл из Шира с Сэмом.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-05.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "Did they meet other hobbits?",
+      "ru": "Они встретили других хоббитов?",
+      "audio": "audios/lotr_past_simple_dialogue/question-06.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "Yes, they met Merry and Pippin.",
+      "ru": "Да, они встретили Мерри и Пиппина.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-06.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "Were they scared in the forest?",
+      "ru": "Им было страшно в лесу?",
+      "audio": "audios/lotr_past_simple_dialogue/question-07.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "Yes, they saw dark riders.",
+      "ru": "Да, они увидели тёмных всадников.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-07.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "Who saved them later?",
+      "ru": "Кто спас их позже?",
+      "audio": "audios/lotr_past_simple_dialogue/question-08.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "Aragorn helped them at the inn.",
+      "ru": "Арагорн помог им в трактире.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-08.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "Was he a strong warrior?",
+      "ru": "Он был сильным воином?",
+      "audio": "audios/lotr_past_simple_dialogue/question-09.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "Yes, he fought well.",
+      "ru": "Да, он хорошо сражался.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-09.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "Where did they go then?",
+      "ru": "Куда они пошли потом?",
+      "audio": "audios/lotr_past_simple_dialogue/question-10.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "They went to Rivendell.",
+      "ru": "Они пошли в Ривенделл.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-10.mp3"
+    },
+    {
+      "id": "p_023",
+      "text": "Was there a meeting there?",
+      "ru": "Там было собрание?",
+      "audio": "audios/lotr_past_simple_dialogue/question-11.mp3"
+    },
+    {
+      "id": "p_024",
+      "text": "Yes, different peoples talked about the ring.",
+      "ru": "Да, разные народы говорили о кольце.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-11.mp3"
+    },
+    {
+      "id": "p_025",
+      "text": "Who decided to destroy the ring?",
+      "ru": "Кто решил уничтожить кольцо?",
+      "audio": "audios/lotr_past_simple_dialogue/question-12.mp3"
+    },
+    {
+      "id": "p_026",
+      "text": "Frodo decided to carry it to Mordor.",
+      "ru": "Фродо решил нести его в Мордор.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-12.mp3"
+    },
+    {
+      "id": "p_027",
+      "text": "Did Sam go with him?",
+      "ru": "Сэм пошёл с ним?",
+      "audio": "audios/lotr_past_simple_dialogue/question-13.mp3"
+    },
+    {
+      "id": "p_028",
+      "text": "Yes, Sam did not leave Frodo.",
+      "ru": "Да, Сэм не оставил Фродо.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-13.mp3"
+    },
+    {
+      "id": "p_029",
+      "text": "Was the ending sad?",
+      "ru": "Концовка была грустной?",
+      "audio": "audios/lotr_past_simple_dialogue/question-14.mp3"
+    },
+    {
+      "id": "p_030",
+      "text": "Yes, but it was very powerful.",
+      "ru": "Да, но она была очень сильной.",
+      "audio": "audios/lotr_past_simple_dialogue/answer-14.mp3"
+    }
+  ]
+}

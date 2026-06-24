@@ -20,6 +20,7 @@ export type HintKey =
   | 'bottom.restart'
   | 'phrase.favorite'
   | 'phrase.play'
+  | 'phrase.revealText'
   | 'set.open'
   | 'generic.gotIt';
 
@@ -45,6 +46,7 @@ const RUSSIAN_HINTS: HintTexts = {
   'bottom.restart': 'Перезапустить текущий набор с начала.',
   'phrase.favorite': 'Добавьте фразу в избранное, чтобы быстрее её найти.',
   'phrase.play': 'Воспроизведите аудио фразы, чтобы потренировать произношение.',
+  'phrase.revealText': 'Нажмите, чтобы открыть английскую фразу.',
   'set.open': 'Откройте набор, чтобы увидеть фразы и элементы управления аудио.',
   'generic.gotIt': 'Понятно',
 };
@@ -69,6 +71,7 @@ const SPANISH_HINTS: HintTexts = {
   'bottom.restart': 'Reiniciar el conjunto actual desde el principio.',
   'phrase.favorite': 'Añade la frase a favoritos para encontrarla más rápido.',
   'phrase.play': 'Reproduce el audio de la frase para practicar la pronunciación.',
+  'phrase.revealText': 'Toca para mostrar la frase en inglés.',
   'set.open': 'Abre el conjunto para ver las frases y los controles de audio.',
   'generic.gotIt': 'Entendido',
 };
@@ -93,6 +96,7 @@ const GERMAN_HINTS: HintTexts = {
   'bottom.restart': 'Das aktuelle Set von Anfang an neu starten.',
   'phrase.favorite': 'Füge den Satz zu den Favoriten hinzu, um ihn schneller zu finden.',
   'phrase.play': 'Spiele das Audio des Satzes ab, um die Aussprache zu üben.',
+  'phrase.revealText': 'Tippe, um den englischen Satz anzuzeigen.',
   'set.open': 'Öffne das Set, um die Sätze und die Audiosteuerung zu sehen.',
   'generic.gotIt': 'Verstanden',
 };

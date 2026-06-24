@@ -68,5 +68,33 @@
     "description": "I stopped forcing myself and built a system that actually works.",
     "phraseCount": 34,
     "file": "sets/productivity_finally_made_sense.json"
+  },
+  {
+    "id": "lotr_past_simple_dialogue",
+    "title": "The Lord of the Rings: Past Simple",
+    "description": "A dialogue about The Lord of the Rings focused on Past Simple practice.",
+    "phraseCount": 30,
+    "file": "sets/lotr_past_simple_dialogue.json"
+  },
+  {
+    "id": "lotr_present_dialogue",
+    "title": "The Lord of the Rings: Present Tenses",
+    "description": "A dialogue about The Lord of the Rings focused on Present Simple and Present Continuous practice.",
+    "phraseCount": 30,
+    "file": "sets/lotr_present_dialogue.json"
+  },
+  {
+    "id": "lotr_future_dialogue",
+    "title": "The Lord of the Rings: Future Tenses",
+    "description": "A dialogue about The Lord of the Rings focused on Future Simple and going to practice.",
+    "phraseCount": 35,
+    "file": "sets/lotr_future_dialogue.json"
+  },
+  {
+    "id": "lotr_mixed_tenses_dialogue",
+    "title": "The Lord of the Rings: Mixed Tenses",
+    "description": "A dialogue about The Lord of the Rings for practicing past, present, and future tenses together.",
+    "phraseCount": 35,
+    "file": "sets/lotr_mixed_tenses_dialogue.json"
   }
 ]

@@ -344,16 +344,42 @@ button {
 }
 
 .phrase-card-text {
+  appearance: none;
+  display: block;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 500;
   color: var(--color-text-primary);
+  cursor: pointer;
+  transition: color 160ms ease, filter 160ms ease, opacity 160ms ease;
+}
+
+.phrase-card-text-hidden {
+  filter: blur(0.35rem);
+  opacity: 0.72;
+  user-select: none;
+}
+
+.phrase-card-text-revealed {
+  filter: none;
+  opacity: 1;
+  cursor: default;
+}
+
+.phrase-card-text:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 0.1875rem;
+  border-radius: 0.25rem;
 }
 
 .phrase-card-text-translation {
   margin: 0;
-  font-size: 0.875rem;
-  line-height: 1.45;
+  font-size: 1rem;
+  line-height: 1.5;
   font-weight: 400;
   color: var(--color-text-secondary);
 }

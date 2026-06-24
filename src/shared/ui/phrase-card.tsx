@@ -1,6 +1,9 @@
+import { useEffect, useRef, useState } from 'react';
 import { Pause, Play, Star } from 'lucide-react';
 import { Button } from './button';
 import { ProgressBar } from './progress-bar';
+import { registerHint, unregisterHint } from './hint-registry';
+import type { HintRegistration } from './hint-registry';
 
 type PhraseCardState = 'idle' | 'active' | 'loading' | 'playing' | 'completed' | 'error';
 
@@ -29,6 +32,8 @@ export function PhraseCard({
   onPlay,
   onToggleFavorite,
 }: PhraseCardProps) {
+  const [textRevealed, setTextRevealed] = useState(false);
+  const textButtonRef = useRef<HTMLButtonElement | null>(null);
   const isCurrent = state === 'active' || state === 'loading' || state === 'playing';
   const playButtonAriaLabel =
     state === 'loading'
@@ -49,6 +54,29 @@ export function PhraseCard({
     .filter(Boolean)
     .join(' ');
   const PlayIcon = state === 'playing' ? Pause : Play;
+  const phraseTextClassName = ['phrase-card-text', textRevealed ? 'phrase-card-text-revealed' : 'phrase-card-text-hidden'].join(' ');
+
+  useEffect(() => {
+    setTextRevealed(false);
+  }, [text]);
+
+  useEffect(() => {
+    if (textRevealed) return;
+
+    const registration: HintRegistration = {
+      hintId: 'phrase.revealText',
+      hintKey: 'phrase.revealText',
+      element: textButtonRef.current,
+      isMounted: true,
+    };
+
+    registerHint(registration);
+
+    return () => {
+      registration.isMounted = false;
+      unregisterHint(registration);
+    };
+  }, [textRevealed]);
 
   return (
     <article aria-busy={state === 'loading'} aria-current={isCurrent ? 'true' : undefined} className={classes}>
@@ -61,7 +89,16 @@ export function PhraseCard({
       <div className="phrase-card-layout">
         <div className="phrase-card-copy">
           <div className="phrase-card-copy-stack">
-            <p className="phrase-card-text">{text}</p>
+            <button
+              aria-label={textRevealed ? 'Phrase text is visible' : 'Reveal phrase text'}
+              aria-pressed={textRevealed}
+              className={phraseTextClassName}
+              onClick={() => setTextRevealed(true)}
+              ref={textButtonRef}
+              type="button"
+            >
+              {text}
+            </button>
             {translatedText ? <p className="phrase-card-text-translation">{translatedText}</p> : null}
           </div>
         </div>

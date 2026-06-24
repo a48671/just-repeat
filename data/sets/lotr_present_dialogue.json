@@ -1,0 +1,187 @@
+{
+  "id": "lotr_present_dialogue",
+  "title": "The Lord of the Rings: Present Tenses",
+  "description": "A dialogue about The Lord of the Rings focused on Present Simple and Present Continuous practice.",
+  "phrases": [
+    {
+      "id": "p_001",
+      "text": "Do you like The Lord of the Rings?",
+      "ru": "Ты любишь «Властелина колец»?",
+      "audio": "audios/lotr_present_dialogue/question-00.mp3"
+    },
+    {
+      "id": "p_002",
+      "text": "Yes, I really like this movie.",
+      "ru": "Да, я очень люблю этот фильм.",
+      "audio": "audios/lotr_present_dialogue/answer-00.mp3"
+    },
+    {
+      "id": "p_003",
+      "text": "What is this movie about?",
+      "ru": "О чём этот фильм?",
+      "audio": "audios/lotr_present_dialogue/question-01.mp3"
+    },
+    {
+      "id": "p_004",
+      "text": "It is about a ring that gives great power.",
+      "ru": "Он о кольце, которое даёт большую силу.",
+      "audio": "audios/lotr_present_dialogue/answer-01.mp3"
+    },
+    {
+      "id": "p_005",
+      "text": "Who is the main hero?",
+      "ru": "Кто главный герой?",
+      "audio": "audios/lotr_present_dialogue/question-02.mp3"
+    },
+    {
+      "id": "p_006",
+      "text": "The main hero is Frodo.",
+      "ru": "Главный герой — Фродо.",
+      "audio": "audios/lotr_present_dialogue/answer-02.mp3"
+    },
+    {
+      "id": "p_007",
+      "text": "What does Frodo do?",
+      "ru": "Что Фродо делает?",
+      "audio": "audios/lotr_present_dialogue/question-03.mp3"
+    },
+    {
+      "id": "p_008",
+      "text": "He carries the ring to Mordor.",
+      "ru": "Он несёт кольцо в Мордор.",
+      "audio": "audios/lotr_present_dialogue/answer-03.mp3"
+    },
+    {
+      "id": "p_009",
+      "text": "Why does he go there?",
+      "ru": "Почему он идёт туда?",
+      "audio": "audios/lotr_present_dialogue/question-04.mp3"
+    },
+    {
+      "id": "p_010",
+      "text": "He wants to destroy the ring.",
+      "ru": "Он хочет уничтожить кольцо.",
+      "audio": "audios/lotr_present_dialogue/answer-04.mp3"
+    },
+    {
+      "id": "p_011",
+      "text": "Who goes with him?",
+      "ru": "Кто идёт с ним?",
+      "audio": "audios/lotr_present_dialogue/question-05.mp3"
+    },
+    {
+      "id": "p_012",
+      "text": "Sam goes with him.",
+      "ru": "Сэм идёт с ним.",
+      "audio": "audios/lotr_present_dialogue/answer-05.mp3"
+    },
+    {
+      "id": "p_013",
+      "text": "Is Sam a good friend?",
+      "ru": "Сэм хороший друг?",
+      "audio": "audios/lotr_present_dialogue/question-06.mp3"
+    },
+    {
+      "id": "p_014",
+      "text": "Yes, he always helps Frodo.",
+      "ru": "Да, он всегда помогает Фродо.",
+      "audio": "audios/lotr_present_dialogue/answer-06.mp3"
+    },
+    {
+      "id": "p_015",
+      "text": "What does Gandalf do?",
+      "ru": "Что делает Гэндальф?",
+      "audio": "audios/lotr_present_dialogue/question-07.mp3"
+    },
+    {
+      "id": "p_016",
+      "text": "He leads the heroes and gives advice.",
+      "ru": "Он ведёт героев и даёт советы.",
+      "audio": "audios/lotr_present_dialogue/answer-07.mp3"
+    },
+    {
+      "id": "p_017",
+      "text": "And who is Aragorn?",
+      "ru": "А кто такой Арагорн?",
+      "audio": "audios/lotr_present_dialogue/question-08.mp3"
+    },
+    {
+      "id": "p_018",
+      "text": "He is a warrior and a future king.",
+      "ru": "Он воин и будущий король.",
+      "audio": "audios/lotr_present_dialogue/answer-08.mp3"
+    },
+    {
+      "id": "p_019",
+      "text": "Does he protect the hobbits?",
+      "ru": "Он защищает хоббитов?",
+      "audio": "audios/lotr_present_dialogue/question-09.mp3"
+    },
+    {
+      "id": "p_020",
+      "text": "Yes, he often protects them.",
+      "ru": "Да, он часто защищает их.",
+      "audio": "audios/lotr_present_dialogue/answer-09.mp3"
+    },
+    {
+      "id": "p_021",
+      "text": "Who wants to get the ring?",
+      "ru": "Кто хочет получить кольцо?",
+      "audio": "audios/lotr_present_dialogue/question-10.mp3"
+    },
+    {
+      "id": "p_022",
+      "text": "Sauron wants to get it.",
+      "ru": "Саурон хочет получить его.",
+      "audio": "audios/lotr_present_dialogue/answer-10.mp3"
+    },
+    {
+      "id": "p_023",
+      "text": "Why is the ring dangerous?",
+      "ru": "Почему кольцо опасно?",
+      "audio": "audios/lotr_present_dialogue/question-11.mp3"
+    },
+    {
+      "id": "p_024",
+      "text": "It changes people and makes them weak.",
+      "ru": "Оно меняет людей и делает их слабыми.",
+      "audio": "audios/lotr_present_dialogue/answer-11.mp3"
+    },
+    {
+      "id": "p_025",
+      "text": "Is Frodo suffering now?",
+      "ru": "Фродо сейчас страдает?",
+      "audio": "audios/lotr_present_dialogue/question-12.mp3"
+    },
+    {
+      "id": "p_026",
+      "text": "Yes, the ring is becoming heavier for him.",
+      "ru": "Да, кольцо становится тяжелее для него.",
+      "audio": "audios/lotr_present_dialogue/answer-12.mp3"
+    },
+    {
+      "id": "p_027",
+      "text": "Does Gollum want the ring too?",
+      "ru": "Гollum тоже хочет кольцо?",
+      "audio": "audios/lotr_present_dialogue/question-13.mp3"
+    },
+    {
+      "id": "p_028",
+      "text": "Yes, he calls it his precious.",
+      "ru": "Да, он называет его своей прелестью.",
+      "audio": "audios/lotr_present_dialogue/answer-13.mp3"
+    },
+    {
+      "id": "p_029",
+      "text": "Why is the movie so popular?",
+      "ru": "Почему фильм так популярен?",
+      "audio": "audios/lotr_present_dialogue/question-14.mp3"
+    },
+    {
+      "id": "p_030",
+      "text": "Because it has friendship, courage, and hope.",
+      "ru": "Потому что в нём есть дружба, смелость и надежда.",
+      "audio": "audios/lotr_present_dialogue/answer-14.mp3"
+    }
+  ]
+}
