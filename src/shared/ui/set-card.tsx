@@ -32,6 +32,7 @@ export function SetCard({ title, description, phraseCount, lastInteraction, onOp
       onClick={onOpen}
       hintId="sets.open"
       hintKey="set.open"
+      hintWrapperClassName="set-card-hint-wrapper"
       variant="ghost"
     >
       {content}

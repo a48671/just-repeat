@@ -925,6 +925,10 @@ button {
   width: fit-content;
 }
 
+.button-with-hint.set-card-hint-wrapper {
+  width: 100%;
+}
+
 .button-with-hint,
 .set-card-with-hint {
   position: relative;

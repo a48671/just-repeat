@@ -10,9 +10,10 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: ButtonVariant;
   hintId?: string;
   hintKey?: HintKey;
+  hintWrapperClassName?: string;
 };
 
-export function Button({ children, className = '', variant = 'primary', hintId, hintKey, ...props }: ButtonProps) {
+export function Button({ children, className = '', variant = 'primary', hintId, hintKey, hintWrapperClassName = '', ...props }: ButtonProps) {
   const containerRef = useRef<HTMLDivElement | null>(null);
   const registrationRef = useRef<any>(null);
 
@@ -36,9 +37,10 @@ export function Button({ children, className = '', variant = 'primary', hintId, 
   }, [hintId, hintKey]);
 
   const classes = ['ui-button', `ui-button-${variant}`, className].filter(Boolean).join(' ');
+  const wrapperClasses = ['button-with-hint', hintWrapperClassName].filter(Boolean).join(' ');
 
   return (
-    <div ref={containerRef} className="button-with-hint">
+    <div ref={containerRef} className={wrapperClasses}>
       <button {...props} className={classes} type={props.type ?? 'button'}>
         {children}
       </button>
