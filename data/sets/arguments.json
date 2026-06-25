@@ -9,7 +9,8 @@
       "ru": "Что такое аргумент в программировании?",
       "es": "¿Qué es un argumento en programación?",
       "de": "Was ist ein Argument in der Programmierung?",
-      "audio": "audios/arguments/question-00.mp3"
+      "audio": "audios/arguments/question-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Это значение, которое мы передаём функции.",
       "es": "Es un valor que damos a una función.",
       "de": "Es ist ein Wert, den wir an eine Funktion übergeben.",
-      "audio": "audios/arguments/answer-00.mp3"
+      "audio": "audios/arguments/answer-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "Как можно передавать аргументы?",
       "es": "¿Cómo podemos pasar argumentos?",
       "de": "Wie können wir Argumente übergeben?",
-      "audio": "audios/arguments/question-01.mp3"
+      "audio": "audios/arguments/question-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Двумя основными способами: по значению и по ссылке.",
       "es": "De dos maneras principales: por valor y por referencia.",
       "de": "Auf zwei Hauptweisen: by value und by reference.",
-      "audio": "audios/arguments/answer-01.mp3"
+      "audio": "audios/arguments/answer-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Что означает «по значению»?",
       "es": "¿Qué significa «por valor»?",
       "de": "Was bedeutet «by value»?",
-      "audio": "audios/arguments/question-02.mp3"
+      "audio": "audios/arguments/question-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "Функция получает копию значения.",
       "es": "La función recibe una copia del valor.",
       "de": "Die Funktion erhält eine Kopie des Werts.",
-      "audio": "audios/arguments/answer-02.mp3"
+      "audio": "audios/arguments/answer-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Что происходит с оригиналом?",
       "es": "¿Qué pasa con el original?",
       "de": "Was passiert mit dem Original?",
-      "audio": "audios/arguments/question-03.mp3"
+      "audio": "audios/arguments/question-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Оригинал остаётся прежним.",
       "es": "El original sigue igual.",
       "de": "Das Original bleibt gleich.",
-      "audio": "audios/arguments/answer-03.mp3"
+      "audio": "audios/arguments/answer-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "Можете привести пример?",
       "es": "¿Puedes dar un ejemplo?",
       "de": "Kannst du ein Beispiel geben?",
-      "audio": "audios/arguments/question-04.mp3"
+      "audio": "audios/arguments/question-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Если передать число и изменить его внутри, внешнее число не изменится.",
       "es": "Si pasamos un número y lo cambiamos dentro, el número exterior no cambia.",
       "de": "Wenn wir eine Zahl übergeben und sie innen ändern, ändert sich die äußere Zahl nicht.",
-      "audio": "audios/arguments/answer-04.mp3"
+      "audio": "audios/arguments/answer-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "Что означает «по ссылке»?",
       "es": "¿Qué significa «por referencia»?",
       "de": "Was bedeutet «by reference»?",
-      "audio": "audios/arguments/question-05.mp3"
+      "audio": "audios/arguments/question-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Функция получает ссылку на исходные данные.",
       "es": "La función recibe un enlace a los datos originales.",
       "de": "Die Funktion erhält einen Verweis auf die Originaldaten.",
-      "audio": "audios/arguments/answer-05.mp3"
+      "audio": "audios/arguments/answer-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Что произойдёт, если мы изменим его?",
       "es": "¿Qué pasa si lo cambiamos?",
       "de": "Was passiert, wenn wir es ändern?",
-      "audio": "audios/arguments/question-06.mp3"
+      "audio": "audios/arguments/question-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Исходные данные тоже меняются.",
       "es": "Los datos originales también cambian.",
       "de": "Die Originaldaten ändern sich ebenfalls.",
-      "audio": "audios/arguments/answer-06.mp3"
+      "audio": "audios/arguments/answer-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "Почему это важно знать?",
       "es": "¿Por qué es importante saber esto?",
       "de": "Warum ist das wichtig zu wissen?",
-      "audio": "audios/arguments/question-07.mp3"
+      "audio": "audios/arguments/question-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Потому что можно случайно изменить данные.",
       "es": "Porque podemos cambiar datos por error.",
       "de": "Weil wir Daten versehentlich ändern können.",
-      "audio": "audios/arguments/answer-07.mp3"
+      "audio": "audios/arguments/answer-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "Какие типы обычно передают по значению?",
       "es": "¿Qué tipos se pasan normalmente por valor?",
       "de": "Welche Typen werden normalerweise per Value übergeben?",
-      "audio": "audios/arguments/question-08.mp3"
+      "audio": "audios/arguments/question-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Простые типы, такие как числа и логические значения.",
       "es": "Tipos simples, como números y booleanos.",
       "de": "Einfache Typen, wie Zahlen und Booleans.",
-      "audio": "audios/arguments/answer-08.mp3"
+      "audio": "audios/arguments/answer-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Какие типы часто передают по ссылке?",
       "es": "¿Qué tipos se pasan a menudo por referencia?",
       "de": "Welche Typen werden oft per Referenz übergeben?",
-      "audio": "audios/arguments/question-09.mp3"
+      "audio": "audios/arguments/question-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Объекты и массивы.",
       "es": "Objetos y arrays.",
       "de": "Objekte und Arrays.",
-      "audio": "audios/arguments/answer-09.mp3"
+      "audio": "audios/arguments/answer-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "Можете привести пример с массивом?",
       "es": "¿Puedes dar un ejemplo con un array?",
       "de": "Kannst du ein Beispiel mit einem Array geben?",
-      "audio": "audios/arguments/question-10.mp3"
+      "audio": "audios/arguments/question-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_022",
@@ -177,7 +198,8 @@
       "ru": "Если добавить элемент внутри функции, внешний массив тоже получит его.",
       "es": "Si añadimos un elemento dentro de una función, el array exterior también lo recibe.",
       "de": "Wenn wir innerhalb einer Funktion ein Element hinzufügen, bekommt das äußere Array es ebenfalls.",
-      "audio": "audios/arguments/answer-10.mp3"
+      "audio": "audios/arguments/answer-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_023",
@@ -185,7 +207,8 @@
       "ru": "Как это работает в JavaScript?",
       "es": "¿Cómo funciona esto en JavaScript?",
       "de": "Wie funktioniert das in JavaScript?",
-      "audio": "audios/arguments/question-11.mp3"
+      "audio": "audios/arguments/question-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_024",
@@ -193,7 +216,8 @@
       "ru": "Простые типы передаются по значению, объекты — по ссылке.",
       "es": "Los tipos simples van por valor, los objetos van por referencia.",
       "de": "Einfache Typen gehen per Value, Objekte per Reference.",
-      "audio": "audios/arguments/answer-11.mp3"
+      "audio": "audios/arguments/answer-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_025",
@@ -201,7 +225,8 @@
       "ru": "А в Python?",
       "es": "¿Y en Python?",
       "de": "Und in Python?",
-      "audio": "audios/arguments/question-12.mp3"
+      "audio": "audios/arguments/question-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_026",
@@ -209,7 +234,8 @@
       "ru": "Это похоже: числа и строки ведут себя как по значению, списки — как по ссылке.",
       "es": "Es similar; los números y cadenas actúan como por valor, las listas como por referencia.",
       "de": "Es ist ähnlich; Zahlen und Strings verhalten sich wie per Value, Listen wie per Reference.",
-      "audio": "audios/arguments/answer-12.mp3"
+      "audio": "audios/arguments/answer-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_027",
@@ -217,7 +243,8 @@
       "ru": "Как защитить исходные данные?",
       "es": "¿Cómo podemos proteger los datos originales?",
       "de": "Wie können wir die Originaldaten schützen?",
-      "audio": "audios/arguments/question-13.mp3"
+      "audio": "audios/arguments/question-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_028",
@@ -225,7 +252,8 @@
       "ru": "Мы можем сделать копию перед изменением.",
       "es": "Podemos hacer una copia antes de cambiarlo.",
       "de": "Wir können eine Kopie machen, bevor wir es ändern.",
-      "audio": "audios/arguments/answer-13.mp3"
+      "audio": "audios/arguments/answer-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_029",
@@ -233,7 +261,8 @@
       "ru": "Почему копия безопаснее?",
       "es": "¿Por qué una copia es más segura?",
       "de": "Warum ist eine Kopie sicherer?",
-      "audio": "audios/arguments/question-14.mp3"
+      "audio": "audios/arguments/question-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_030",
@@ -241,7 +270,8 @@
       "ru": "Потому что мы меняем копию, а не оригинал.",
       "es": "Porque cambiamos la copia, no el original.",
       "de": "Weil wir die Kopie ändern und nicht das Original.",
-      "audio": "audios/arguments/answer-14.mp3"
+      "audio": "audios/arguments/answer-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_031",
@@ -249,7 +279,8 @@
       "ru": "Итак, в чем главное различие вкратце?",
       "es": "Entonces, ¿cuál es la diferencia principal, en resumen?",
       "de": "Also, was ist der Hauptunterschied kurz gesagt?",
-      "audio": "audios/arguments/question-15.mp3"
+      "audio": "audios/arguments/question-15.mp3",
+      "person": "male"
     },
     {
       "id": "p_032",
@@ -257,7 +288,14 @@
       "ru": "По значению копирует данные, по ссылке разделяет данные.",
       "es": "Por valor copia los datos, por referencia comparte los datos.",
       "de": "By value kopiert die Daten, by reference teilt die Daten.",
-      "audio": "audios/arguments/answer-15.mp3"
+      "audio": "audios/arguments/answer-15.mp3",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Основы аргументов",
+  "titleEs": "Conceptos básicos de argumentos",
+  "titleDe": "Grundlagen von Argumenten",
+  "descriptionRu": "Короткий формат вопрос-ответ о передаче значений и ссылок в программировании.",
+  "descriptionEs": "Un breve formato de preguntas y respuestas sobre pasar valores y referencias en programación.",
+  "descriptionDe": "Ein kurzes Frage-Antwort-Set über das Übergeben von Werten und Referenzen in der Programmierung."
 }

@@ -105,5 +105,11 @@
       "ru": "Маленькие действия, повторённые много раз, меняют вашу жизнь.",
       "audio": "audios/compound_effect/017.mp3"
     }
-  ]
+  ],
+  "titleRu": "Эффект накопления",
+  "titleEs": "El efecto compuesto",
+  "titleDe": "Der Zinseszinseffekt",
+  "descriptionRu": "История о том, как маленькие ежедневные привычки со временем создают огромную разницу.",
+  "descriptionEs": "Una historia sobre cómo pequeños hábitos diarios crean una gran diferencia con el tiempo.",
+  "descriptionDe": "Eine Geschichte darüber, wie kleine tägliche Gewohnheiten mit der Zeit einen großen Unterschied machen."
 }

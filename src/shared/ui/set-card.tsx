@@ -1,3 +1,5 @@
+import type { NativeLanguage } from '../../domain/app-settings';
+import { loadAppSettings } from '../../infrastructure/persistence/local-app-settings-storage';
 import { Button } from './button';
 
 type SetCardProps = {
@@ -8,7 +10,15 @@ type SetCardProps = {
   onOpen?: () => void;
 };
 
+const PHRASE_COUNT_LABEL: Record<NativeLanguage, string> = {
+  Russian: 'фраз',
+  Spanish: 'frases',
+  German: 'Sätze',
+};
+
 export function SetCard({ title, description, phraseCount, lastInteraction, onOpen }: SetCardProps) {
+  const { nativeLanguage } = loadAppSettings();
+  const phraseCountLabel = PHRASE_COUNT_LABEL[nativeLanguage];
   const content = (
     <>
       <div className="set-card-copy">
@@ -16,7 +26,9 @@ export function SetCard({ title, description, phraseCount, lastInteraction, onOp
         <p>{description}</p>
       </div>
       <div className="set-card-meta">
-        <span className="set-card-count">{phraseCount} phrases</span>
+        <span className="set-card-count">
+          {phraseCount} {phraseCountLabel}
+        </span>
         {lastInteraction ? <span className="set-card-last">{lastInteraction}</span> : null}
       </div>
     </>

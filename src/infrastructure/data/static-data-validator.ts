@@ -69,7 +69,16 @@ export class StaticDataValidator implements DataValidator {
       });
     }
 
-    if (typeof candidate.title !== 'string' || typeof candidate.description !== 'string') {
+    if (
+      typeof candidate.title !== 'string' ||
+      (candidate.titleRu !== undefined && typeof candidate.titleRu !== 'string') ||
+      (candidate.titleEs !== undefined && typeof candidate.titleEs !== 'string') ||
+      (candidate.titleDe !== undefined && typeof candidate.titleDe !== 'string') ||
+      typeof candidate.description !== 'string' ||
+      (candidate.descriptionRu !== undefined && typeof candidate.descriptionRu !== 'string') ||
+      (candidate.descriptionEs !== undefined && typeof candidate.descriptionEs !== 'string') ||
+      (candidate.descriptionDe !== undefined && typeof candidate.descriptionDe !== 'string')
+    ) {
       throw createIntegrationException('INVALID_SET_SCHEMA', `Set details are missing title or description for ${expectedSetId}.`, {
         setId: expectedSetId,
       });
@@ -102,12 +111,18 @@ export class StaticDataValidator implements DataValidator {
       throw createIntegrationException('INVALID_SET_SCHEMA', `Set list item at index ${index} is not an object.`);
     }
 
-    const { id, title, description, phraseCount, file } = item as Partial<SourceSetListItem>;
+    const { id, title, titleRu, titleEs, titleDe, description, descriptionRu, descriptionEs, descriptionDe, phraseCount, file } = item as Partial<SourceSetListItem>;
 
     if (
       typeof id !== 'string' ||
       typeof title !== 'string' ||
+      (titleRu !== undefined && typeof titleRu !== 'string') ||
+      (titleEs !== undefined && typeof titleEs !== 'string') ||
+      (titleDe !== undefined && typeof titleDe !== 'string') ||
       typeof description !== 'string' ||
+      (descriptionRu !== undefined && typeof descriptionRu !== 'string') ||
+      (descriptionEs !== undefined && typeof descriptionEs !== 'string') ||
+      (descriptionDe !== undefined && typeof descriptionDe !== 'string') ||
       typeof phraseCount !== 'number' ||
       typeof file !== 'string'
     ) {
@@ -124,7 +139,7 @@ export class StaticDataValidator implements DataValidator {
       });
     }
 
-    const { id, text, audio, image, ru, es, de } = phrase as Partial<SourcePhrase>;
+    const { id, text, audio, image, ru, es, de, person } = phrase as Partial<SourcePhrase>;
 
     if (
       typeof id !== 'string' ||
@@ -133,7 +148,8 @@ export class StaticDataValidator implements DataValidator {
       (image !== undefined && typeof image !== 'string') ||
       (ru !== undefined && typeof ru !== 'string') ||
       (es !== undefined && typeof es !== 'string') ||
-      (de !== undefined && typeof de !== 'string')
+      (de !== undefined && typeof de !== 'string') ||
+      (person !== undefined && person !== 'female' && person !== 'male')
     ) {
       throw createIntegrationException('INVALID_PHRASE_SCHEMA', `Phrase at index ${index} has invalid fields.`, {
         setId,

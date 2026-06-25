@@ -9,7 +9,8 @@
       "ru": "Что такое тип в программировании?",
       "es": "¿Qué es un tipo en programación?",
       "de": "Was ist ein Typ in der Programmierung?",
-      "audio": "audios/typing/question-00.mp3"
+      "audio": "audios/typing/question-00.mp3",
+      "person": "female"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Она показывает, какого типа у нас данные, например число или строка.",
       "es": "Nos dice qué tipo de datos tenemos, como un número o una cadena.",
       "de": "Sie sagt uns, welche Art von Daten wir haben, zum Beispiel eine Zahl oder ein String.",
-      "audio": "audios/typing/answer-00.mp3"
+      "audio": "audios/typing/answer-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "Что такое статическая типизация?",
       "es": "¿Qué es la tipificación estática?",
       "de": "Was ist statische Typisierung?",
-      "audio": "audios/typing/question-01.mp3"
+      "audio": "audios/typing/question-01.mp3",
+      "person": "female"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Тип проверяется до запуска программы.",
       "es": "El tipo se comprueba antes de que el programa se ejecute.",
       "de": "Der Typ wird geprüft, bevor das Programm läuft.",
-      "audio": "audios/typing/answer-01.mp3"
+      "audio": "audios/typing/answer-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Что такое динамическая типизация?",
       "es": "¿Qué es la tipificación dinámica?",
       "de": "Was ist dynamische Typisierung?",
-      "audio": "audios/typing/question-02.mp3"
+      "audio": "audios/typing/question-02.mp3",
+      "person": "female"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "Тип проверяется во время выполнения программы.",
       "es": "El tipo se comprueba mientras el programa se ejecuta.",
       "de": "Der Typ wird während der Laufzeit geprüft.",
-      "audio": "audios/typing/answer-02.mp3"
+      "audio": "audios/typing/answer-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Можете привести пример статической типизации?",
       "es": "¿Puedes dar un ejemplo de tipificación estática?",
       "de": "Kannst du ein Beispiel für statische Typisierung geben?",
-      "audio": "audios/typing/question-03.mp3"
+      "audio": "audios/typing/question-03.mp3",
+      "person": "female"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Java и C# используют статическую типизацию.",
       "es": "Java y C# usan tipificación estática.",
       "de": "Java und C# verwenden statische Typisierung.",
-      "audio": "audios/typing/answer-03.mp3"
+      "audio": "audios/typing/answer-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "А пример динамической?",
       "es": "¿Y un ejemplo dinámico?",
       "de": "Und ein dynamisches Beispiel?",
-      "audio": "audios/typing/question-04.mp3"
+      "audio": "audios/typing/question-04.mp3",
+      "person": "female"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Python и JavaScript используют динамическую типизацию.",
       "es": "Python y JavaScript usan tipificación dinámica.",
       "de": "Python und JavaScript verwenden dynamische Typisierung.",
-      "audio": "audios/typing/answer-04.mp3"
+      "audio": "audios/typing/answer-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "В статической типизации мы пишем тип явно?",
       "es": "En la tipificación estática, ¿escribimos el tipo?",
       "de": "Schreiben wir in der statischen Typisierung den Typ explizit?",
-      "audio": "audios/typing/question-05.mp3"
+      "audio": "audios/typing/question-05.mp3",
+      "person": "female"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Часто да, но иногда компилятор может догадаться сам.",
       "es": "A menudo sí, pero a veces el compilador puede adivinarlo.",
       "de": "Oft ja, aber manchmal kann der Compiler es erraten.",
-      "audio": "audios/typing/answer-05.mp3"
+      "audio": "audios/typing/answer-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Что хорошего в статической типизации?",
       "es": "¿Qué tiene de bueno la tipificación estática?",
       "de": "Was ist gut an der statischen Typisierung?",
-      "audio": "audios/typing/question-06.mp3"
+      "audio": "audios/typing/question-06.mp3",
+      "person": "female"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Она помогает найти много ошибок заранее, до запуска программы.",
       "es": "Detecta muchos errores temprano, antes de que el programa se ejecute.",
       "de": "Sie findet viele Fehler frühzeitig, bevor das Programm läuft.",
-      "audio": "audios/typing/answer-06.mp3"
+      "audio": "audios/typing/answer-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "Что в этом плохого?",
       "es": "¿Qué hay de malo en eso?",
       "de": "Was ist daran schlecht?",
-      "audio": "audios/typing/question-07.mp3"
+      "audio": "audios/typing/question-07.mp3",
+      "person": "female"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Нужно писать больше кода, и это менее гибко.",
       "es": "Escribimos más código y es menos flexible.",
       "de": "Wir schreiben mehr Code und es ist weniger flexibel.",
-      "audio": "audios/typing/answer-07.mp3"
+      "audio": "audios/typing/answer-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "Что хорошего в динамической типизации?",
       "es": "¿Qué tiene de bueno la tipificación dinámica?",
       "de": "Was ist gut an der dynamischen Typisierung?",
-      "audio": "audios/typing/question-08.mp3"
+      "audio": "audios/typing/question-08.mp3",
+      "person": "female"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Это быстро писать, и это более гибко.",
       "es": "Es rápido de escribir y más flexible.",
       "de": "Es ist schnell zu schreiben und flexibler.",
-      "audio": "audios/typing/answer-08.mp3"
+      "audio": "audios/typing/answer-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Что в этом плохого?",
       "es": "¿Qué hay de malo en eso?",
       "de": "Was ist daran schlecht?",
-      "audio": "audios/typing/question-09.mp3"
+      "audio": "audios/typing/question-09.mp3",
+      "person": "female"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Некоторые ошибки появляются только во время выполнения программы.",
       "es": "Algunos errores aparecen solo cuando el programa se ejecuta.",
       "de": "Einige Fehler erscheinen erst, wenn das Programm läuft.",
-      "audio": "audios/typing/answer-09.mp3"
+      "audio": "audios/typing/answer-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "Теперь что такое строгая типизация?",
       "es": "Ahora, ¿qué es la tipificación fuerte?",
       "de": "Was ist jetzt starke Typisierung?",
-      "audio": "audios/typing/question-10.mp3"
+      "audio": "audios/typing/question-10.mp3",
+      "person": "female"
     },
     {
       "id": "p_022",
@@ -177,7 +198,8 @@
       "ru": "Язык не смешивает типы без предупреждения.",
       "es": "El lenguaje no mezcla tipos sin avisarnos.",
       "de": "Die Sprache mischt Typen nicht ohne Warnung.",
-      "audio": "audios/typing/answer-10.mp3"
+      "audio": "audios/typing/answer-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_023",
@@ -185,7 +207,8 @@
       "ru": "Что такое слабая типизация?",
       "es": "¿Qué es la tipificación débil?",
       "de": "Was ist schwache Typisierung?",
-      "audio": "audios/typing/question-11.mp3"
+      "audio": "audios/typing/question-11.mp3",
+      "person": "female"
     },
     {
       "id": "p_024",
@@ -193,7 +216,8 @@
       "ru": "Язык автоматически меняет типы, часто без предупреждения.",
       "es": "El lenguaje cambia tipos automáticamente, a menudo sin aviso.",
       "de": "Die Sprache ändert Typen automatisch, oft ohne Warnung.",
-      "audio": "audios/typing/answer-11.mp3"
+      "audio": "audios/typing/answer-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_025",
@@ -201,7 +225,8 @@
       "ru": "Можете привести пример слабой типизации?",
       "es": "¿Puedes dar un ejemplo de tipificación débil?",
       "de": "Kannst du ein Beispiel für schwache Typisierung geben?",
-      "audio": "audios/typing/question-12.mp3"
+      "audio": "audios/typing/question-12.mp3",
+      "person": "female"
     },
     {
       "id": "p_026",
@@ -209,7 +234,8 @@
       "ru": "В JavaScript выражение \"5\" + 1 даёт строку \"51\".",
       "es": "En JavaScript, \"5\" + 1 da la cadena \"51\".",
       "de": "In JavaScript ergibt \"5\" + 1 den String \"51\".",
-      "audio": "audios/typing/answer-12.mp3"
+      "audio": "audios/typing/answer-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_027",
@@ -217,7 +243,8 @@
       "ru": "Это проблема?",
       "es": "¿Es eso un problema?",
       "de": "Ist das ein Problem?",
-      "audio": "audios/typing/question-13.mp3"
+      "audio": "audios/typing/question-13.mp3",
+      "person": "female"
     },
     {
       "id": "p_028",
@@ -225,7 +252,8 @@
       "ru": "Да, это может давать неожиданные результаты и баги.",
       "es": "Sí, puede dar resultados sorprendentes y errores.",
       "de": "Ja, das kann überraschende Ergebnisse und Bugs geben.",
-      "audio": "audios/typing/answer-13.mp3"
+      "audio": "audios/typing/answer-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_029",
@@ -233,7 +261,8 @@
       "ru": "Статическая и строгая типизация — это одно и то же?",
       "es": "¿La estática y la fuerte son lo mismo?",
       "de": "Sind statische und starke Typisierung dasselbe?",
-      "audio": "audios/typing/question-14.mp3"
+      "audio": "audios/typing/question-14.mp3",
+      "person": "female"
     },
     {
       "id": "p_030",
@@ -241,7 +270,8 @@
       "ru": "Нет, это разные понятия.",
       "es": "No, son ideas diferentes.",
       "de": "Nein, das sind unterschiedliche Konzepte.",
-      "audio": "audios/typing/answer-14.mp3"
+      "audio": "audios/typing/answer-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_031",
@@ -249,7 +279,8 @@
       "ru": "Можете объяснить разницу?",
       "es": "¿Puedes explicar la diferencia?",
       "de": "Kannst du den Unterschied erklären?",
-      "audio": "audios/typing/question-15.mp3"
+      "audio": "audios/typing/question-15.mp3",
+      "person": "female"
     },
     {
       "id": "p_032",
@@ -257,7 +288,8 @@
       "ru": "Статическая — это когда мы проверяем, строгая — насколько жёсткие типы.",
       "es": "Estática se refiere a cuándo comprobamos, fuerte a qué tan estrictos son los tipos.",
       "de": "Statisch betrifft, wann wir prüfen, stark betrifft, wie strikt die Typen sind.",
-      "audio": "audios/typing/answer-15.mp3"
+      "audio": "audios/typing/answer-15.mp3",
+      "person": "male"
     },
     {
       "id": "p_033",
@@ -265,7 +297,8 @@
       "ru": "Какую типизацию ты предпочитаешь?",
       "es": "¿Qué tipificación prefieres?",
       "de": "Welche Typisierung bevorzugst du?",
-      "audio": "audios/typing/question-16.mp3"
+      "audio": "audios/typing/question-16.mp3",
+      "person": "female"
     },
     {
       "id": "p_034",
@@ -273,7 +306,8 @@
       "ru": "Мне нравится статическая и строгая типизация для крупных проектов.",
       "es": "Me gusta la tipificación estática y fuerte para proyectos grandes.",
       "de": "Ich mag statische und starke Typisierung für große Projekte.",
-      "audio": "audios/typing/answer-16.mp3"
+      "audio": "audios/typing/answer-16.mp3",
+      "person": "male"
     },
     {
       "id": "p_035",
@@ -281,7 +315,8 @@
       "ru": "Почему для больших проектов?",
       "es": "¿Por qué para proyectos grandes?",
       "de": "Warum für große Projekte?",
-      "audio": "audios/typing/question-17.mp3"
+      "audio": "audios/typing/question-17.mp3",
+      "person": "female"
     },
     {
       "id": "p_036",
@@ -289,7 +324,8 @@
       "ru": "Потому что это помогает находить ошибки и делает код безопаснее.",
       "es": "Porque ayuda a detectar errores y hace el código más seguro.",
       "de": "Weil es hilft, Fehler zu finden und den Code sicherer macht.",
-      "audio": "audios/typing/answer-17.mp3"
+      "audio": "audios/typing/answer-17.mp3",
+      "person": "male"
     },
     {
       "id": "p_037",
@@ -297,7 +333,8 @@
       "ru": "Хорошо, большое спасибо.",
       "es": "Bien, muchas gracias.",
       "de": "Gut, vielen Dank.",
-      "audio": "audios/typing/question-18.mp3"
+      "audio": "audios/typing/question-18.mp3",
+      "person": "female"
     },
     {
       "id": "p_038",
@@ -305,7 +342,14 @@
       "ru": "И вам спасибо.",
       "es": "Gracias a ti también.",
       "de": "Danke ebenfalls.",
-      "audio": "audios/typing/answer-18.mp3"
+      "audio": "audios/typing/answer-18.mp3",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Основы типизации",
+  "titleEs": "Conceptos básicos de tipado",
+  "titleDe": "Grundlagen der Typisierung",
+  "descriptionRu": "Короткий формат вопрос-ответ о статической, динамической, строгой и слабой типизации.",
+  "descriptionEs": "Un breve formato de preguntas y respuestas sobre tipado estático, dinámico, fuerte y débil.",
+  "descriptionDe": "Ein kurzes Frage-Antwort-Set über statische, dynamische, starke und schwache Typisierung."
 }

@@ -2,12 +2,16 @@ import { startTransition, useEffect, useState } from 'react';
 import { Navigate, Route, Routes, useNavigate, useParams } from 'react-router-dom';
 import type { SetDetails, SetId, SetSummary } from '../domain/entities';
 import type { PersistedSetUserState } from '../domain/user-state';
+import { DilogPracticeScreen } from '../features/dilog-practice/dilog-practice-screen';
+import { DilogsListScreen } from '../features/dilogs-list/dilogs-list-screen';
 import { HomeScreen } from '../features/home/home-screen';
 import { SetDetailsScreen } from '../features/set-details/set-details-screen';
 import { SettingsScreen } from '../features/settings/settings-screen';
 import { ProfileScreen } from '../features/profile/profile-screen';
 import { SetsListScreen } from '../features/sets-list/sets-list-screen';
+import { staticDilogsDataSource } from '../infrastructure/data/static-dilogs-data-source';
 import { staticSetsDataSource } from '../infrastructure/data/static-sets-data-source';
+import { loadAppSettings } from '../infrastructure/persistence/local-app-settings-storage';
 import {
   createDefaultPersistedSetUserState,
   loadPersistedSetUserStates,
@@ -45,12 +49,16 @@ function formatLastInteractionLabel(isoTimestamp: string | null): string | null 
 export function App() {
   const navigate = useNavigate();
   const [setSummaries, setSetSummaries] = useState<SetSummary[]>([]);
+  const [dilogSummaries, setDilogSummaries] = useState<SetSummary[]>([]);
   const [selectedSetDetails, setSelectedSetDetails] = useState<SetDetails | null>(null);
   const [isLoadingSets, setIsLoadingSets] = useState(true);
+  const [isLoadingDilogs, setIsLoadingDilogs] = useState(true);
   const [isLoadingSetDetails, setIsLoadingSetDetails] = useState(false);
   const [setsError, setSetsError] = useState<string | null>(null);
+  const [dilogsError, setDilogsError] = useState<string | null>(null);
   const [setDetailsError, setSetDetailsError] = useState<string | null>(null);
   const [persistedSetStates, setPersistedSetStates] = useState<Record<string, PersistedSetUserState>>(() => loadPersistedSetUserStates());
+  const [nativeLanguage, setNativeLanguage] = useState(() => loadAppSettings().nativeLanguage);
   const [selectedSetId, setSelectedSetId] = useState<SetId | null>(null);
 
   useEffect(() => {
@@ -86,7 +94,38 @@ export function App() {
     return () => {
       isCancelled = true;
     };
-  }, []);
+  }, [nativeLanguage]);
+
+  useEffect(() => {
+    let isCancelled = false;
+
+    async function loadDilogSummaries() {
+      setIsLoadingDilogs(true);
+      setDilogsError(null);
+
+      try {
+        const summaries = await staticDilogsDataSource.getDilogSummaries();
+
+        if (!isCancelled) {
+          setDilogSummaries(summaries);
+        }
+      } catch (error) {
+        if (!isCancelled) {
+          setDilogsError(error instanceof Error ? error.message : 'Unknown error while loading dilogs.');
+        }
+      } finally {
+        if (!isCancelled) {
+          setIsLoadingDilogs(false);
+        }
+      }
+    }
+
+    void loadDilogSummaries();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [nativeLanguage]);
 
   useEffect(() => {
     if (!selectedSetId) {
@@ -126,7 +165,7 @@ export function App() {
     return () => {
       isCancelled = true;
     };
-  }, [selectedSetId]);
+  }, [nativeLanguage, selectedSetId]);
 
   function handleOpenSet(setId: SetId) {
     startTransition(() => {
@@ -136,9 +175,27 @@ export function App() {
     });
   }
 
+  function handleOpenDilog(dilogId: SetId) {
+    startTransition(() => {
+      setSelectedSetId(dilogId);
+      setSetDetailsError(null);
+      navigate(`/dilogs/${dilogId}`);
+    });
+  }
+
   function handleBackToSets() {
     startTransition(() => {
       navigate('/sets');
+      setSelectedSetId(null);
+      setSelectedSetDetails(null);
+      setSetDetailsError(null);
+      setIsLoadingSetDetails(false);
+    });
+  }
+
+  function handleBackToDilogs() {
+    startTransition(() => {
+      navigate('/dilogs');
       setSelectedSetId(null);
       setSelectedSetDetails(null);
       setSetDetailsError(null);
@@ -172,6 +229,7 @@ export function App() {
 
   function handleApplySettings() {
     startTransition(() => {
+      setNativeLanguage(loadAppSettings().nativeLanguage);
       navigate('/sets');
     });
   }
@@ -241,6 +299,9 @@ export function App() {
   const lastInteractionBySetId = Object.fromEntries(
     setSummaries.map((summary) => [summary.id, formatLastInteractionLabel(persistedSetStates[summary.id]?.lastInteractedAt ?? null)]),
   );
+  const lastInteractionByDilogId = Object.fromEntries(
+    dilogSummaries.map((summary) => [summary.id, formatLastInteractionLabel(persistedSetStates[summary.id]?.lastInteractedAt ?? null)]),
+  );
 
   return (
     <>
@@ -251,7 +312,7 @@ export function App() {
         element={
           <main className="app-shell">
             <section className="app-stage" aria-label="Just Repeat home">
-              <HomeScreen onPractice={() => navigate('/sets')} />
+              <HomeScreen onDilogs={() => navigate('/dilogs')} onPractice={() => navigate('/sets')} />
             </section>
           </main>
         }
@@ -265,6 +326,7 @@ export function App() {
                 errorMessage={setsError}
                 isLoading={isLoadingSets}
                 lastInteractionBySetId={lastInteractionBySetId}
+                onOpenHome={() => navigate('/')}
                 onOpenSet={handleOpenSet}
                 onOpenProfile={handleOpenProfile}
                 onOpenSettings={handleOpenSettings}
@@ -272,6 +334,58 @@ export function App() {
               />
             </section>
           </main>
+        }
+      />
+      <Route
+        path="/dilogs"
+        element={
+          <main className="app-shell">
+            <section className="app-stage" aria-label="Practice dilogs">
+              <DilogsListScreen
+                dilogSummaries={dilogSummaries}
+                errorMessage={dilogsError}
+                isLoading={isLoadingDilogs}
+                lastInteractionByDilogId={lastInteractionByDilogId}
+                onOpenDilog={handleOpenDilog}
+                onOpenHome={() => navigate('/')}
+                onOpenProfile={handleOpenProfile}
+                onOpenSettings={handleOpenSettings}
+              />
+            </section>
+          </main>
+        }
+      />
+      <Route
+        path="/dilogs/:setId"
+        element={
+          <PracticeRouteSync
+            onResolveSetId={setSelectedSetId}
+            render={(routeSetId) => {
+              const effectiveSetId = routeSetId ?? selectedSetId;
+              const effectiveSetTitle = selectedSetDetails?.title ?? dilogSummaries.find((item) => item.id === effectiveSetId)?.title ?? null;
+              const effectivePersistedState = effectiveSetId
+                ? persistedSetStates[effectiveSetId] ?? createDefaultPersistedSetUserState(effectiveSetId)
+                : null;
+
+              return (
+                <main className="app-shell">
+                  <section className="app-stage" aria-label={`Dilog practice for ${effectiveSetTitle ?? 'selected dilog'}`}>
+                    <DilogPracticeScreen
+                      errorMessage={setDetailsError}
+                      isLoading={isLoadingSetDetails}
+                      onBack={handleBackToDilogs}
+                      onManualPlayCompleted={handleManualPlayCompleted}
+                      onManualPlayStarted={handleManualPlayStarted}
+                      onPlayAllStarted={handlePlayAllStarted}
+                      onToggleFavorite={handleToggleFavorite}
+                      persistedState={effectivePersistedState}
+                      setDetails={selectedSetDetails}
+                    />
+                  </section>
+                </main>
+              );
+            }}
+          />
         }
       />
       <Route

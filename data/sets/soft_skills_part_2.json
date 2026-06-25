@@ -9,7 +9,8 @@
       "ru": "Как вы работаете в команде?",
       "es": "¿Cómo trabaja en equipo?",
       "de": "Wie arbeiten Sie im Team?",
-      "audio": "audios/soft-skills-2/question-00.mp3"
+      "audio": "audios/soft-skills-2/question-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Я открыт в общении и поддерживаю своих коллег.",
       "es": "Me comunico abiertamente y apoyo a mis compañeros.",
       "de": "Ich kommuniziere offen und unterstütze meine Teamkollegen.",
-      "audio": "audios/soft-skills-2/answer-00.mp3"
+      "audio": "audios/soft-skills-2/answer-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "Что вы делаете, когда не согласны с кем-то?",
       "es": "¿Qué hace cuando no está de acuerdo con alguien?",
       "de": "Was tun Sie, wenn Sie mit jemandem nicht einverstanden sind?",
-      "audio": "audios/soft-skills-2/question-01.mp3"
+      "audio": "audios/soft-skills-2/question-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Сначала я стараюсь понять их точку зрения.",
       "es": "Primero trato de entender su punto de vista.",
       "de": "Zuerst versuche ich, ihren Standpunkt zu verstehen.",
-      "audio": "audios/soft-skills-2/answer-01.mp3"
+      "audio": "audios/soft-skills-2/answer-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Можете привести пример?",
       "es": "¿Puede dar un ejemplo?",
       "de": "Können Sie ein Beispiel geben?",
-      "audio": "audios/soft-skills-2/question-02.mp3"
+      "audio": "audios/soft-skills-2/question-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "Мы обсудили разные идеи и вместе нашли решение.",
       "es": "Discutimos ideas diferentes y encontramos una solución juntos.",
       "de": "Wir haben verschiedene Ideen besprochen und gemeinsam eine Lösung gefunden.",
-      "audio": "audios/soft-skills-2/answer-02.mp3"
+      "audio": "audios/soft-skills-2/answer-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Как вы справляетесь с дедлайнами?",
       "es": "¿Cómo maneja las fechas límite?",
       "de": "Wie gehen Sie mit Fristen um?",
-      "audio": "audios/soft-skills-2/question-03.mp3"
+      "audio": "audios/soft-skills-2/question-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Я организую свою работу и сосредотачиваюсь на важных задачах.",
       "es": "Organizo mi trabajo y me centro en las tareas importantes.",
       "de": "Ich organisiere meine Arbeit und konzentriere mich auf wichtige Aufgaben.",
-      "audio": "audios/soft-skills-2/answer-03.mp3"
+      "audio": "audios/soft-skills-2/answer-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "Что вы делаете в условиях стресса?",
       "es": "¿Qué hace bajo presión?",
       "de": "Was tun Sie unter Druck?",
-      "audio": "audios/soft-skills-2/question-04.mp3"
+      "audio": "audios/soft-skills-2/question-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Я сохраняю спокойствие и работаю шаг за шагом.",
       "es": "Mantengo la calma y trabajo paso a paso.",
       "de": "Ich bleibe ruhig und arbeite Schritt für Schritt.",
-      "audio": "audios/soft-skills-2/answer-04.mp3"
+      "audio": "audios/soft-skills-2/answer-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "Вы когда-нибудь ошибались на работе?",
       "es": "¿Ha cometido algún error en el trabajo?",
       "de": "Haben Sie jemals bei der Arbeit einen Fehler gemacht?",
-      "audio": "audios/soft-skills-2/question-05.mp3"
+      "audio": "audios/soft-skills-2/question-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Да, и из этого я извлёк ценные уроки.",
       "es": "Sí, y aprendí lecciones valiosas de ello.",
       "de": "Ja, und ich habe daraus wertvolle Lektionen gelernt.",
-      "audio": "audios/soft-skills-2/answer-05.mp3"
+      "audio": "audios/soft-skills-2/answer-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Что произошло?",
       "es": "¿Qué pasó?",
       "de": "Was ist passiert?",
-      "audio": "audios/soft-skills-2/question-06.mp3"
+      "audio": "audios/soft-skills-2/question-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Я пропустил важную деталь во время разработки.",
       "es": "Pasé por alto un detalle importante durante el desarrollo.",
       "de": "Ich habe während der Entwicklung ein wichtiges Detail übersehen.",
-      "audio": "audios/soft-skills-2/answer-06.mp3"
+      "audio": "audios/soft-skills-2/answer-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "Как вы это исправили?",
       "es": "¿Cómo lo corrigió?",
       "de": "Wie haben Sie es behoben?",
-      "audio": "audios/soft-skills-2/question-07.mp3"
+      "audio": "audios/soft-skills-2/question-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Я исправил проблему и улучшил свой процесс.",
       "es": "Corregí el problema y mejoré mi proceso.",
       "de": "Ich habe das Problem behoben und meinen Prozess verbessert.",
-      "audio": "audios/soft-skills-2/answer-07.mp3"
+      "audio": "audios/soft-skills-2/answer-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "Как вы реагируете на обратную связь?",
       "es": "¿Cómo reacciona ante la retroalimentación?",
       "de": "Wie reagieren Sie auf Feedback?",
-      "audio": "audios/soft-skills-2/question-08.mp3"
+      "audio": "audios/soft-skills-2/question-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Я воспринимаю обратную связь как возможность стать лучше.",
       "es": "Veo la retroalimentación como una oportunidad para mejorar.",
       "de": "Ich betrachte Feedback als Chance, mich zu verbessern.",
-      "audio": "audios/soft-skills-2/answer-08.mp3"
+      "audio": "audios/soft-skills-2/answer-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Какого менеджера вы предпочитаете?",
       "es": "¿Qué tipo de gerente prefiere?",
       "de": "Welche Art von Manager bevorzugen Sie?",
-      "audio": "audios/soft-skills-2/question-09.mp3"
+      "audio": "audios/soft-skills-2/question-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Я предпочитаю менеджера, который ставит ясные цели и оказывает поддержку.",
       "es": "Prefiero un gerente que ofrezca metas claras y apoyo.",
       "de": "Ich bevorzuge einen Manager, der klare Ziele und Unterstützung bietet.",
-      "audio": "audios/soft-skills-2/answer-09.mp3"
+      "audio": "audios/soft-skills-2/answer-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "У вас есть вопросы к нам?",
       "es": "¿Tiene alguna pregunta para nosotros?",
       "de": "Haben Sie Fragen für uns?",
-      "audio": "audios/soft-skills-2/question-10.mp3"
+      "audio": "audios/soft-skills-2/question-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_022",
@@ -177,7 +198,14 @@
       "ru": "Да, какие сейчас главные вызовы для этой команды?",
       "es": "Sí, ¿cuáles son los mayores desafíos para este equipo ahora mismo?",
       "de": "Ja, welche größten Herausforderungen hat dieses Team gerade?",
-      "audio": "audios/soft-skills-2/answer-10.mp3"
+      "audio": "audios/soft-skills-2/answer-10.mp3",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Soft Skills: собеседование, часть 2",
+  "titleEs": "Soft Skills: entrevista, parte 2",
+  "titleDe": "Soft Skills: Vorstellungsgespräch, Teil 2",
+  "descriptionRu": "Набор о командной работе, конфликтах, дедлайнах, обратной связи и хороших вопросах на собеседовании.",
+  "descriptionEs": "Un set sobre trabajo en equipo, conflictos, plazos, feedback y buenas preguntas en entrevistas.",
+  "descriptionDe": "Ein Set über Teamarbeit, Konflikte, Deadlines, Feedback und gute Fragen im Vorstellungsgespräch."
 }

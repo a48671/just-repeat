@@ -9,7 +9,8 @@
       "ru": "Ты любишь «Властелина колец»?",
       "audio": "audios/lotr_present_dialogue/question-00.mp3",
       "es": "¿Te gusta El Señor de los Anillos?",
-      "de": "Magst du Der Herr der Ringe?"
+      "de": "Magst du Der Herr der Ringe?",
+      "person": "female"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Да, я очень люблю этот фильм.",
       "audio": "audios/lotr_present_dialogue/answer-00.mp3",
       "es": "Sí, me gusta mucho esta película.",
-      "de": "Ja, ich mag diesen Film sehr."
+      "de": "Ja, ich mag diesen Film sehr.",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "О чём этот фильм?",
       "audio": "audios/lotr_present_dialogue/question-01.mp3",
       "es": "¿De qué trata esta película?",
-      "de": "Worum geht es in diesem Film?"
+      "de": "Worum geht es in diesem Film?",
+      "person": "female"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Он о кольце, которое даёт большую силу.",
       "audio": "audios/lotr_present_dialogue/answer-01.mp3",
       "es": "Trata de un anillo que da un gran poder.",
-      "de": "Es geht um einen Ring, der große Macht verleiht."
+      "de": "Es geht um einen Ring, der große Macht verleiht.",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Кто главный герой?",
       "audio": "audios/lotr_present_dialogue/question-02.mp3",
       "es": "¿Quién es el héroe principal?",
-      "de": "Wer ist der Hauptheld?"
+      "de": "Wer ist der Hauptheld?",
+      "person": "female"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "Главный герой — Фродо.",
       "audio": "audios/lotr_present_dialogue/answer-02.mp3",
       "es": "El héroe principal es Frodo.",
-      "de": "Der Hauptheld ist Frodo."
+      "de": "Der Hauptheld ist Frodo.",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Что Фродо делает?",
       "audio": "audios/lotr_present_dialogue/question-03.mp3",
       "es": "¿Qué hace Frodo?",
-      "de": "Was macht Frodo?"
+      "de": "Was macht Frodo?",
+      "person": "female"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Он несёт кольцо в Мордор.",
       "audio": "audios/lotr_present_dialogue/answer-03.mp3",
       "es": "Lleva el anillo a Mordor.",
-      "de": "Er trägt den Ring nach Mordor."
+      "de": "Er trägt den Ring nach Mordor.",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "Почему он идёт туда?",
       "audio": "audios/lotr_present_dialogue/question-04.mp3",
       "es": "¿Por qué va allí?",
-      "de": "Warum geht er dorthin?"
+      "de": "Warum geht er dorthin?",
+      "person": "female"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Он хочет уничтожить кольцо.",
       "audio": "audios/lotr_present_dialogue/answer-04.mp3",
       "es": "Quiere destruir el anillo.",
-      "de": "Er will den Ring zerstören."
+      "de": "Er will den Ring zerstören.",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "Кто идёт с ним?",
       "audio": "audios/lotr_present_dialogue/question-05.mp3",
       "es": "¿Quién va con él?",
-      "de": "Wer geht mit ihm?"
+      "de": "Wer geht mit ihm?",
+      "person": "female"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Сэм идёт с ним.",
       "audio": "audios/lotr_present_dialogue/answer-05.mp3",
       "es": "Sam va con él.",
-      "de": "Sam geht mit ihm."
+      "de": "Sam geht mit ihm.",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Сэм хороший друг?",
       "audio": "audios/lotr_present_dialogue/question-06.mp3",
       "es": "¿Es Sam un buen amigo?",
-      "de": "Ist Sam ein guter Freund?"
+      "de": "Ist Sam ein guter Freund?",
+      "person": "female"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Да, он всегда помогает Фродо.",
       "audio": "audios/lotr_present_dialogue/answer-06.mp3",
       "es": "Sí, siempre ayuda a Frodo.",
-      "de": "Ja, er hilft Frodo immer."
+      "de": "Ja, er hilft Frodo immer.",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "Что делает Гэндальф?",
       "audio": "audios/lotr_present_dialogue/question-07.mp3",
       "es": "¿Qué hace Gandalf?",
-      "de": "Was macht Gandalf?"
+      "de": "Was macht Gandalf?",
+      "person": "female"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Он ведёт героев и даёт советы.",
       "audio": "audios/lotr_present_dialogue/answer-07.mp3",
       "es": "Guía a los héroes y da consejos.",
-      "de": "Er führt die Helden und gibt Ratschläge."
+      "de": "Er führt die Helden und gibt Ratschläge.",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "А кто такой Арагорн?",
       "audio": "audios/lotr_present_dialogue/question-08.mp3",
       "es": "¿Y quién es Aragorn?",
-      "de": "Und wer ist Aragorn?"
+      "de": "Und wer ist Aragorn?",
+      "person": "female"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Он воин и будущий король.",
       "audio": "audios/lotr_present_dialogue/answer-08.mp3",
       "es": "Es un guerrero y un futuro rey.",
-      "de": "Er ist ein Krieger und ein zukünftiger König."
+      "de": "Er ist ein Krieger und ein zukünftiger König.",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Он защищает хоббитов?",
       "audio": "audios/lotr_present_dialogue/question-09.mp3",
       "es": "¿Protege a los hobbits?",
-      "de": "Beschützt er die Hobbits?"
+      "de": "Beschützt er die Hobbits?",
+      "person": "female"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Да, он часто защищает их.",
       "audio": "audios/lotr_present_dialogue/answer-09.mp3",
       "es": "Sí, a menudo los protege.",
-      "de": "Ja, er beschützt sie oft."
+      "de": "Ja, er beschützt sie oft.",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "Кто хочет получить кольцо?",
       "audio": "audios/lotr_present_dialogue/question-10.mp3",
       "es": "¿Quién quiere conseguir el anillo?",
-      "de": "Wer will den Ring bekommen?"
+      "de": "Wer will den Ring bekommen?",
+      "person": "female"
     },
     {
       "id": "p_022",
@@ -177,7 +198,8 @@
       "ru": "Саурон хочет получить его.",
       "audio": "audios/lotr_present_dialogue/answer-10.mp3",
       "es": "Sauron quiere conseguirlo.",
-      "de": "Sauron will ihn bekommen."
+      "de": "Sauron will ihn bekommen.",
+      "person": "male"
     },
     {
       "id": "p_023",
@@ -185,7 +207,8 @@
       "ru": "Почему кольцо опасно?",
       "audio": "audios/lotr_present_dialogue/question-11.mp3",
       "es": "¿Por qué es peligroso el anillo?",
-      "de": "Warum ist der Ring gefährlich?"
+      "de": "Warum ist der Ring gefährlich?",
+      "person": "female"
     },
     {
       "id": "p_024",
@@ -193,7 +216,8 @@
       "ru": "Оно меняет людей и делает их слабыми.",
       "audio": "audios/lotr_present_dialogue/answer-11.mp3",
       "es": "Cambia a las personas y las debilita.",
-      "de": "Er verändert Menschen und macht sie schwach."
+      "de": "Er verändert Menschen und macht sie schwach.",
+      "person": "male"
     },
     {
       "id": "p_025",
@@ -201,7 +225,8 @@
       "ru": "Фродо сейчас страдает?",
       "audio": "audios/lotr_present_dialogue/question-12.mp3",
       "es": "¿Está sufriendo Frodo ahora?",
-      "de": "Leidet Frodo jetzt?"
+      "de": "Leidet Frodo jetzt?",
+      "person": "female"
     },
     {
       "id": "p_026",
@@ -209,7 +234,8 @@
       "ru": "Да, кольцо становится тяжелее для него.",
       "audio": "audios/lotr_present_dialogue/answer-12.mp3",
       "es": "Sí, el anillo se está volviendo más pesado para él.",
-      "de": "Ja, der Ring wird für ihn schwerer."
+      "de": "Ja, der Ring wird für ihn schwerer.",
+      "person": "male"
     },
     {
       "id": "p_027",
@@ -217,7 +243,8 @@
       "ru": "Гollum тоже хочет кольцо?",
       "audio": "audios/lotr_present_dialogue/question-13.mp3",
       "es": "¿También quiere Gollum el anillo?",
-      "de": "Will Gollum den Ring auch?"
+      "de": "Will Gollum den Ring auch?",
+      "person": "female"
     },
     {
       "id": "p_028",
@@ -225,7 +252,8 @@
       "ru": "Да, он называет его своей прелестью.",
       "audio": "audios/lotr_present_dialogue/answer-13.mp3",
       "es": "Sí, lo llama su precioso.",
-      "de": "Ja, er nennt ihn seinen Schatz."
+      "de": "Ja, er nennt ihn seinen Schatz.",
+      "person": "male"
     },
     {
       "id": "p_029",
@@ -233,7 +261,8 @@
       "ru": "Почему фильм так популярен?",
       "audio": "audios/lotr_present_dialogue/question-14.mp3",
       "es": "¿Por qué es tan popular la película?",
-      "de": "Warum ist der Film so beliebt?"
+      "de": "Warum ist der Film so beliebt?",
+      "person": "female"
     },
     {
       "id": "p_030",
@@ -241,7 +270,14 @@
       "ru": "Потому что в нём есть дружба, смелость и надежда.",
       "audio": "audios/lotr_present_dialogue/answer-14.mp3",
       "es": "Porque tiene amistad, valor y esperanza.",
-      "de": "Weil er Freundschaft, Mut und Hoffnung enthält."
+      "de": "Weil er Freundschaft, Mut und Hoffnung enthält.",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Властелин колец: настоящие времена",
+  "titleEs": "El Señor de los Anillos: tiempos presentes",
+  "titleDe": "Der Herr der Ringe: Gegenwartsformen",
+  "descriptionRu": "Диалог о «Властелине колец» для практики Present Simple и Present Continuous.",
+  "descriptionEs": "Un diálogo sobre El Señor de los Anillos para practicar Present Simple y Present Continuous.",
+  "descriptionDe": "Ein Dialog über Der Herr der Ringe zum Üben von Present Simple und Present Continuous."
 }

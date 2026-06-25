@@ -9,7 +9,8 @@
       "ru": "Что такое ошибка в программе?",
       "es": "¿Qué es un error en un programa?",
       "de": "Was ist ein Fehler in einem Programm?",
-      "audio": "audios/error/question-00.mp3"
+      "audio": "audios/error/question-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Это проблема, из-за которой код перестает работать правильно.",
       "es": "Es un problema que impide que el código funcione correctamente.",
       "de": "Es ist ein Problem, das den Code daran hindert, korrekt zu funktionieren.",
-      "audio": "audios/error/answer-00.mp3"
+      "audio": "audios/error/answer-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "Что такое исключение?",
       "es": "¿Qué es una excepción?",
       "de": "Was ist eine Exception?",
-      "audio": "audios/error/question-01.mp3"
+      "audio": "audios/error/question-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Это специальная ошибка, которая возникает во время выполнения программы.",
       "es": "Es un error especial que ocurre mientras el programa se ejecuta.",
       "de": "Es ist ein spezieller Fehler, der während der Laufzeit des Programms auftritt.",
-      "audio": "audios/error/answer-01.mp3"
+      "audio": "audios/error/answer-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Можете привести пример?",
       "es": "¿Puedes dar un ejemplo?",
       "de": "Kannst du ein Beispiel geben?",
-      "audio": "audios/error/question-02.mp3"
+      "audio": "audios/error/question-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "Деление числа на ноль.",
       "es": "Dividir un número por cero.",
       "de": "Eine Zahl durch Null teilen.",
-      "audio": "audios/error/answer-02.mp3"
+      "audio": "audios/error/answer-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Что будет, если не обрабатывать исключение?",
       "es": "¿Qué pasa si no manejamos una excepción?",
       "de": "Was passiert, wenn wir eine Exception nicht behandeln?",
-      "audio": "audios/error/question-03.mp3"
+      "audio": "audios/error/question-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Программа может упасть.",
       "es": "El programa puede fallar.",
       "de": "Das Programm kann abstürzen.",
-      "audio": "audios/error/answer-03.mp3"
+      "audio": "audios/error/answer-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "Как обрабатывать исключения?",
       "es": "¿Cómo manejar excepciones?",
       "de": "Wie behandeln wir Ausnahmen?",
-      "audio": "audios/error/question-04.mp3"
+      "audio": "audios/error/question-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Мы используем try и catch.",
       "es": "Usamos try y catch.",
       "de": "Wir verwenden try und catch.",
-      "audio": "audios/error/answer-04.mp3"
+      "audio": "audios/error/answer-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "Что идет в блок try?",
       "es": "¿Qué va en el bloque \"try\"?",
       "de": "Was kommt in den \"try\"-Block?",
-      "audio": "audios/error/question-05.mp3"
+      "audio": "audios/error/question-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Код, который может завершиться ошибкой.",
       "es": "El código que podría fallar.",
       "de": "Der Code, der fehlschlagen könnte.",
-      "audio": "audios/error/answer-05.mp3"
+      "audio": "audios/error/answer-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Что идет в блок catch?",
       "es": "¿Qué va en el bloque \"catch\"?",
       "de": "Was kommt in den \"catch\"-Block?",
-      "audio": "audios/error/question-06.mp3"
+      "audio": "audios/error/question-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Код, который выполняется, когда возникает ошибка.",
       "es": "El código que se ejecuta cuando ocurre un error.",
       "de": "Der Code, der ausgeführt wird, wenn ein Fehler auftritt.",
-      "audio": "audios/error/answer-06.mp3"
+      "audio": "audios/error/answer-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "Что такое блок finally?",
       "es": "¿Qué es el bloque \"finally\"?",
       "de": "Was ist der \"finally\"-Block?",
-      "audio": "audios/error/question-07.mp3"
+      "audio": "audios/error/question-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Это код, который выполняется всегда, с ошибкой или без неё.",
       "es": "Es código que siempre se ejecuta, con o sin error.",
       "de": "Es ist Code, der immer läuft, mit oder ohne Fehler.",
-      "audio": "audios/error/answer-07.mp3"
+      "audio": "audios/error/answer-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "Можете привести пример с finally?",
       "es": "¿Puedes dar un ejemplo de uso de finally?",
       "de": "Kannst du ein Beispiel für die Verwendung von finally geben?",
-      "audio": "audios/error/question-08.mp3"
+      "audio": "audios/error/question-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Мы всегда закрываем файл в конце.",
       "es": "Cerramos un archivo al final, cada vez.",
       "de": "Wir schließen am Ende immer eine Datei.",
-      "audio": "audios/error/answer-08.mp3"
+      "audio": "audios/error/answer-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Что значит «создать» исключение?",
       "es": "¿Qué significa \"lanzar\" una excepción?",
       "de": "Was bedeutet es, eine Exception zu \"throw\"en?",
-      "audio": "audios/error/question-09.mp3"
+      "audio": "audios/error/question-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Это значит, что мы создаём ошибку специально.",
       "es": "Significa que creamos un error a propósito.",
       "de": "Das bedeutet, dass wir absichtlich einen Fehler erzeugen.",
-      "audio": "audios/error/answer-09.mp3"
+      "audio": "audios/error/answer-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "Когда стоит бросать исключение?",
       "es": "¿Cuándo debemos lanzar una excepción?",
       "de": "Wann sollten wir eine Exception werfen?",
-      "audio": "audios/error/question-10.mp3"
+      "audio": "audios/error/question-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_022",
@@ -177,7 +198,8 @@
       "ru": "Когда что-то не так и код не может продолжить работу.",
       "es": "Cuando algo está mal y el código no puede continuar.",
       "de": "Wenn etwas falsch ist und der Code nicht weiterlaufen kann.",
-      "audio": "audios/error/answer-10.mp3"
+      "audio": "audios/error/answer-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_023",
@@ -185,7 +207,8 @@
       "ru": "Можете привести пример?",
       "es": "¿Puedes dar un ejemplo?",
       "de": "Kannst du ein Beispiel geben?",
-      "audio": "audios/error/question-11.mp3"
+      "audio": "audios/error/question-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_024",
@@ -193,7 +216,8 @@
       "ru": "Пользователь вводит отрицательный возраст, поэтому мы бросаем ошибку.",
       "es": "Un usuario ingresa una edad negativa, así que lanzamos un error.",
       "de": "Ein Benutzer gibt ein negatives Alter ein, daher werfen wir einen Fehler.",
-      "audio": "audios/error/answer-11.mp3"
+      "audio": "audios/error/answer-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_025",
@@ -201,7 +225,8 @@
       "ru": "В чем разница между ошибкой и кодом ошибки?",
       "es": "¿Cuál es la diferencia entre un error y un código de error?",
       "de": "Was ist der Unterschied zwischen einem Fehler und einem Fehlercode?",
-      "audio": "audios/error/question-12.mp3"
+      "audio": "audios/error/question-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_026",
@@ -209,7 +234,8 @@
       "ru": "Исключение останавливает выполнение, код ошибки — это просто возвращаемое значение.",
       "es": "Una excepción detiene el flujo, un código de error es solo un valor devuelto.",
       "de": "Eine Exception stoppt den Ablauf, ein Fehlercode ist nur ein Rückgabewert.",
-      "audio": "audios/error/answer-12.mp3"
+      "audio": "audios/error/answer-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_027",
@@ -217,7 +243,8 @@
       "ru": "Когда код ошибки полезен?",
       "es": "¿Cuándo es útil un código de error?",
       "de": "Wann ist ein Fehlercode nützlich?",
-      "audio": "audios/error/question-13.mp3"
+      "audio": "audios/error/question-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_028",
@@ -225,7 +252,8 @@
       "ru": "Когда проблема обычная и не является большой неожиданностью.",
       "es": "Cuando el problema es normal y no una gran sorpresa.",
       "de": "Wenn das Problem normal ist und keine große Überraschung darstellt.",
-      "audio": "audios/error/answer-13.mp3"
+      "audio": "audios/error/answer-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_029",
@@ -233,7 +261,8 @@
       "ru": "Хорошо ли ловить каждую ошибку и ничего не делать?",
       "es": "¿Es bueno capturar cada error y no hacer nada?",
       "de": "Ist es gut, jeden Fehler zu fangen und nichts zu tun?",
-      "audio": "audios/error/question-14.mp3"
+      "audio": "audios/error/question-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_030",
@@ -241,7 +270,8 @@
       "ru": "Нет, это скрывает проблемы и делает баги труднее найти.",
       "es": "No, eso oculta problemas y hace que los errores sean difíciles de encontrar.",
       "de": "Nein, das versteckt Probleme und macht Bugs schwerer auffindbar.",
-      "audio": "audios/error/answer-14.mp3"
+      "audio": "audios/error/answer-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_031",
@@ -249,7 +279,8 @@
       "ru": "То что же делать вместо этого?",
       "es": "¿Entonces qué deberíamos hacer en su lugar?",
       "de": "Was sollten wir stattdessen tun?",
-      "audio": "audios/error/question-15.mp3"
+      "audio": "audios/error/question-15.mp3",
+      "person": "male"
     },
     {
       "id": "p_032",
@@ -257,7 +288,8 @@
       "ru": "Мы должны залогировать ошибку или показать понятное сообщение.",
       "es": "Deberíamos registrar el error o mostrar un mensaje claro.",
       "de": "Wir sollten den Fehler protokollieren oder eine klare Meldung anzeigen.",
-      "audio": "audios/error/answer-15.mp3"
+      "audio": "audios/error/answer-15.mp3",
+      "person": "male"
     },
     {
       "id": "p_033",
@@ -265,7 +297,8 @@
       "ru": "Почему хороший обработчик ошибок важен?",
       "es": "¿Por qué es importante un buen manejo de errores?",
       "de": "Warum ist eine gute Fehlerbehandlung wichtig?",
-      "audio": "audios/error/question-16.mp3"
+      "audio": "audios/error/question-16.mp3",
+      "person": "male"
     },
     {
       "id": "p_034",
@@ -273,7 +306,8 @@
       "ru": "Это делает программу безопасной и простой в исправлении.",
       "es": "Hace que el programa sea seguro y fácil de corregir.",
       "de": "Es macht das Programm sicher und leicht zu reparieren.",
-      "audio": "audios/error/answer-16.mp3"
+      "audio": "audios/error/answer-16.mp3",
+      "person": "male"
     },
     {
       "id": "p_035",
@@ -281,7 +315,8 @@
       "ru": "Хорошо, большое спасибо.",
       "es": "Bien, muchas gracias.",
       "de": "Gut, vielen Dank.",
-      "audio": "audios/error/question-17.mp3"
+      "audio": "audios/error/question-17.mp3",
+      "person": "male"
     },
     {
       "id": "p_036",
@@ -289,7 +324,14 @@
       "ru": "И вам спасибо.",
       "es": "Gracias a ti también.",
       "de": "Danke ebenfalls.",
-      "audio": "audios/error/answer-17.mp3"
+      "audio": "audios/error/answer-17.mp3",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Основы обработки ошибок",
+  "titleEs": "Conceptos básicos del manejo de errores",
+  "titleDe": "Grundlagen der Fehlerbehandlung",
+  "descriptionRu": "Короткий формат вопрос-ответ об ошибках, исключениях и способах их обработки.",
+  "descriptionEs": "Un breve formato de preguntas y respuestas sobre errores, excepciones y cómo manejarlos.",
+  "descriptionDe": "Ein kurzes Frage-Antwort-Set über Fehler, Exceptions und deren Behandlung."
 }

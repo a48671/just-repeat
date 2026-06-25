@@ -273,5 +273,11 @@
       "ru": "как вы мотивируете себя и какие методы лучшие, по вашему мнению.",
       "audio": "audios/first-viedeo/audio-45.mp3"
     }
-  ]
+  ],
+  "titleRu": "Как я учу английский",
+  "titleEs": "Cómo aprendo inglés",
+  "titleDe": "Wie ich Englisch lerne",
+  "descriptionRu": "Личная история о четырёх годах изучения английского: разные методы, сложности и важность ежедневной практики.",
+  "descriptionEs": "Una historia personal sobre cuatro años aprendiendo inglés: métodos diferentes, desafíos y la importancia de la práctica diaria.",
+  "descriptionDe": "Eine persönliche Geschichte über vier Jahre Englischlernen: verschiedene Methoden, Herausforderungen und die Bedeutung täglicher Übung."
 }

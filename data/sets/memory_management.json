@@ -9,7 +9,8 @@
       "ru": "Что такое управление памятью?",
       "es": "¿Qué es la gestión de memoria?",
       "de": "Was ist Speicherverwaltung?",
-      "audio": "audios/memory/question-00.mp3"
+      "audio": "audios/memory/question-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Это то, как программа использует память и освобождает её.",
       "es": "Es cómo un programa usa y libera memoria.",
       "de": "Das ist, wie ein Programm Speicher verwendet und freigibt.",
-      "audio": "audios/memory/answer-00.mp3"
+      "audio": "audios/memory/answer-00.mp3",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "Почему это важно?",
       "es": "¿Por qué es importante?",
       "de": "Warum ist das wichtig?",
-      "audio": "audios/memory/question-01.mp3"
+      "audio": "audios/memory/question-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Потому что память ограничена, и мы не должны тратить её зря.",
       "es": "Porque la memoria es limitada y no debemos desperdiciarla.",
       "de": "Weil Speicher begrenzt ist und wir ihn nicht verschwenden dürfen.",
-      "audio": "audios/memory/answer-01.mp3"
+      "audio": "audios/memory/answer-01.mp3",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Где программа хранит данные?",
       "es": "¿Dónde guarda los datos un programa?",
       "de": "Wo speichert ein Programm Daten?",
-      "audio": "audios/memory/question-02.mp3"
+      "audio": "audios/memory/question-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "В основном в двух местах: стек и куча.",
       "es": "Sobre todo en dos lugares: la pila y el heap.",
       "de": "Meistens an zwei Stellen: dem Stack und dem Heap.",
-      "audio": "audios/memory/answer-02.mp3"
+      "audio": "audios/memory/answer-02.mp3",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Что такое стек?",
       "es": "¿Qué es la pila?",
       "de": "Was ist der Stack?",
-      "audio": "audios/memory/question-03.mp3"
+      "audio": "audios/memory/question-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Это быстрая память для локальных переменных и вызовов функций.",
       "es": "Es memoria rápida para variables locales y llamadas a funciones.",
       "de": "Das ist schneller Speicher für lokale Variablen und Funktionsaufrufe.",
-      "audio": "audios/memory/answer-03.mp3"
+      "audio": "audios/memory/answer-03.mp3",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "Что такое куча?",
       "es": "¿Qué es el heap?",
       "de": "Was ist der Heap?",
-      "audio": "audios/memory/question-04.mp3"
+      "audio": "audios/memory/question-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Это более крупная память для данных, которые живут дольше.",
       "es": "Es memoria más grande para datos que viven más tiempo.",
       "de": "Das ist größerer Speicher für Daten, die länger leben.",
-      "audio": "audios/memory/answer-04.mp3"
+      "audio": "audios/memory/answer-04.mp3",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "Что из этого быстрее?",
       "es": "¿Cuál es más rápido?",
       "de": "Was ist schneller?",
-      "audio": "audios/memory/question-05.mp3"
+      "audio": "audios/memory/question-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Стек быстрее кучи.",
       "es": "La pila es más rápida que el heap.",
       "de": "Der Stack ist schneller als der Heap.",
-      "audio": "audios/memory/answer-05.mp3"
+      "audio": "audios/memory/answer-05.mp3",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Как освобождается память стека?",
       "es": "¿Cómo se libera la memoria de la pila?",
       "de": "Wie wird Stack-Speicher freigegeben?",
-      "audio": "audios/memory/question-06.mp3"
+      "audio": "audios/memory/question-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Она освобождается автоматически, когда функция заканчивается.",
       "es": "Se libera automáticamente cuando termina una función.",
       "de": "Er wird automatisch freigegeben, wenn eine Funktion endet.",
-      "audio": "audios/memory/answer-06.mp3"
+      "audio": "audios/memory/answer-06.mp3",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "А куча?",
       "es": "¿Y el heap?",
       "de": "Und der Heap?",
-      "audio": "audios/memory/question-07.mp3"
+      "audio": "audios/memory/question-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Кучу должен освобождать сам код программы или сборщик мусора.",
       "es": "El heap debe ser liberado por el programa o por el recolector de basura.",
       "de": "Der Heap muss vom Programm oder vom Garbage Collector freigegeben werden.",
-      "audio": "audios/memory/answer-07.mp3"
+      "audio": "audios/memory/answer-07.mp3",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "Что такое сборщик мусора?",
       "es": "¿Qué es un recolector de basura?",
       "de": "Was ist ein Garbage Collector?",
-      "audio": "audios/memory/question-08.mp3"
+      "audio": "audios/memory/question-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Это инструмент, который находит и освобождает неиспользуемую память.",
       "es": "Es una herramienta que encuentra y libera memoria no usada.",
       "de": "Das ist ein Tool, das ungenutzten Speicher findet und freigibt.",
-      "audio": "audios/memory/answer-08.mp3"
+      "audio": "audios/memory/answer-08.mp3",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Какие языки его используют?",
       "es": "¿Qué lenguajes lo usan?",
       "de": "Welche Sprachen verwenden es?",
-      "audio": "audios/memory/question-09.mp3"
+      "audio": "audios/memory/question-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Например, Java, Python и JavaScript.",
       "es": "Por ejemplo, Java, Python y JavaScript.",
       "de": "Zum Beispiel Java, Python und JavaScript.",
-      "audio": "audios/memory/answer-09.mp3"
+      "audio": "audios/memory/answer-09.mp3",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "Есть ли он во всех языках?",
       "es": "¿Todos los lenguajes lo tienen?",
       "de": "Haben alle Sprachen das?",
-      "audio": "audios/memory/question-10.mp3"
+      "audio": "audios/memory/question-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_022",
@@ -177,7 +198,8 @@
       "ru": "Нет, такие языки, как C, освобождают память вручную.",
       "es": "No, lenguajes como C liberan memoria a mano.",
       "de": "Nein, Sprachen wie C geben Speicher manuell frei.",
-      "audio": "audios/memory/answer-10.mp3"
+      "audio": "audios/memory/answer-10.mp3",
+      "person": "male"
     },
     {
       "id": "p_023",
@@ -185,7 +207,8 @@
       "ru": "Что такое утечка памяти?",
       "es": "¿Qué es una fuga de memoria?",
       "de": "Was ist ein Speicherleck?",
-      "audio": "audios/memory/question-11.mp3"
+      "audio": "audios/memory/question-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_024",
@@ -193,7 +216,8 @@
       "ru": "Это когда мы сохраняем память, которая нам больше не нужна.",
       "es": "Es cuando mantenemos memoria que ya no necesitamos.",
       "de": "Das ist, wenn wir Speicher behalten, den wir nicht mehr brauchen.",
-      "audio": "audios/memory/answer-11.mp3"
+      "audio": "audios/memory/answer-11.mp3",
+      "person": "male"
     },
     {
       "id": "p_025",
@@ -201,7 +225,8 @@
       "ru": "Почему утечка вредна?",
       "es": "¿Por qué una fuga es mala?",
       "de": "Warum ist ein Leak schlecht?",
-      "audio": "audios/memory/question-12.mp3"
+      "audio": "audios/memory/question-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_026",
@@ -209,7 +234,8 @@
       "ru": "Программа использует всё больше памяти и может стать медленной или вылететь.",
       "es": "El programa usa cada vez más memoria y puede volverse lento o fallar.",
       "de": "Das Programm verwendet immer mehr Speicher und kann langsam werden oder abstürzen.",
-      "audio": "audios/memory/answer-12.mp3"
+      "audio": "audios/memory/answer-12.mp3",
+      "person": "male"
     },
     {
       "id": "p_027",
@@ -217,7 +243,8 @@
       "ru": "Можете привести пример утечки?",
       "es": "¿Puedes dar un ejemplo de una fuga?",
       "de": "Kannst du ein Beispiel für einen Leak geben?",
-      "audio": "audios/memory/question-13.mp3"
+      "audio": "audios/memory/question-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_028",
@@ -225,7 +252,8 @@
       "ru": "Мы забываем удалить объект, который больше не используем.",
       "es": "Olvidamos quitar un objeto que ya no usamos.",
       "de": "Wir vergessen, ein Objekt zu entfernen, das wir nicht mehr benutzen.",
-      "audio": "audios/memory/answer-13.mp3"
+      "audio": "audios/memory/answer-13.mp3",
+      "person": "male"
     },
     {
       "id": "p_029",
@@ -233,7 +261,8 @@
       "ru": "Как можно избежать утечек?",
       "es": "¿Cómo podemos evitar fugas?",
       "de": "Wie kann man Lecks vermeiden?",
-      "audio": "audios/memory/question-14.mp3"
+      "audio": "audios/memory/question-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_030",
@@ -241,7 +270,8 @@
       "ru": "Мы освобождаем то, что больше не нужно.",
       "es": "Liberamos o soltamos las cosas que no necesitamos.",
       "de": "Wir geben Dinge frei, die wir nicht brauchen.",
-      "audio": "audios/memory/answer-14.mp3"
+      "audio": "audios/memory/answer-14.mp3",
+      "person": "male"
     },
     {
       "id": "p_031",
@@ -249,7 +279,8 @@
       "ru": "В чем разница между стеком и кучей ещё раз?",
       "es": "¿Cuál es la diferencia entre la pila y el heap otra vez?",
       "de": "Was ist nochmal der Unterschied zwischen Stack und Heap?",
-      "audio": "audios/memory/question-15.mp3"
+      "audio": "audios/memory/question-15.mp3",
+      "person": "male"
     },
     {
       "id": "p_032",
@@ -257,7 +288,8 @@
       "ru": "Стек маленький и быстрый, куча — большая и медленная.",
       "es": "La pila es pequeña y rápida, el heap es grande y más lento.",
       "de": "Der Stack ist klein und schnell, der Heap ist groß und langsamer.",
-      "audio": "audios/memory/answer-15.mp3"
+      "audio": "audios/memory/answer-15.mp3",
+      "person": "male"
     },
     {
       "id": "p_033",
@@ -265,7 +297,8 @@
       "ru": "Хорошо, большое спасибо.",
       "es": "Bien, muchas gracias.",
       "de": "Gut, vielen Dank.",
-      "audio": "audios/memory/question-16.mp3"
+      "audio": "audios/memory/question-16.mp3",
+      "person": "male"
     },
     {
       "id": "p_034",
@@ -273,7 +306,14 @@
       "ru": "И вам спасибо.",
       "es": "Gracias a ti también.",
       "de": "Danke ebenfalls.",
-      "audio": "audios/memory/answer-16.mp3"
+      "audio": "audios/memory/answer-16.mp3",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Основы управления памятью",
+  "titleEs": "Conceptos básicos de gestión de memoria",
+  "titleDe": "Grundlagen der Speicherverwaltung",
+  "descriptionRu": "Короткий формат вопрос-ответ о том, как программы используют, управляют и освобождают память.",
+  "descriptionEs": "Un breve formato de preguntas y respuestas sobre cómo los programas usan, gestionan y liberan memoria.",
+  "descriptionDe": "Ein kurzes Frage-Antwort-Set darüber, wie Programme Speicher nutzen, verwalten und freigeben."
 }

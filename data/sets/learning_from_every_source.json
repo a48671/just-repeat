@@ -444,5 +444,11 @@
       "audio": "audios/learning_from_every_source/049.mp3",
       "image": "images/learning_from_every_source/049.png"
     }
-  ]
+  ],
+  "titleRu": "Учиться из каждого источника",
+  "titleEs": "Aprender de cada fuente",
+  "titleDe": "Aus jeder Quelle lernen",
+  "descriptionRu": "Размышление о том, как собирать полезные идеи из видео, книг, разговоров и повседневной жизни.",
+  "descriptionEs": "Una reflexión sobre cómo recoger ideas útiles de videos, libros, conversaciones y la vida diaria.",
+  "descriptionDe": "Eine Reflexion darüber, wie man nützliche Ideen aus Videos, Büchern, Gesprächen und dem Alltag sammelt."
 }

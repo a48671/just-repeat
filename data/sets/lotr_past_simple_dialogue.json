@@ -9,7 +9,8 @@
       "ru": "Ты смотрел «Властелина колец» вчера?",
       "audio": "audios/lotr_past_simple_dialogue/question-00.mp3",
       "es": "¿Viste El Señor de los Anillos ayer?",
-      "de": "Hast du gestern Der Herr der Ringe gesehen?"
+      "de": "Hast du gestern Der Herr der Ringe gesehen?",
+      "person": "female"
     },
     {
       "id": "p_002",
@@ -17,7 +18,8 @@
       "ru": "Да, я посмотрел первую часть.",
       "audio": "audios/lotr_past_simple_dialogue/answer-00.mp3",
       "es": "Sí, vi la primera parte.",
-      "de": "Ja, ich habe den ersten Teil gesehen."
+      "de": "Ja, ich habe den ersten Teil gesehen.",
+      "person": "male"
     },
     {
       "id": "p_003",
@@ -25,7 +27,8 @@
       "ru": "Тебе понравился фильм?",
       "audio": "audios/lotr_past_simple_dialogue/question-01.mp3",
       "es": "¿Te gustó la película?",
-      "de": "Hat dir der Film gefallen?"
+      "de": "Hat dir der Film gefallen?",
+      "person": "female"
     },
     {
       "id": "p_004",
@@ -33,7 +36,8 @@
       "ru": "Да, он мне очень понравился.",
       "audio": "audios/lotr_past_simple_dialogue/answer-01.mp3",
       "es": "Sí, me gustó mucho.",
-      "de": "Ja, er hat mir sehr gut gefallen."
+      "de": "Ja, er hat mir sehr gut gefallen.",
+      "person": "male"
     },
     {
       "id": "p_005",
@@ -41,7 +45,8 @@
       "ru": "Что случилось в начале фильма?",
       "audio": "audios/lotr_past_simple_dialogue/question-02.mp3",
       "es": "¿Qué pasó al principio de la película?",
-      "de": "Was ist am Anfang des Films passiert?"
+      "de": "Was ist am Anfang des Films passiert?",
+      "person": "female"
     },
     {
       "id": "p_006",
@@ -49,7 +54,8 @@
       "ru": "Бильбо дал кольцо Фродо.",
       "audio": "audios/lotr_past_simple_dialogue/answer-02.mp3",
       "es": "Bilbo le dio el anillo a Frodo.",
-      "de": "Bilbo gab Frodo den Ring."
+      "de": "Bilbo gab Frodo den Ring.",
+      "person": "male"
     },
     {
       "id": "p_007",
@@ -57,7 +63,8 @@
       "ru": "Фродо хотел взять кольцо?",
       "audio": "audios/lotr_past_simple_dialogue/question-03.mp3",
       "es": "¿Quería Frodo tomar el anillo?",
-      "de": "Wollte Frodo den Ring nehmen?"
+      "de": "Wollte Frodo den Ring nehmen?",
+      "person": "female"
     },
     {
       "id": "p_008",
@@ -65,7 +72,8 @@
       "ru": "Нет, он боялся.",
       "audio": "audios/lotr_past_simple_dialogue/answer-03.mp3",
       "es": "No, tenía miedo.",
-      "de": "Nein, er hatte Angst."
+      "de": "Nein, er hatte Angst.",
+      "person": "male"
     },
     {
       "id": "p_009",
@@ -73,7 +81,8 @@
       "ru": "Гэндальф помог ему?",
       "audio": "audios/lotr_past_simple_dialogue/question-04.mp3",
       "es": "¿Lo ayudó Gandalf?",
-      "de": "Hat Gandalf ihm geholfen?"
+      "de": "Hat Gandalf ihm geholfen?",
+      "person": "female"
     },
     {
       "id": "p_010",
@@ -81,7 +90,8 @@
       "ru": "Да, Гэндальф рассказал ему правду.",
       "audio": "audios/lotr_past_simple_dialogue/answer-04.mp3",
       "es": "Sí, Gandalf le dijo la verdad.",
-      "de": "Ja, Gandalf sagte ihm die Wahrheit."
+      "de": "Ja, Gandalf sagte ihm die Wahrheit.",
+      "person": "male"
     },
     {
       "id": "p_011",
@@ -89,7 +99,8 @@
       "ru": "Что Фродо сделал потом?",
       "audio": "audios/lotr_past_simple_dialogue/question-05.mp3",
       "es": "¿Qué hizo Frodo después?",
-      "de": "Was hat Frodo dann getan?"
+      "de": "Was hat Frodo dann getan?",
+      "person": "female"
     },
     {
       "id": "p_012",
@@ -97,7 +108,8 @@
       "ru": "Он ушёл из Шира с Сэмом.",
       "audio": "audios/lotr_past_simple_dialogue/answer-05.mp3",
       "es": "Se fue de la Comarca con Sam.",
-      "de": "Er verließ das Auenland mit Sam."
+      "de": "Er verließ das Auenland mit Sam.",
+      "person": "male"
     },
     {
       "id": "p_013",
@@ -105,7 +117,8 @@
       "ru": "Они встретили других хоббитов?",
       "audio": "audios/lotr_past_simple_dialogue/question-06.mp3",
       "es": "¿Conocieron a otros hobbits?",
-      "de": "Haben sie andere Hobbits getroffen?"
+      "de": "Haben sie andere Hobbits getroffen?",
+      "person": "female"
     },
     {
       "id": "p_014",
@@ -113,7 +126,8 @@
       "ru": "Да, они встретили Мерри и Пиппина.",
       "audio": "audios/lotr_past_simple_dialogue/answer-06.mp3",
       "es": "Sí, conocieron a Merry y Pippin.",
-      "de": "Ja, sie trafen Merry und Pippin."
+      "de": "Ja, sie trafen Merry und Pippin.",
+      "person": "male"
     },
     {
       "id": "p_015",
@@ -121,7 +135,8 @@
       "ru": "Им было страшно в лесу?",
       "audio": "audios/lotr_past_simple_dialogue/question-07.mp3",
       "es": "¿Tenían miedo en el bosque?",
-      "de": "Hatten sie Angst im Wald?"
+      "de": "Hatten sie Angst im Wald?",
+      "person": "female"
     },
     {
       "id": "p_016",
@@ -129,7 +144,8 @@
       "ru": "Да, они увидели тёмных всадников.",
       "audio": "audios/lotr_past_simple_dialogue/answer-07.mp3",
       "es": "Sí, vieron jinetes oscuros.",
-      "de": "Ja, sie sahen dunkle Reiter."
+      "de": "Ja, sie sahen dunkle Reiter.",
+      "person": "male"
     },
     {
       "id": "p_017",
@@ -137,7 +153,8 @@
       "ru": "Кто спас их позже?",
       "audio": "audios/lotr_past_simple_dialogue/question-08.mp3",
       "es": "¿Quién los salvó después?",
-      "de": "Wer rettete sie später?"
+      "de": "Wer rettete sie später?",
+      "person": "female"
     },
     {
       "id": "p_018",
@@ -145,7 +162,8 @@
       "ru": "Арагорн помог им в трактире.",
       "audio": "audios/lotr_past_simple_dialogue/answer-08.mp3",
       "es": "Aragorn los ayudó en la posada.",
-      "de": "Aragorn half ihnen im Gasthaus."
+      "de": "Aragorn half ihnen im Gasthaus.",
+      "person": "male"
     },
     {
       "id": "p_019",
@@ -153,7 +171,8 @@
       "ru": "Он был сильным воином?",
       "audio": "audios/lotr_past_simple_dialogue/question-09.mp3",
       "es": "¿Era un guerrero fuerte?",
-      "de": "War er ein starker Krieger?"
+      "de": "War er ein starker Krieger?",
+      "person": "female"
     },
     {
       "id": "p_020",
@@ -161,7 +180,8 @@
       "ru": "Да, он хорошо сражался.",
       "audio": "audios/lotr_past_simple_dialogue/answer-09.mp3",
       "es": "Sí, luchó bien.",
-      "de": "Ja, er kämpfte gut."
+      "de": "Ja, er kämpfte gut.",
+      "person": "male"
     },
     {
       "id": "p_021",
@@ -169,7 +189,8 @@
       "ru": "Куда они пошли потом?",
       "audio": "audios/lotr_past_simple_dialogue/question-10.mp3",
       "es": "¿Adónde fueron después?",
-      "de": "Wohin gingen sie dann?"
+      "de": "Wohin gingen sie dann?",
+      "person": "female"
     },
     {
       "id": "p_022",
@@ -177,7 +198,8 @@
       "ru": "Они пошли в Ривенделл.",
       "audio": "audios/lotr_past_simple_dialogue/answer-10.mp3",
       "es": "Fueron a Rivendel.",
-      "de": "Sie gingen nach Bruchtal."
+      "de": "Sie gingen nach Bruchtal.",
+      "person": "male"
     },
     {
       "id": "p_023",
@@ -185,7 +207,8 @@
       "ru": "Там было собрание?",
       "audio": "audios/lotr_past_simple_dialogue/question-11.mp3",
       "es": "¿Hubo una reunión allí?",
-      "de": "Gab es dort ein Treffen?"
+      "de": "Gab es dort ein Treffen?",
+      "person": "female"
     },
     {
       "id": "p_024",
@@ -193,7 +216,8 @@
       "ru": "Да, разные народы говорили о кольце.",
       "audio": "audios/lotr_past_simple_dialogue/answer-11.mp3",
       "es": "Sí, diferentes pueblos hablaron sobre el anillo.",
-      "de": "Ja, verschiedene Völker sprachen über den Ring."
+      "de": "Ja, verschiedene Völker sprachen über den Ring.",
+      "person": "male"
     },
     {
       "id": "p_025",
@@ -201,7 +225,8 @@
       "ru": "Кто решил уничтожить кольцо?",
       "audio": "audios/lotr_past_simple_dialogue/question-12.mp3",
       "es": "¿Quién decidió destruir el anillo?",
-      "de": "Wer beschloss, den Ring zu zerstören?"
+      "de": "Wer beschloss, den Ring zu zerstören?",
+      "person": "female"
     },
     {
       "id": "p_026",
@@ -209,7 +234,8 @@
       "ru": "Фродо решил нести его в Мордор.",
       "audio": "audios/lotr_past_simple_dialogue/answer-12.mp3",
       "es": "Frodo decidió llevarlo a Mordor.",
-      "de": "Frodo beschloss, ihn nach Mordor zu tragen."
+      "de": "Frodo beschloss, ihn nach Mordor zu tragen.",
+      "person": "male"
     },
     {
       "id": "p_027",
@@ -217,7 +243,8 @@
       "ru": "Сэм пошёл с ним?",
       "audio": "audios/lotr_past_simple_dialogue/question-13.mp3",
       "es": "¿Fue Sam con él?",
-      "de": "Ging Sam mit ihm?"
+      "de": "Ging Sam mit ihm?",
+      "person": "female"
     },
     {
       "id": "p_028",
@@ -225,7 +252,8 @@
       "ru": "Да, Сэм не оставил Фродо.",
       "audio": "audios/lotr_past_simple_dialogue/answer-13.mp3",
       "es": "Sí, Sam no dejó a Frodo.",
-      "de": "Ja, Sam verließ Frodo nicht."
+      "de": "Ja, Sam verließ Frodo nicht.",
+      "person": "male"
     },
     {
       "id": "p_029",
@@ -233,7 +261,8 @@
       "ru": "Концовка была грустной?",
       "audio": "audios/lotr_past_simple_dialogue/question-14.mp3",
       "es": "¿Fue triste el final?",
-      "de": "War das Ende traurig?"
+      "de": "War das Ende traurig?",
+      "person": "female"
     },
     {
       "id": "p_030",
@@ -241,7 +270,14 @@
       "ru": "Да, но она была очень сильной.",
       "audio": "audios/lotr_past_simple_dialogue/answer-14.mp3",
       "es": "Sí, pero fue muy poderoso.",
-      "de": "Ja, aber es war sehr kraftvoll."
+      "de": "Ja, aber es war sehr kraftvoll.",
+      "person": "male"
     }
-  ]
+  ],
+  "titleRu": "Властелин колец: Past Simple",
+  "titleEs": "El Señor de los Anillos: Past Simple",
+  "titleDe": "Der Herr der Ringe: Past Simple",
+  "descriptionRu": "Диалог о «Властелине колец» для практики Past Simple.",
+  "descriptionEs": "Un diálogo sobre El Señor de los Anillos para practicar Past Simple.",
+  "descriptionDe": "Ein Dialog über Der Herr der Ringe zum Üben von Past Simple."
 }

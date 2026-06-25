@@ -1,5 +1,6 @@
 export type SetId = string;
 export type PhraseId = string;
+export type PhrasePerson = 'female' | 'male';
 
 export type SetSummary = {
   id: SetId;
@@ -14,6 +15,7 @@ export type Phrase = {
   setId: SetId;
   text: string;
   translatedText?: string;
+  person?: PhrasePerson;
   audioSrc: string | null;
   imageSrc: string | null;
 };

@@ -1,7 +1,8 @@
 import type { NativeLanguage } from '../../domain/app-settings';
 
 export type HintKey =
-  | 'home.practice'
+  | 'home.sets'
+  | 'home.dilogs'
   | 'sets.open'
   | 'sets.profile'
   | 'sets.settings'
@@ -27,7 +28,8 @@ export type HintKey =
 type HintTexts = Record<HintKey, string>;
 
 const RUSSIAN_HINTS: HintTexts = {
-  'home.practice': 'Начните с практики — нажмите, чтобы открыть список упражнений.',
+  'home.sets': 'Откройте наборы фраз для прослушивания и повторения.',
+  'home.dilogs': 'Откройте диалоги, чтобы практиковать реплики в контексте.',
   'sets.open': 'Выберите набор, чтобы прослушивать фразы и отрабатывать произношение.',
   'sets.profile': 'Перейдите в профиль, чтобы управлять учётной записью и прогрессом.',
   'sets.settings': 'Откройте настройки, чтобы выбрать родной язык.',
@@ -52,7 +54,8 @@ const RUSSIAN_HINTS: HintTexts = {
 };
 
 const SPANISH_HINTS: HintTexts = {
-  'home.practice': 'Empieza con la práctica: toca para abrir la lista de ejercicios.',
+  'home.sets': 'Abre los conjuntos de frases para escuchar y repetir.',
+  'home.dilogs': 'Abre los diálogos para practicar líneas en contexto.',
   'sets.open': 'Elige un conjunto para escuchar frases y practicar la pronunciación.',
   'sets.profile': 'Ve al perfil para gestionar tu cuenta y tu progreso.',
   'sets.settings': 'Abre la configuración para elegir tu idioma nativo.',
@@ -77,7 +80,8 @@ const SPANISH_HINTS: HintTexts = {
 };
 
 const GERMAN_HINTS: HintTexts = {
-  'home.practice': 'Beginne mit der Übung – tippe, um die Liste der Übungen zu öffnen.',
+  'home.sets': 'Öffne die Phrasensets zum Anhören und Wiederholen.',
+  'home.dilogs': 'Öffne die Dialoge, um Sätze im Kontext zu üben.',
   'sets.open': 'Wähle ein Set aus, um Sätze anzuhören und die Aussprache zu üben.',
   'sets.profile': 'Gehe zum Profil, um dein Konto und deinen Fortschritt zu verwalten.',
   'sets.settings': 'Öffne die Einstellungen, um deine Muttersprache auszuwählen.',

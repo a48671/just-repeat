@@ -1,4 +1,5 @@
 import bundledSetIndex from '../../../data/sets.json';
+import bundledDilogIndex from '../../../data/dilogs.json';
 import type { NativeLanguage } from '../../domain/app-settings';
 import type { SetsDataSource, IntegrationErrorCode } from '../../domain/contracts';
 import type { SetDetails, SetId, SetSummary } from '../../domain/entities';
@@ -7,6 +8,7 @@ import { loadAppSettings } from '../persistence/local-app-settings-storage';
 import { StaticAudioPathResolver } from './static-audio-path-resolver';
 import { StaticDataValidator, validateBundledSetList } from './static-data-validator';
 import { StaticImagePathResolver } from './static-image-path-resolver';
+import { getLocalizedSourceContent } from './source-content-localization';
 
 const LANGUAGE_TO_FIELD: Record<NativeLanguage, keyof SourcePhrase> = {
   Russian: 'ru',
@@ -47,6 +49,8 @@ const audioModules = import.meta.glob('../../../audio/**/*.mp3', { eager: true, 
 const imageModules = import.meta.glob('../../../images/**/*.png', { eager: true, import: 'default' }) as Record<string, string>;
 
 const bundledSetList = bundledSetIndex as SourceSetList;
+const bundledDilogList = bundledDilogIndex as SourceSetList;
+const bundledContentList = [...bundledSetList, ...bundledDilogList];
 const setEntries = Object.entries(setModules).map(([modulePath, moduleValue]) => [normalizeSetModulePath(modulePath), moduleValue.default] as const);
 const setDetailsBySourceFile = new Map<string, SourceSetDetails>(setEntries);
 const validator = new StaticDataValidator(new Set(setDetailsBySourceFile.keys()));
@@ -57,14 +61,19 @@ export class StaticSetsDataSource implements SetsDataSource {
   async getSetSummaries(): Promise<SetSummary[]> {
     try {
       validateBundledSetList(bundledSetList, validator);
+      const { nativeLanguage } = loadAppSettings();
 
-      return bundledSetList.map((setItem) => ({
-        id: setItem.id,
-        title: setItem.title,
-        description: setItem.description,
-        phraseCount: setItem.phraseCount,
-        sourceFile: setItem.file,
-      }));
+      return bundledSetList.map((setItem) => {
+        const localizedContent = getLocalizedSourceContent(setItem, nativeLanguage);
+
+        return {
+          id: setItem.id,
+          title: localizedContent.title,
+          description: localizedContent.description,
+          phraseCount: setItem.phraseCount,
+          sourceFile: setItem.file,
+        };
+      });
     } catch (error) {
       throw this.wrapError(error, 'SET_LIST_LOAD_FAILED', 'Unable to load set summaries.');
     }
@@ -72,7 +81,7 @@ export class StaticSetsDataSource implements SetsDataSource {
 
   async getSetDetails(setId: SetId): Promise<SetDetails> {
     try {
-      const setSummary = bundledSetList.find((item) => item.id === setId);
+      const setSummary = bundledContentList.find((item) => item.id === setId);
 
       if (!setSummary) {
         throw createIntegrationException('SET_NOT_FOUND', `Set not found: ${setId}`, { setId });
@@ -91,16 +100,18 @@ export class StaticSetsDataSource implements SetsDataSource {
 
       const { nativeLanguage } = loadAppSettings();
       const translationField = LANGUAGE_TO_FIELD[nativeLanguage];
+      const localizedContent = getLocalizedSourceContent(sourceSet, nativeLanguage);
 
       return {
         id: sourceSet.id,
-        title: sourceSet.title,
-        description: sourceSet.description,
+        title: localizedContent.title,
+        description: localizedContent.description,
         phrases: sourceSet.phrases.map((phrase) => ({
           id: phrase.id,
           setId: sourceSet.id,
           text: phrase.text,
           translatedText: phrase[translationField] as string | undefined,
+          person: phrase.person,
           audioSrc: audioPathResolver.resolveAudioSrc(phrase.audio),
           imageSrc: imagePathResolver.resolveImageSrc(phrase.image),
         })),
