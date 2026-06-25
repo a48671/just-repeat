@@ -1454,6 +1454,28 @@ button {
   overflow-wrap: anywhere;
 }
 
+.dilog-phrase-text-button {
+  appearance: none;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dilog-phrase-text-button:focus-visible {
+  outline: 2px solid rgba(29, 78, 216, 0.35);
+  outline-offset: 3px;
+  border-radius: 0.25rem;
+}
+
+.dilog-phrase-text-hidden {
+  color: transparent;
+  text-shadow: 0 0 0.5rem rgba(51, 65, 85, 0.72);
+  user-select: none;
+}
+
 .dilog-phrase-translation {
   margin: 0;
   max-width: 100%;

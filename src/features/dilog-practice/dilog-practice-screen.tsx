@@ -128,8 +128,16 @@ function getRoleLabel(stage: DilogPracticeStage, phraseIndex: number) {
     return phraseIndex % 2 === 0 ? 'Speaker 1' : 'Speaker 2';
   }
 
+  return isUserLine(stage, phraseIndex) ? 'Your line' : 'Partner line';
+}
+
+function isUserLine(stage: DilogPracticeStage, phraseIndex: number) {
+  if (stage !== 'speaker-one' && stage !== 'speaker-two') {
+    return false;
+  }
+
   const userSpeakerIndex = stage === 'speaker-one' ? 0 : 1;
-  return phraseIndex % 2 === userSpeakerIndex ? 'Your line' : 'Partner line';
+  return phraseIndex % 2 === userSpeakerIndex;
 }
 
 function getPersonPhotoUrl(person: Phrase['person'], setId: string | null, phraseIndex: number) {
@@ -157,6 +165,7 @@ export function DilogPracticeScreen({
 }: DilogPracticeScreenProps) {
   const [stage, setStage] = useState<DilogPracticeStage>('listen');
   const [activePhraseIndex, setActivePhraseIndex] = useState<number | null>(null);
+  const [revealedPhraseId, setRevealedPhraseId] = useState<string | null>(null);
   const [playbackState, setPlaybackState] = useState<PlaybackState>('idle');
   const [playbackErrorMessage, setPlaybackErrorMessage] = useState<string | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -178,6 +187,7 @@ export function DilogPracticeScreen({
 
   useEffect(() => {
     setActivePhraseIndex(null);
+    setRevealedPhraseId(null);
     setPlaybackState('idle');
     setPlaybackErrorMessage(null);
     audioRef.current?.pause();
@@ -228,6 +238,7 @@ export function DilogPracticeScreen({
     audioRef.current?.pause();
     audioRef.current = null;
     setActivePhraseIndex(null);
+    setRevealedPhraseId(null);
     setPlaybackState('idle');
     setPlaybackErrorMessage(null);
   }
@@ -241,16 +252,19 @@ export function DilogPracticeScreen({
     if (isPreviewVisible) {
       const firstPhrase = phraseList[0];
       setActivePhraseIndex(0);
-      if (stage !== 'practice' && firstPhrase) {
+      setRevealedPhraseId(null);
+      if (stage !== 'practice' && firstPhrase && !isUserLine(stage, 0)) {
         playPhrase(firstPhrase);
       }
       return;
     }
 
     if (effectivePhraseIndex < phraseList.length - 1) {
+      const nextPhraseIndex = effectivePhraseIndex + 1;
       const nextPhrase = phraseList[effectivePhraseIndex + 1];
-      setActivePhraseIndex(effectivePhraseIndex + 1);
-      if (nextPhrase) {
+      setActivePhraseIndex(nextPhraseIndex);
+      setRevealedPhraseId(null);
+      if (nextPhrase && !isUserLine(stage, nextPhraseIndex)) {
         playPhrase(nextPhrase);
       }
       return;
@@ -308,6 +322,8 @@ export function DilogPracticeScreen({
   const isLastPhrase = !isPreviewVisible && effectivePhraseIndex >= phraseList.length - 1;
   const nextLabel = isPreviewVisible ? 'Start' : isLastPhrase ? 'Next Stage' : 'Next';
   const roleLabel = getRoleLabel(stage, effectivePhraseIndex);
+  const activePhraseIsUserLine = !isPreviewVisible && isUserLine(stage, effectivePhraseIndex);
+  const shouldBlurActivePhraseText = activePhraseIsUserLine && activePhrase?.id !== revealedPhraseId;
   const phraseControlDisabled = playbackState === 'loading' || playbackState === 'playing' || !activePhrase?.audioSrc;
   const PhrasePlayIcon = playbackState === 'playing' ? Pause : Play;
   const progressLabel = `${STAGES.find((item) => item.id === stage)?.label} · ${isPreviewVisible ? 'Preview' : `${progressCompleted}/${phraseList.length}`}`;
@@ -401,7 +417,15 @@ export function DilogPracticeScreen({
               <img alt="" className="dilog-person-photo" src={getPersonPhotoUrl(activePhrase.person, setDetails.id, effectivePhraseIndex)} />
               <div className="dilog-person-copy">
                 <span className="dilog-phrase-kicker">{roleLabel}</span>
-                <p className="dilog-phrase-text">{activePhrase.text}</p>
+                <button
+                  aria-label={shouldBlurActivePhraseText ? 'Reveal phrase text' : 'Phrase text is visible'}
+                  aria-pressed={!shouldBlurActivePhraseText}
+                  className={`dilog-phrase-text dilog-phrase-text-button ${shouldBlurActivePhraseText ? 'dilog-phrase-text-hidden' : ''}`}
+                  onClick={() => setRevealedPhraseId(activePhrase.id)}
+                  type="button"
+                >
+                  {activePhrase.text}
+                </button>
                 {activePhrase.translatedText ? <p className="dilog-phrase-translation">{activePhrase.translatedText}</p> : null}
               </div>
               <Button
